@@ -1,12 +1,12 @@
 package com.aljodomo.kontis.domain;
 
-import lombok.Data;
+import lombok.Value;
 
 /**
  * @author Aljoscha Domonell
  */
-@Data
+@Value
 public class Stop {
-    final String name;
-    final Coordinates coordinates;
+    String name;
+    Coordinates coordinates;
 }

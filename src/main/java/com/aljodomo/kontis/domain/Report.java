@@ -1,14 +1,15 @@
 package com.aljodomo.kontis.domain;
 
 import lombok.Data;
+import lombok.Value;
 
 import java.time.Instant;
 
 /**
  * @author Aljoscha Domonell
  */
-@Data
+@Value
 public class Report {
-    final Stop stop;
-    final Instant instant;
+    Stop stop;
+    Instant instant;
 }

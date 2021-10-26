@@ -2,13 +2,14 @@ package com.aljodomo.kontis.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Value;
 
 /**
  * @author Aljoscha Domonell
  */
-@Data
+@Value
 @AllArgsConstructor
 public class Coordinates {
-    private final String lon;
-    private final String lat;
+    String lon;
+    String lat;
 }
