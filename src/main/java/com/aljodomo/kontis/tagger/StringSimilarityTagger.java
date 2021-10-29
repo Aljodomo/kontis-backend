@@ -20,7 +20,7 @@ public class StringSimilarityTagger implements Tagger {
     @Autowired
     public StringSimilarityTagger() {
         SimilarityStrategy strategy = new JaroStrategy();
-        similarityService = new SubStringSimilarityService(strategy);
+        similarityService = new WordSimilarityService(strategy);
     }
 
     @Override

@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 /**
  * @author Aljoscha Domonell
  */
-public class SubStringSimilarityService implements StringSimilarityService {
+public class WordSimilarityService implements StringSimilarityService {
 
     protected SimilarityStrategy strategy;
 
@@ -23,7 +23,7 @@ public class SubStringSimilarityService implements StringSimilarityService {
      *
      * @param strategy The similarity strategy to use when calculating similarity scores.
      */
-    public SubStringSimilarityService(SimilarityStrategy strategy) {
+    public WordSimilarityService(SimilarityStrategy strategy) {
         this.strategy = strategy;
     }
 
