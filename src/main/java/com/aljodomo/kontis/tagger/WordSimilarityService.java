@@ -44,10 +44,14 @@ public class WordSimilarityService implements StringSimilarityService {
         int featureWordCount = feature.split(" ").length;
         List<String> messageWords = Arrays.stream(target.split(" ")).collect(Collectors.toList());
         double finalScore = 0;
+        int currentCharCount = 0;
         // Count symbols from feature and to forward for at least this number in symbols
-        for (int groupSize = 1; groupSize <= featureWordCount; groupSize++) {
-            for (int i = 0; i < messageWords.size() - groupSize; i++) {
+        for (int i = 0; i < messageWords.size(); i++) {
+            for (int groupSize = 1; i + groupSize <= messageWords.size() &&
+                    (groupSize <= featureWordCount || currentCharCount < feature.length()); groupSize++) {
                 String subTarget = ListUtils.concat(messageWords.subList(i, i + groupSize));
+                // Count characters without whitespaces
+                currentCharCount = subTarget.replace(" ", "").length();
                 double tmpScore = strategy.score(feature, subTarget);
                 finalScore = Math.max(tmpScore, finalScore);
             }
