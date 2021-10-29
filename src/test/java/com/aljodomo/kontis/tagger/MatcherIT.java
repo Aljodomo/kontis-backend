@@ -58,9 +58,8 @@ class MatcherIT {
 
     @Test
     void testMessage7() {
-        // TODO case karlmarxstr. Original Feature has less words then message feature.
         String message = "Now Karl Marx str they are both in black one has glasses";
-        matchFound("karl marx strasse", message);
+        matchFound("karlmarxstr", message);
     }
 
     private void matchFound(String expected, String message) {
