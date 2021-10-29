@@ -25,7 +25,7 @@ public class StringSimilarityTagger implements Tagger {
 
     @Override
     public Tag find(List<String> tags, String message) {
-        /**
+        /*
          * i = number of search term words
          * check 0...i word groups
          * return probability
