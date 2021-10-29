@@ -1,24 +1,23 @@
 package com.aljodomo.kontis.tagger;
 
 import com.aljodomo.kontis.domain.Stop;
+import com.aljodomo.kontis.loader.VbbStopLoader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 
+import java.io.IOException;
 import java.util.Optional;
 
 /**
  * @author Aljoscha Domonell
  */
-@SpringBootTest
-class MatcherTest {
+class MatcherIT {
 
     private final StopMatcher matcher;
 
-    @Autowired
-    public MatcherTest(StopMatcher matcher) {
-        this.matcher = matcher;
+    public MatcherIT() throws IOException {
+        MessageNormalizer normalizer = new DefaultMessageNormalizer();
+        this.matcher = new StopMatcher(new VbbStopLoader(normalizer), new StringSimilarityTagger(), new DirectionRemover(), normalizer);
     }
 
     @Test
