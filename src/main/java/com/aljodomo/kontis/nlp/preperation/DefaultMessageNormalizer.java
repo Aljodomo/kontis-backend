@@ -1,4 +1,4 @@
-package com.aljodomo.kontis.tagger;
+package com.aljodomo.kontis.nlp.preperation;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.aljodomo.kontis.tagger;
+package com.aljodomo.kontis.nlp.preperation;
 
 /**
  * @author Aljoscha Domonell
