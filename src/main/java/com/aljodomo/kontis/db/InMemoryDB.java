@@ -34,7 +34,7 @@ public class InMemoryDB {
         return this.reports
                 .stream()
                 .filter(report -> report
-                        .getInstant()
+                        .getTime()
                         .isAfter(Instant.now().minus(this.offset)))
                 .collect(Collectors.toList());
     }

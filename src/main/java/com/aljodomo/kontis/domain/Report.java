@@ -1,6 +1,5 @@
 package com.aljodomo.kontis.domain;
 
-import lombok.Data;
 import lombok.Value;
 
 import java.time.Instant;
@@ -10,6 +9,7 @@ import java.time.Instant;
  */
 @Value
 public class Report {
-    Stop stop;
-    Instant instant;
+    String originalMessage;
+    SLD sld;
+    Instant time;
 }
