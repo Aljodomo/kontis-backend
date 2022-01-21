@@ -17,7 +17,7 @@ public class DefaultMessageNormalizer implements MessageNormalizer {
                 .replace("ä", "ae")
                 .replace("ö", "oe")
                 .replace("/", " ")
-                .replaceAll("[^a-z\\s]", "")
+                .replaceAll("[^a-z0-9\\s]", "")
                 .replaceAll("\\s+", " ")
                 .trim();
     }
