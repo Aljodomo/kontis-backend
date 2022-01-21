@@ -2,7 +2,7 @@ package com.aljodomo.kontis.loader;
 
 import com.aljodomo.kontis.domain.Coordinates;
 import com.aljodomo.kontis.domain.Stop;
-import com.aljodomo.kontis.tagger.MessageNormalizer;
+import com.aljodomo.kontis.nlp.preperation.MessageNormalizer;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
@@ -10,22 +10,21 @@ import org.springframework.stereotype.Component;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author Aljoscha Domonell
  */
 @Slf4j
 @Component
-public class VbbStopLoader implements StopLoader {
+public class VbbFileStopLoader implements StopLoader {
 
     private final CSVFormat format;
 
     private final Map<String, Stop> stops = new HashMap<>();
     private final MessageNormalizer messageNormalizer;
 
-    public VbbStopLoader(MessageNormalizer messageNormalizer) throws IOException {
+    public VbbFileStopLoader(MessageNormalizer messageNormalizer) throws IOException {
         this.messageNormalizer = messageNormalizer;
         this.format = CSVFormat
                 .Builder
@@ -42,11 +41,11 @@ public class VbbStopLoader implements StopLoader {
                         "platform_code",
                         "zone_id")
                 .build();
-        this.load();
+        this.load("src/main/resources/vbb/stops.txt");
     }
 
-    private void load() throws IOException {
-        try (FileReader reader = new FileReader("src/main/resources/vbb/stops.txt")) {
+    private void load(String path) throws IOException {
+        try (FileReader reader = new FileReader(path)) {
             format.parse(reader)
                     .getRecords()
                     .forEach(entry -> {
@@ -73,9 +72,10 @@ public class VbbStopLoader implements StopLoader {
     }
 
     private void addStop(CSVRecord entry, String alias) {
-        alias = this.messageNormalizer.normalize(alias);
+        String normalizedAlias = this.messageNormalizer.normalize(alias);
         Stop stop = new Stop(
                 alias,
+                normalizedAlias,
                 new Coordinates(entry.get("stop_lat"), entry.get("stop_lon")));
         this.stops.put(alias, stop);
     }
@@ -93,7 +93,12 @@ public class VbbStopLoader implements StopLoader {
     }
 
     @Override
-    public Map<String, Stop> getStations() {
+    public Map<String, Stop> getStops() {
         return this.stops;
+    }
+
+    @Override
+    public List<String> getStopNames() {
+        return new ArrayList<>(this.stops.keySet());
     }
 }
