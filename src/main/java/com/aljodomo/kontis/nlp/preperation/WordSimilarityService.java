@@ -1,9 +1,9 @@
-package com.aljodomo.kontis.tagger;
+package com.aljodomo.kontis.nlp.preperation;
 
-import net.ricecode.similarity.DescendingSimilarityScoreComparator;
-import net.ricecode.similarity.SimilarityScore;
-import net.ricecode.similarity.SimilarityStrategy;
-import net.ricecode.similarity.StringSimilarityService;
+import com.aljodomo.kontis.utils.StringUtils;
+import net.ricecode.similarity.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,9 +14,15 @@ import java.util.stream.Collectors;
 /**
  * @author Aljoscha Domonell
  */
+@Service
 public class WordSimilarityService implements StringSimilarityService {
 
     protected SimilarityStrategy strategy;
+
+    @Autowired
+    public WordSimilarityService() {
+        strategy = new JaroStrategy();
+    }
 
     /**
      * Creates a similarity calculator instance.
@@ -36,6 +42,8 @@ public class WordSimilarityService implements StringSimilarityService {
             scores.add(new SimilarityScore(feature, score));
         }
 
+        scores.sort((o1, o2) -> Double.compare(o2.getScore(), o1.getScore()));
+
         return scores;
     }
 
@@ -49,7 +57,7 @@ public class WordSimilarityService implements StringSimilarityService {
         for (int i = 0; i < messageWords.size(); i++) {
             for (int groupSize = 1; i + groupSize <= messageWords.size() &&
                     (groupSize <= featureWordCount || currentCharCount < feature.length()); groupSize++) {
-                String subTarget = ListUtils.concat(messageWords.subList(i, i + groupSize));
+                String subTarget = StringUtils.concat(messageWords.subList(i, i + groupSize));
                 // Count characters without whitespaces
                 currentCharCount = subTarget.replace(" ", "").length();
                 double tmpScore = strategy.score(feature, subTarget);
