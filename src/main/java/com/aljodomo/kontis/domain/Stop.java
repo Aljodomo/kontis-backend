@@ -7,6 +7,7 @@ import lombok.Value;
  */
 @Value
 public class Stop {
+    String title;
     String name;
     Coordinates coordinates;
 }
