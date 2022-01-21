@@ -1,4 +1,4 @@
-package com.aljodomo.kontis.tagger;
+package com.aljodomo.kontis;
 
 import com.aljodomo.kontis.domain.SLD;
 import com.aljodomo.kontis.nlp.preperation.MessageNormalizer;

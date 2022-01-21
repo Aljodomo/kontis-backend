@@ -1,4 +1,4 @@
-package com.aljodomo.kontis.tagger;
+package com.aljodomo.kontis;
 
 import com.aljodomo.kontis.loader.StopLoader;
 import com.aljodomo.kontis.nlp.preperation.DirectionRemover;

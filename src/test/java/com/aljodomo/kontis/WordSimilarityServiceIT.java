@@ -1,4 +1,4 @@
-package com.aljodomo.kontis.tagger;
+package com.aljodomo.kontis;
 
 import com.aljodomo.kontis.nlp.preperation.WordSimilarityService;
 import net.ricecode.similarity.SimilarityScore;
