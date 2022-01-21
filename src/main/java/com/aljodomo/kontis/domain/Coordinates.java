@@ -1,7 +1,6 @@
 package com.aljodomo.kontis.domain;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Value;
 
 /**
@@ -10,6 +9,6 @@ import lombok.Value;
 @Value
 @AllArgsConstructor
 public class Coordinates {
-    String lon;
     String lat;
+    String lng;
 }
