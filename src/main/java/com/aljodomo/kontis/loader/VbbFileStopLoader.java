@@ -56,7 +56,8 @@ public class VbbFileStopLoader implements StopLoader {
                                 String stopName = entry.get("stop_name");
                                 if (isStation(stopName) && !this.stops.containsKey(stopName)) {
                                     String simplifiedName = removeVbbDetails(stopName);
-                                    checkForAliasAndAdd(entry, simplifiedName);
+                                    getAliases(simplifiedName)
+                                            .forEach(alias -> addStop(entry, alias));
                                 }
                             }
                     );
@@ -68,14 +69,11 @@ public class VbbFileStopLoader implements StopLoader {
         return value == null || value.trim().equals("");
     }
 
-    private void checkForAliasAndAdd(CSVRecord entry, String stopName) {
+    private List<String> getAliases(String stopName) {
         if (stopName.contains("/")) {
-            String[] aliases = stopName.split("/");
-            for (String alias : aliases) {
-                addStop(entry, alias);
-            }
+            return List.of(stopName.split("/"));
         } else {
-            addStop(entry, stopName);
+            return Collections.singletonList(stopName);
         }
     }
 
