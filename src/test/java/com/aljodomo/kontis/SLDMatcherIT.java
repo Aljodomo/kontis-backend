@@ -2,7 +2,7 @@ package com.aljodomo.kontis;
 
 import com.aljodomo.kontis.domain.SLD;
 import com.aljodomo.kontis.nlp.preperation.MessageNormalizer;
-import com.aljodomo.kontis.nlp.SLDBuilder;
+import com.aljodomo.kontis.nlp.SLDParser;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ import java.util.Optional;
 class SLDMatcherIT {
 
     @Autowired
-    SLDBuilder matcher;
+    SLDParser matcher;
 
     @Autowired
     MessageNormalizer normalizer;
@@ -65,7 +65,7 @@ class SLDMatcherIT {
     }
 
     private void sldMatches(String stop, String line, String direction, String message) {
-        Optional<SLD> sld = this.matcher.from(message);
+        Optional<SLD> sld = this.matcher.parse(message);
         Assertions.assertTrue(sld.isPresent());
         Assertions.assertEquals(stop, sld.get().getStop().getName());
         if(line != null) {

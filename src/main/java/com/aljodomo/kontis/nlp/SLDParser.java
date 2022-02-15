@@ -28,7 +28,7 @@ import static com.aljodomo.kontis.utils.StringUtils.concat;
  */
 @Service
 @Slf4j
-public class SLDBuilder {
+public class SLDParser {
 
     protected static final double PRECISION_THRESHOLD = 0.8;
 
@@ -38,7 +38,7 @@ public class SLDBuilder {
     private final MessageNormalizer messageNormalizer;
 
     @Autowired
-    public SLDBuilder(StopLoader stopLoader, StringSimilarityService similarityService, DirectionRemover directionRemover, MessageNormalizer messageNormalizer) {
+    public SLDParser(StopLoader stopLoader, StringSimilarityService similarityService, DirectionRemover directionRemover, MessageNormalizer messageNormalizer) {
         this.stopLoader = stopLoader;
         this.similarityService = similarityService;
         this.directionRemover = directionRemover;
@@ -52,7 +52,7 @@ public class SLDBuilder {
      * @param message Written message by human reporter.
      * @return {@link SLD StopLineDirection triplet } with the content of the message.
      */
-    public Optional<SLD> from(String message) {
+    public Optional<SLD> parse(String message) {
 
         if (message.contains("?")) {
             log.info("Message [{}] seems to be a question and will not be considered as a report", message);
