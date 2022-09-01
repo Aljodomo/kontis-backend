@@ -79,9 +79,11 @@ public class DefaultReportService implements ReportService {
     }
 
     private Optional<Report> getReport(String message, ZonedDateTime time, List<Route> routes, Optional<String> direction, List<Stop> stops) {
+
+        // TODO falls keine direction angeben wurde, kann hier einfach eine "zufällige" richtung genommen werden. Die Methode gibt es schon im GTFSService.
         if (!routes.isEmpty() && !stops.isEmpty() && direction.isPresent()) {
             // 4. Identify StopTime
-            Optional<StopTime> stopTimeOp = findStopTime(time, routes, direction.get(), stops);
+            Optional<StopTime> stopTimeOp = gtfsService.findStopTime(time, routes, direction.get(), stops);
             if (stopTimeOp.isPresent()) {
                 return buildReport(message, time, stopTimeOp.get());
             }
@@ -165,46 +167,6 @@ public class DefaultReportService implements ReportService {
                 .build());
     }
 
-    private Optional<StopTime> findStopTime(ZonedDateTime time, List<Route> routes, String direction, List<Stop> stops) {
-        List<StopTime> stopTimes = gtfsService.findStopTimes(routes, stops, time);
-
-        log.debug("Identified stopTimes [{}]", join(stopTimes, stopTime -> stopTime.getId().toString()));
-
-        Optional<StopTime> stopTime = identifyDirection(stopTimes, direction);
-
-        log.debug("Identified stopTime with matching direction [{}]", stopTime.orElse(null));
-        return stopTime;
-    }
-
-    private Optional<StopTime> identifyDirection(List<StopTime> stopTimes, String direction) {
-        if (stopTimes.isEmpty()) {
-            return Optional.empty();
-        }
-
-        if (stopTimes.size() != 2) {
-            log.warn("More then two stopTimes were supplied [{}]", join(stopTimes, st -> st.getId().toString()));
-        }
-
-        Map<String, StopTime> map = stopTimes.stream()
-                .collect(Collectors.toMap(stopTime ->
-                        messageNormalizer.normalize(stopTime.getTrip().getTripHeadsign()), Function.identity()));
-
-        if (map.size() != stopTimes.size()) {
-            log.warn("StopTimes were lost while grouping them by their normalized trip head sign [{}] != [{}]",
-                    join(stopTimes, st -> st.getId().toString()),
-                    join(map.values(), st -> st.getId().toString()));
-        }
-
-        SimilarityScore similarityScore = similarityService
-                .findTop(List.of(map.keySet().toArray(new String[0])), direction);
-
-        if (similarityScore.getScore() < Precision.HIGH) {
-            log.warn("Similarity score is lower then precision threshold [{}]",
-                    similarityScore.getKey() + " : " + similarityScore.getScore());
-        }
-
-        return Optional.ofNullable(map.get(similarityScore.getKey()));
-    }
 
     private <T> String join(Collection<T> objs, Function<T, String> keyMapper) {
         return objs.stream().map(keyMapper).collect(Collectors.joining(","));

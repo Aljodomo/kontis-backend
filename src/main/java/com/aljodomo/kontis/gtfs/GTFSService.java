@@ -1,8 +1,11 @@
 package com.aljodomo.kontis.gtfs;
 
 import com.aljodomo.kontis.nlp.MessageNormalizer;
+import com.aljodomo.kontis.nlp.Precision;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
+import net.ricecode.similarity.SimilarityScore;
+import net.ricecode.similarity.StringSimilarityService;
 import org.onebusaway.gtfs.impl.GtfsDaoImpl;
 import org.onebusaway.gtfs.model.*;
 import org.onebusaway.gtfs.serialization.GtfsReader;
@@ -15,6 +18,7 @@ import java.io.IOException;
 import java.time.*;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -30,6 +34,7 @@ public class GTFSService {
 
     private final GtfsDaoImpl store = new GtfsDaoImpl();
     private final MessageNormalizer messageNormalizer;
+    private final StringSimilarityService similarityService;
 
     private final Map<String, Set<Route>> routes = new HashMap<>();
     private final Map<String, Set<Stop>> stops = new HashMap<>();
@@ -45,9 +50,10 @@ public class GTFSService {
     private final GTFSFilterProps props;
 
     @Autowired
-    public GTFSService(GTFSFilterProps props, MessageNormalizer messageNormalizer) throws IOException {
+    public GTFSService(GTFSFilterProps props, MessageNormalizer messageNormalizer, StringSimilarityService similarityService) throws IOException {
         this.props = props;
         this.messageNormalizer = messageNormalizer;
+        this.similarityService = similarityService;
 
         GtfsReader reader = new GtfsReader();
         reader.setInputLocation(new File("src/main/resources/GTFS"));
@@ -159,6 +165,57 @@ public class GTFSService {
                 .filter(stopTime -> stopTime.getTrip().equals(trip))
                 .filter(stopTime -> stopTime.getStop().equals(stop))
                 .min((o1, o2) -> compareToNow(time, o1, o2));
+    }
+
+    /**
+     * The StopTime that is closest to the given time is returned.
+     */
+    public Optional<StopTime> findStopTime(ZonedDateTime time, List<Route> routes, List<Stop> stops) {
+        List<StopTime> stopTimes = findStopTimes(routes, stops, time);
+
+        log.debug("Identified stopTimes [{}]", join(stopTimes, stopTime -> stopTime.getId().toString()));
+
+        return stopTimes.stream()
+                .min((o1, o2) -> compareToNow(time, o1, o2));
+    }
+
+    public Optional<StopTime> findStopTime(ZonedDateTime time, List<Route> routes, String direction, List<Stop> stops) {
+        List<StopTime> stopTimes = findStopTimes(routes, stops, time);
+
+        Optional<StopTime> stopTime = identifyDirection(stopTimes, direction);
+
+        log.debug("Identified stopTime with matching direction [{}]", stopTime.orElse(null));
+        return stopTime;
+    }
+
+    private Optional<StopTime> identifyDirection(List<StopTime> stopTimes, String direction) {
+        if (stopTimes.isEmpty()) {
+            return Optional.empty();
+        }
+
+        if (stopTimes.size() != 2) {
+            log.warn("More then two stopTimes were supplied [{}]", join(stopTimes, st -> st.getId().toString()));
+        }
+
+        Map<String, StopTime> map = stopTimes.stream()
+                .collect(Collectors.toMap(stopTime ->
+                        messageNormalizer.normalize(stopTime.getTrip().getTripHeadsign()), Function.identity()));
+
+        if (map.size() != stopTimes.size()) {
+            log.warn("StopTimes were lost while grouping them by their normalized trip head sign [{}] != [{}]",
+                    join(stopTimes, st -> st.getId().toString()),
+                    join(map.values(), st -> st.getId().toString()));
+        }
+
+        SimilarityScore similarityScore = similarityService
+                .findTop(List.of(map.keySet().toArray(new String[0])), direction);
+
+        if (similarityScore.getScore() < Precision.HIGH) {
+            log.warn("Similarity score is lower then precision threshold [{}]",
+                    similarityScore.getKey() + " : " + similarityScore.getScore());
+        }
+
+        return Optional.ofNullable(map.get(similarityScore.getKey()));
     }
 
     /**
@@ -365,6 +422,10 @@ public class GTFSService {
                 .replaceAll("\\(.*\\).*", "")
                 .replaceAll("\\[.*\\].*", "")
                 .replace("Bhf", "");
+    }
+
+    private <T> String join(Collection<T> objs, Function<T, String> keyMapper) {
+        return objs.stream().map(keyMapper).collect(Collectors.joining(","));
     }
 
 }
