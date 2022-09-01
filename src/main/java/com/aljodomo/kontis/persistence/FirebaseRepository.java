@@ -8,7 +8,6 @@ import com.google.cloud.firestore.Firestore;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.google.firebase.cloud.FirestoreClient;
-import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
@@ -18,6 +17,7 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ExecutionException;
 
 /**
  * Firebase Firestore client implementation via the Admin SDK.
@@ -61,16 +61,19 @@ public class FirebaseRepository implements ReportRepository {
         });
     }
 
-    @SneakyThrows
     @Override
     public Report findById(String id) {
-        return db.runTransaction(transaction -> {
-            var d = db.collection("reports").document(id);
-            var res = d.get();
-            var data = res.get().getData();
-            String json = mapper.writeValueAsString(data);
-            return mapper.readValue(json, Report.class);
-        }).get();
+        try {
+            return db.runTransaction(transaction -> {
+                var d = db.collection("reports").document(id);
+                var res = d.get();
+                var data = res.get().getData();
+                String json = mapper.writeValueAsString(data);
+                return mapper.readValue(json, Report.class);
+            }).get();
+        } catch (InterruptedException | ExecutionException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
