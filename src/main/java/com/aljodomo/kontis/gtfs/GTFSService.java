@@ -17,6 +17,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.*;
 import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAmount;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -94,36 +95,58 @@ public class GTFSService {
                 .collect(Collectors.toList());
     }
 
-    public List<StopTime> findReachable(StopTime origin, ZonedDateTime time) {
+    /**
+     * Find all future stoptimes that can be reached by swichting the route at max ones and following it for a giving time.
+     *
+     * @param origin source from which extrapolate
+     * @param time of sighing
+     * @param lookAhead time in the future to take into account
+     * @return
+     */
+    public List<StopTime> findReachable(StopTime origin, ZonedDateTime time, TemporalAmount lookAhead) {
 
         Set<Stop> originStops = stops.get(getKeys(origin.getStop()).get(0));
 
-        return trips.values().parallelStream()
+        Stream<Trip> reachableTrips = trips.values().parallelStream()
                 .flatMap(Collection::parallelStream)
                 .filter(trip -> isActiveAt(trip, LocalDate.from(time)))
-                .filter(trip -> tripStopTimes.get(trip).stream().anyMatch(stopTime -> originStops.contains(stopTime.getStop()) && stopHereThen(time, stopTime)))
+                .filter(trip -> tripStopTimes.get(trip).stream()
+                        .anyMatch(stopTime -> originStops.contains(stopTime.getStop()) && isCloseToGivenTime(stopTime, time, lookAhead)));
+
+        Stream<Stream<StopTime>> reachableStopTimes = reachableTrips
                 .map(trip -> {
-                    int sequence = tripStopTimes.get(trip).stream().filter(stopTime -> originStops.contains(stopTime.getStop())).findFirst().map(StopTime::getStopSequence).orElse(0);
+                    int sequence = getSequence(originStops, trip);
                     return tripStopTimes.get(trip).stream()
                             .filter(stopTime -> stopTime.getStopSequence() >= sequence)
-                            .filter(stopTime -> stopTime.getArrivalTime() < secondsOfDay(time.plus(10, ChronoUnit.MINUTES)));
-                })
-                .flatMap(Stream::distinct).collect(Collectors.toList());
+                            .filter(stopTime -> arrivesBefore(stopTime, time.plus(lookAhead)));
+                });
+
+        return reachableStopTimes.flatMap(Stream::distinct).collect(Collectors.toList());
     }
 
-    private boolean stopHereThen(ZonedDateTime time, StopTime stopTime) {
-        return stopTime.getArrivalTime() > secondsOfDay(time.plus(10, ChronoUnit.MINUTES)) &&
-                stopTime.getArrivalTime() < secondsOfDay(time.minus(1, ChronoUnit.MINUTES));
+    private boolean arrivesBefore(StopTime stopTime, ZonedDateTime time) {
+        return toLDT(time.toLocalDate(), stopTime.getArrivalTime()).isBefore(time.toLocalDateTime());
     }
 
-    private long secondsOfDay(ZonedDateTime time){
-        Instant midnight = time.toLocalDate().atStartOfDay(time.getZone()).toInstant();
-        Duration duration = Duration.between(midnight, Instant.now());
-        return duration.getSeconds();
+    private Integer getSequence(Set<Stop> originStops, Trip trip) {
+        return tripStopTimes.get(trip).stream()
+                .filter(stopTime -> originStops.contains(stopTime.getStop()))
+                .findFirst()
+                .map(StopTime::getStopSequence)
+                .orElse(0);
     }
 
-    public List<Stop> getAllStops() {
-        return this.stops.values().stream().map(stops1 -> stops1.stream().findFirst().get()).collect(Collectors.toList());
+    private boolean isCloseToGivenTime(StopTime stopTime, ZonedDateTime time, TemporalAmount lookAhead) {
+        LocalDateTime arrivalTime = toLDT(time.toLocalDate(), stopTime.getArrivalTime());
+
+        LocalDateTime max = time.toLocalDateTime().plus(lookAhead);
+        LocalDateTime min = time.toLocalDateTime().minus(1, ChronoUnit.MINUTES);
+
+        return arrivalTime.isAfter(min) && arrivalTime.isBefore(max);
+    }
+
+    private LocalDateTime toLDT(LocalDate time, int gtfsSecondsOfDay){
+        return time.atStartOfDay().plus(gtfsSecondsOfDay, ChronoUnit.SECONDS);
     }
 
     /**

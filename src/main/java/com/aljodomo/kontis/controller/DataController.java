@@ -9,7 +9,9 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.Duration;
 import java.time.ZonedDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -41,7 +43,7 @@ public class DataController {
         var r = reportService.analyse(message, time);
 
         return r.map(report -> ResponseEntity.ok().body(
-                        gtfsService.findReachable(report.getStopTime(), time)
+                        gtfsService.findReachable(report.getStopTime(), time, Duration.of(10, ChronoUnit.MINUTES))
                                 .stream()
                                 .map(stopTime -> Report.build(message, stopTime, time))
                                 .collect(Collectors.toList())))
