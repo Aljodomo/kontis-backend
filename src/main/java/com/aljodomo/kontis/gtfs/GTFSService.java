@@ -304,7 +304,8 @@ public class GTFSService {
      */
     private boolean shouldBeLoaded(Route route) {
         return props.getAgencyWhitelist().contains(route.getId().getAgencyId())
-                && route.getShortName().matches(props.getRouteShortNameRegEx());
+                && route.getShortName().matches(props.getRouteShortNameRegEx())
+                && isTrain(route);
     }
 
     private void ini() {
@@ -334,6 +335,16 @@ public class GTFSService {
                     tmpRouteSet.add(route);
                 });
         return tmpRouteSet;
+    }
+
+    private boolean isTrain(Route route) {
+        int type = route.getType();
+
+        RouteType routeType = RouteType.fromType(type);
+
+        return  routeType == RouteType.RailwayService ||
+                routeType == RouteType.TramService ||
+                routeType == RouteType.UrbanRailwayService;
     }
 
     private Set<Trip> iniTrips(Set<Route> tmpRouteSet) {
