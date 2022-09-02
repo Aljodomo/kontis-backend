@@ -179,29 +179,6 @@ public class GTFSService {
         }
     }
 
-    /**
-     * Find the stopTime which is closest in time to the given time and belongs to the trip and is at the specified stop.
-     */
-    public Optional<StopTime> findStopTime(Trip trip, Stop stop, ZonedDateTime time) {
-        return stopTimes
-                .stream()
-                .filter(stopTime -> stopTime.getTrip().equals(trip))
-                .filter(stopTime -> stopTime.getStop().equals(stop))
-                .min((o1, o2) -> compareToNow(time, o1, o2));
-    }
-
-    /**
-     * The StopTime that is closest to the given time is returned.
-     */
-    public Optional<StopTime> findStopTime(ZonedDateTime time, List<Route> routes, List<Stop> stops) {
-        List<StopTime> stopTimes = findStopTimes(routes, stops, time);
-
-        log.debug("Identified stopTimes [{}]", join(stopTimes, stopTime -> stopTime.getId().toString()));
-
-        return stopTimes.stream()
-                .min((o1, o2) -> compareToNow(time, o1, o2));
-    }
-
     public Optional<StopTime> findStopTime(ZonedDateTime time, List<Route> routes, String direction, List<Stop> stops) {
         List<StopTime> stopTimes = findStopTimes(routes, stops, time);
 
@@ -239,17 +216,6 @@ public class GTFSService {
         }
 
         return Optional.ofNullable(map.get(similarityScore.getKey()));
-    }
-
-    /**
-     * Find the stopTime which is closest in time to the given time and belongs to the trip and is one of the stopCandidates.
-     */
-    public Optional<StopTime> findStopTime(Trip trip, List<Stop> stopCandidates, ZonedDateTime time) {
-        return stopTimes
-                .stream()
-                .filter(stopTime -> stopTime.getTrip().equals(trip))
-                .filter(stopTime -> stopCandidates.contains(stopTime.getStop()))
-                .min((o1, o2) -> compareToNow(time, o1, o2));
     }
 
     /**
