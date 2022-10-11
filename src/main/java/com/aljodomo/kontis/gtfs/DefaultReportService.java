@@ -62,10 +62,12 @@ public class DefaultReportService implements ReportService {
         log.debug("Identified routes [{}]", joinDistinct(routes, Route::getShortName));
 
         // 3. Identify Direction
-        Optional<String> direction = Optional.empty();
+        Optional<String> direction;
+        // Direction is removed from messageWords
         if (!routes.isEmpty()) {
-            direction = getDirection(messageWords, routes);
-            log.debug("Identified direction [{}]", direction.orElse(null));
+            direction = findDirection(messageWords, routes);
+        } else {
+            direction = findDirection(messageWords);
         }
 
         direction.ifPresent(s -> log.debug("Identified direction [{}]", s));
@@ -74,8 +76,10 @@ public class DefaultReportService implements ReportService {
         List<Stop> stops = getStops(messageWords, routes);
         log.debug("Identified stops [{}]", joinDistinct(stops, Stop::getName));
 
-        routes = filterRoutes(routes, stops);
-        log.debug("Filtered routes [{}]", join(routes, Route::getShortName));
+        if(!routes.isEmpty()) {
+            routes = filterRoutes(routes, stops);
+            log.debug("Filtered routes [{}]", joinDistinct(routes, Route::getShortName));
+        }
 
         return getReport(message, time, routes, direction.orElse(null), stops);
     }
@@ -150,11 +154,20 @@ public class DefaultReportService implements ReportService {
         return stops;
     }
 
-    private Optional<String> getDirection(ArrayList<String> messageWords, List<Route> routes) {
-        Optional<String> direction;
+    private Optional<String> findDirection(ArrayList<String> messageWords) {
+        List<String> headSigns = new ArrayList<>(gtfsService.getTrips().keySet());
+        return getDirection(messageWords, headSigns);
+    }
+
+    private Optional<String> findDirection(ArrayList<String> messageWords, List<Route> routes) {
         List<String> headSigns = gtfsService.findHeadSigns(routes);
+        return getDirection(messageWords, headSigns);
+    }
+
+    private Optional<String> getDirection(ArrayList<String> messageWords, List<String> headSigns) {
+        Optional<String> direction;
         List<String> directions = directionRemover.removeDirections(messageWords, headSigns);
-        direction = Optional.ofNullable(getFirstDirection(directions));
+        direction = Optional.ofNullable(findFirst(directions));
         return direction;
     }
 
@@ -170,8 +183,8 @@ public class DefaultReportService implements ReportService {
                 .build());
     }
 
-    private Optional<Report> buildReport(String message, ZonedDateTime time, StopTime res) {
-        Coordinates coords = new Coordinates(res.getStop().getLat(), res.getStop().getLon());
+    private Optional<Report> buildReport(String message, ZonedDateTime time, StopTime stopTime) {
+        Coordinates coords = new Coordinates(stopTime.getStop().getLat(), stopTime.getStop().getLon());
 
         return Optional.of(Report.builder()
                 .title(stopTime.getStop().getName())
@@ -179,10 +192,10 @@ public class DefaultReportService implements ReportService {
                 .stopTimeId(stopTime.getId())
                 .time(time)
                 .coordinates(coords)
-                .stopTime(res)
-                .stop(res.getStop())
-                .route(res.getTrip().getRoute())
-                .trip(res.getTrip())
+                .stopTime(stopTime)
+                .stop(stopTime.getStop())
+                .route(stopTime.getTrip().getRoute())
+                .trip(stopTime.getTrip())
                 .build());
     }
 
@@ -204,7 +217,7 @@ public class DefaultReportService implements ReportService {
                 .collect(Collectors.toList());
     }
 
-    private String getFirstDirection(List<String> directions) {
+    private String findFirst(List<String> directions) {
         if (directions.isEmpty()) {
             log.debug("No directions were identified [{}]", directions);
             return null;
