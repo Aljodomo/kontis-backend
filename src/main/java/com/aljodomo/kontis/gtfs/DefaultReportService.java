@@ -143,7 +143,7 @@ public class DefaultReportService implements ReportService {
     private Optional<Report> buildReport(String message, ZonedDateTime time, Stop someStop, Route someRoute) {
         Coordinates coords = new Coordinates(someStop.getLat(), someStop.getLon());
         return Optional.of(Report.builder()
-                .titel(someStop.getName())
+                .title(someStop.getName())
                 .originalMessage(message)
                 .time(time)
                 .coordinates(coords)
@@ -156,8 +156,9 @@ public class DefaultReportService implements ReportService {
         Coordinates coords = new Coordinates(res.getStop().getLat(), res.getStop().getLon());
 
         return Optional.of(Report.builder()
-                .titel(res.getStop().getName())
+                .title(stopTime.getStop().getName())
                 .originalMessage(message)
+                .stopTimeId(stopTime.getId())
                 .time(time)
                 .coordinates(coords)
                 .stopTime(res)

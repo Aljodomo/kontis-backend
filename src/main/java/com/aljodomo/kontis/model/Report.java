@@ -24,7 +24,8 @@ public class Report {
 
     @Builder.Default
     UUID id = UUID.randomUUID();
-    String titel;
+
+    String title;
     String originalMessage;
     Coordinates coordinates;
     ZonedDateTime time;
@@ -39,7 +40,7 @@ public class Report {
 
     public static Report build(String massage, StopTime stopTime, ZonedDateTime time) {
         return Report.builder()
-                .titel(stopTime.getStop().getName())
+                .title(stopTime.getStop().getName())
                 .originalMessage(massage)
                 .coordinates(new Coordinates(stopTime.getStop().getLat(), stopTime.getStop().getLon()))
                 .time(time)
