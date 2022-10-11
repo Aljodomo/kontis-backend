@@ -59,7 +59,7 @@ public class DefaultReportService implements ReportService {
 
         // 2. Identify Route
         List<Route> routes = parseRoute(messageWords);
-        log.debug("Identified routes [{}]", join(routes, Route::getShortName));
+        log.debug("Identified routes [{}]", joinDistinct(routes, Route::getShortName));
 
         // 3. Identify Direction
         Optional<String> direction = Optional.empty();
@@ -68,9 +68,11 @@ public class DefaultReportService implements ReportService {
             log.debug("Identified direction [{}]", direction.orElse(null));
         }
 
+        direction.ifPresent(s -> log.debug("Identified direction [{}]", s));
+
         // 3. Identify Stop
         List<Stop> stops = getStops(messageWords, routes);
-        log.debug("Identified stops [{}]", join(stops, Stop::getName));
+        log.debug("Identified stops [{}]", joinDistinct(stops, Stop::getName));
 
         routes = filterRoutes(routes, stops);
         log.debug("Filtered routes [{}]", join(routes, Route::getShortName));
@@ -85,21 +87,37 @@ public class DefaultReportService implements ReportService {
             // 4. Identify StopTime
             Optional<StopTime> stopTimeOp = gtfsService.findStopTime(time, routes, direction.get(), stops);
             if (stopTimeOp.isPresent()) {
+                log.info("Building complete report. StopTimeId[{}] Route[{}] Stop[{}]",
+                        stopTimeOp.get().getId(),
+                        stopTimeOp.get().getTrip().getRoute().getShortName(),
+                        stopTimeOp.get().getStop().getName()
+                );
                 return buildReport(message, time, stopTimeOp.get());
             }
         }
 
         if (!routes.isEmpty() && !stops.isEmpty()) {
             Stop someStop = stops.get(0);
+            log.info("First stop selected to produce report with incomplete data. Stop[{}]", someStop.getName());
             Route someRoute = routes.stream()
                     .filter(route -> gtfsService.isPartOf(route, someStop))
                     .findAny()
-                    .orElse(null);
+                    .orElseThrow(() -> new IllegalStateException("No route belongs to the given stop"));
+            log.info("Random route selected to produce report with incomplete data. Route[{}]", someRoute.getShortName());
+
+            log.info("Building partial report. StopTimeId[] Route[{}] Stop[{}]",
+                    someRoute.getShortName(),
+                    someStop.getName()
+            );
             return buildReport(message, time, someStop, someRoute);
         }
 
         if(!stops.isEmpty()){
             Stop someStop = stops.get(0);
+            log.info("First stop selected to produce report with incomplete data. Stop[{}]", someStop.getName());
+            log.info("Building partial report. StopTimeId[] Route[] Stop[{}]",
+                    someStop.getName()
+            );
             return buildReport(message, time, someStop, null);
         }
 
@@ -168,6 +186,9 @@ public class DefaultReportService implements ReportService {
                 .build());
     }
 
+    private <T> String joinDistinct(Collection<T> objs, Function<T, String> keyMapper) {
+        return objs.stream().map(keyMapper).distinct().collect(Collectors.joining(","));
+    }
 
     private <T> String join(Collection<T> objs, Function<T, String> keyMapper) {
         return objs.stream().map(keyMapper).collect(Collectors.joining(","));

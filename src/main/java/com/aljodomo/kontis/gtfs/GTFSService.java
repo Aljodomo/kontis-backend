@@ -182,10 +182,7 @@ public class GTFSService {
     public Optional<StopTime> findStopTime(ZonedDateTime time, List<Route> routes, String direction, List<Stop> stops) {
         List<StopTime> stopTimes = findStopTimes(routes, stops, time);
 
-        Optional<StopTime> stopTime = identifyDirection(stopTimes, direction);
-
-        log.debug("Identified stopTime with matching direction [{}]", stopTime.orElse(null));
-        return stopTime;
+        return identifyDirection(stopTimes, direction);
     }
 
     private Optional<StopTime> identifyDirection(List<StopTime> stopTimes, String direction) {
@@ -211,8 +208,8 @@ public class GTFSService {
                 .findTop(List.of(map.keySet().toArray(new String[0])), direction);
 
         if (similarityScore.getScore() < Precision.HIGH) {
-            log.warn("Similarity score is lower then precision threshold [{}]",
-                    similarityScore.getKey() + " : " + similarityScore.getScore());
+            log.warn("Highest similarity score from [{}] to any known stop is lower then precision threshold [{} < {}]",
+                    similarityScore.getKey(), similarityScore.getScore(), Precision.HIGH);
         }
 
         return Optional.ofNullable(map.get(similarityScore.getKey()));
