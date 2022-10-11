@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
  * @author Aljoscha Domonell
  */
 @Service
-@Profile("dev")
+@Profile("inMemory")
 @Slf4j
 public class InMemoryRepository implements ReportRepository {
     private final List<Report> reports;

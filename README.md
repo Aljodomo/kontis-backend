@@ -21,5 +21,5 @@ Backend service for the kontis / FreiFahrtenBerlin app.
 
 ### Profiles
 
-- Dev 
+- inMemory 
   - Uses a in memory database for reports

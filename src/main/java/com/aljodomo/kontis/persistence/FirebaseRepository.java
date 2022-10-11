@@ -25,7 +25,7 @@ import java.util.concurrent.ExecutionException;
  * @author Aljoscha Domonell
  */
 @Service
-@Profile("!dev")
+@Profile("!inMemory")
 @Slf4j
 public class FirebaseRepository implements ReportRepository {
 
