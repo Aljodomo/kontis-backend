@@ -77,15 +77,15 @@ public class DefaultReportService implements ReportService {
         routes = filterRoutes(routes, stops);
         log.debug("Filtered routes [{}]", join(routes, Route::getShortName));
 
-        return getReport(message, time, routes, direction, stops);
+        return getReport(message, time, routes, direction.orElse(null), stops);
     }
 
-    private Optional<Report> getReport(String message, ZonedDateTime time, List<Route> routes, Optional<String> direction, List<Stop> stops) {
+    private Optional<Report> getReport(String message, ZonedDateTime time, List<Route> routes, String direction, List<Stop> stops) {
 
         // TODO falls keine direction angeben wurde, kann hier einfach eine "zufällige" richtung genommen werden. Die Methode gibt es schon im GTFSService.
-        if (!routes.isEmpty() && !stops.isEmpty() && direction.isPresent()) {
+        if (!routes.isEmpty() && !stops.isEmpty() && direction != null) {
             // 4. Identify StopTime
-            Optional<StopTime> stopTimeOp = gtfsService.findStopTime(time, routes, direction.get(), stops);
+            Optional<StopTime> stopTimeOp = gtfsService.findStopTime(time, routes, direction, stops);
             if (stopTimeOp.isPresent()) {
                 log.info("Building complete report. StopTimeId[{}] Route[{}] Stop[{}]",
                         stopTimeOp.get().getId(),
