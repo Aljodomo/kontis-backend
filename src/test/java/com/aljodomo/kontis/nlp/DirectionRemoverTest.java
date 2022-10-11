@@ -3,8 +3,6 @@ package com.aljodomo.kontis.nlp;
 import com.aljodomo.kontis.utils.StringUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,10 +21,38 @@ class DirectionRemoverTest {
             "Osloer Straße");
 
     @Test
+    void testNone() {
+        String message = "U9 Alexanderplatz mänlich gelesen und 2weiblich mit schwarzen jacken und dunkle Haare";
+        String expected = "U9 Alexanderplatz mänlich gelesen und 2weiblich mit schwarzen jacken und dunkle Haare";
+        test(message, expected, new ArrayList<>());
+    }
+
+    @Test
+    void testEmpty() {
+        String message = "";
+        String expected = "";
+        test(message, expected, new ArrayList<>());
+    }
+
+    @Test
+    void testOnlyKeyWord() {
+        String message = "richtung";
+        String expected = "";
+        test(message, expected, new ArrayList<>());
+    }
+
+    @Test
+    void testOnlyKeyWordAndDirection() {
+        String message = "richtung Osloer";
+        String expected = "";
+        test(message, expected, List.of("Osloer Straße"));
+    }
+
+    @Test
     void testOsloerStrasse() {
         String message = "U9 Hansaplatz richtung Osloer mänlich gelesen und 2weiblich mit schwarzen jacken und dunkle Haare";
         String expected = "U9 Hansaplatz mänlich gelesen und 2weiblich mit schwarzen jacken und dunkle Haare";
-        test(message, expected, List.of("Osloer"));
+        test(message, expected, List.of("Osloer Straße"));
     }
 
     @Test
@@ -52,8 +78,10 @@ class DirectionRemoverTest {
 
     private void test(String message, String expected, List<String> expectedDirections) {
         ArrayList<String> words = new ArrayList<>(List.of(message.split(" ")));
-        List<String> removedDirections = this.directionRemover.removeDirections(words, stops);
-        Assertions.assertEquals(expected, StringUtils.concat(words));
-        Assertions.assertEquals(removedDirections, expectedDirections);
+        List<String> removedDirections = this.directionRemover.cutHeadSignsAndKeywords(words, stops);
+        Assertions.assertEquals(expected, StringUtils.concat(words),
+                "The remaining message after cutting out the direction keywords and headSigns is not as expected");
+        Assertions.assertEquals(expectedDirections, removedDirections,
+                "The cut headSigns are not as expected");
     }
 }

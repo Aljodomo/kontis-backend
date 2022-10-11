@@ -8,11 +8,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 import static com.aljodomo.kontis.utils.StringUtils.concat;
 
 /**
+ * Helper to find and remove headSigns from a message
+ *
  * @author Aljoscha Domonell
  */
 @Service
@@ -26,7 +30,7 @@ public class DirectionRemover {
     }
 
     public DirectionRemover(SimilarityStrategy strategy) {
-        similarityService = new StringSimilarityServiceImpl(strategy);
+        this.similarityService = new StringSimilarityServiceImpl(strategy);
         this.directionKeywords = List.of("richtung", "nach", "direction");
     }
 
@@ -34,75 +38,60 @@ public class DirectionRemover {
      * Search for direction keywords and remove with trailing stopNames.
      * Return the cleaned message.
      *
-     * @param words {@link MessageNormalizer#normalize(String) normalized} message split into words.
-     *              Needs to be an {@link ArrayList} that returns a mutable list on {@link ArrayList#subList(int, int)}.
-     * @return List of all removed stopNames;
+     * @param message {@link MessageNormalizer#normalize(String) normalized} message split into words.
+     * @param targetHeadSigns List of headSigns to scan the message for
+     * @return List of all removed HeadSigns;
      */
-    public List<String> removeDirections(ArrayList<String> words, List<String> stopNames) {
-        List<Integer> keyWordIdx = findKeyWordIdx(directionKeywords, words);
-        List<String> directions = new ArrayList<>();
-        if (!keyWordIdx.isEmpty()) {
-            keyWordIdx.forEach(directionKeywordIdx -> {
-                int bestMatchingStepCount = findBestMatchingStepCount(words, directionKeywordIdx, stopNames, 3);
-                List<String> directionWords = words.subList(directionKeywordIdx + 1, directionKeywordIdx + 1 + bestMatchingStepCount);
-                // Remove the direction key word itself to keep only the trailing words.
-                String direction = concat(directionWords);
-                directions.add(direction);
-                words.subList(directionKeywordIdx, directionKeywordIdx + 1 + bestMatchingStepCount).clear();
-            });
+    public List<String> cutHeadSignsAndKeywords(List<String> message, List<String> targetHeadSigns) {
+        List<String> headSigns = new ArrayList<>();
+
+        List<Integer> directionKeyIndexes = findKeyWordIndexes(message);
+        for(int keywordIdx : directionKeyIndexes) {
+            cutHeadSign(message, keywordIdx, targetHeadSigns)
+                    .ifPresent(headSigns::add);
+            message.remove(keywordIdx);
         }
-        return directions;
+
+        return headSigns;
     }
 
-    /**
-     * Given the message split into words, look at the directionsKeywordIdx
-     * and calculate with how many steps you will
-     * get the best {@link SimilarityScore match} for a stop name provided in the stopNames list.
-     *
-     * @param words               Message split into words.
-     * @param directionKeywordIdx Index of the direction keyword to inspect.
-     * @param stopNames           Stop names to look for a {@link SimilarityScore match}.
-     * @param maxForwardSteps     Maximum number of forward steps allowed.
-     * @return Number of forward steps with the best {@link SimilarityScore match} .
-     */
-    private int findBestMatchingStepCount(List<String> words,
-                                          int directionKeywordIdx,
-                                          List<String> stopNames,
-                                          int maxForwardSteps) {
+    private Optional<String> cutHeadSign(List<String> words, int keywordIdx, List<String> targetHeadSigns) {
+        int maxForwardSteps = 3;
 
-        SimilarityScore[] stepScores = new SimilarityScore[maxForwardSteps + 1];
-        int firstIndex = directionKeywordIdx + 1;
-        for (int i = 0; i <= maxForwardSteps; i++) {
+        List<SimilarityScore> stepScores = new ArrayList<>();
+        int firstIndex = keywordIdx + 1;
+        for (int i = 1; i <= maxForwardSteps; i++) {
             int currentIndex = firstIndex + i;
             if (currentIndex >= words.size() + 1) {
                 break;
             }
             String relevantSubstring = concat(words.subList(firstIndex, currentIndex));
-            SimilarityScore substringScore = this.similarityService.findTop(stopNames, relevantSubstring);
-            if (substringScore.getScore() > Precision.LOW) {
-                stepScores[i] = substringScore;
-            }
+            stepScores.add(similarityService.findTop(targetHeadSigns, relevantSubstring));
         }
 
-        int maxScoreIdx = 0;
-        for (int i = 0; i < stepScores.length; i++) {
-            SimilarityScore score = stepScores[i];
-            if (score == null) {
-                continue;
-            }
-            if (stepScores[maxScoreIdx] == null) {
-                maxScoreIdx = i;
-                continue;
-            }
-            if (score.getScore() > stepScores[maxScoreIdx].getScore()) {
-                maxScoreIdx = i;
-            }
-        }
+        Optional<SimilarityScore> maxScoreO = stepScores.stream()
+                .filter(similarityScore -> similarityScore.getScore() > Precision.MEDIUM)
+                .max(Comparator.comparingDouble(SimilarityScore::getScore));
 
-        return maxScoreIdx;
+        if(maxScoreO.isPresent()) {
+            SimilarityScore maxScore = maxScoreO.get();
+
+            int maxScoreSteps = stepScores.indexOf(maxScore) + 1;
+            clear(words, keywordIdx + 1, maxScoreSteps);
+
+            return Optional.of(maxScore.getKey());
+        } else {
+            return Optional.empty();
+        }
     }
 
-    private List<Integer> findKeyWordIdx(List<String> directionKeywords, List<String> words) {
+    private static void clear(List<String> words, int begin, int end) {
+        for(int i = 0; i < end; i++) {
+            words.remove(begin);
+        }
+    }
+
+    private List<Integer> findKeyWordIndexes(List<String> words) {
         List<Integer> indexes = new ArrayList<>();
         for (int i = 0; i < words.size(); i++) {
             SimilarityScore directionKeywordScore = similarityService.findTop(directionKeywords, words.get(i));

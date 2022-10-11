@@ -166,7 +166,7 @@ public class DefaultReportService implements ReportService {
 
     private Optional<String> getDirection(ArrayList<String> messageWords, List<String> headSigns) {
         Optional<String> direction;
-        List<String> directions = directionRemover.removeDirections(messageWords, headSigns);
+        List<String> directions = directionRemover.cutHeadSignsAndKeywords(messageWords, headSigns);
         direction = Optional.ofNullable(findFirst(directions));
         return direction;
     }
