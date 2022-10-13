@@ -1,15 +1,10 @@
 package com.aljodomo.kontis.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.google.firebase.database.core.Repo;
-import lombok.Builder;
 import lombok.Data;
-import lombok.extern.jackson.Jacksonized;
-import org.onebusaway.gtfs.model.Route;
 import org.onebusaway.gtfs.model.Stop;
 import org.onebusaway.gtfs.model.StopTime;
-import org.onebusaway.gtfs.model.Trip;
 
+import javax.annotation.Nullable;
 import java.time.ZonedDateTime;
 import java.util.UUID;
 
@@ -17,38 +12,64 @@ import java.util.UUID;
 /**
  * @author Aljoscha Domonell
  */
-@Builder
 @Data
-@Jacksonized
 public class Report {
 
-    @Builder.Default
-    UUID id = UUID.randomUUID();
+    final UUID id = UUID.randomUUID();
 
-    String title;
-    String originalMessage;
-    Coordinates coordinates;
-    ZonedDateTime time;
-    @JsonIgnore
-    StopTime stopTime;
-    @JsonIgnore
-    Stop stop;
-    @JsonIgnore
-    Route route;
-    @JsonIgnore
-    Trip trip;
+    final String title;
+    final String originalMessage;
+    final Coordinates coordinates;
+    final ZonedDateTime time;
+    @Nullable
+    final String routeId;
+    @Nullable
+    final String routeName;
+    @Nullable
+    final String stopId;
+    final String stopName;
+    @Nullable
+    final String tripId;
+    @Nullable
+    final Integer stopTimeId;
 
-    public static Report build(String massage, StopTime stopTime, ZonedDateTime time) {
-        return Report.builder()
-                .title(stopTime.getStop().getName())
-                .originalMessage(massage)
-                .coordinates(new Coordinates(stopTime.getStop().getLat(), stopTime.getStop().getLon()))
-                .time(time)
-                .stopTime(stopTime)
-                .stop(stopTime.getStop())
-                .route(stopTime.getTrip().getRoute())
-                .trip(stopTime.getTrip())
-                .build();
+    public Report(String massage, ZonedDateTime time, StopTime stopTime) {
+        this.title = stopTime.getTrip().getRoute().getShortName() + " " + stopTime.getStop().getName();
+        this.originalMessage = massage;
+        this.coordinates = new Coordinates(stopTime.getStop().getLat(), stopTime.getStop().getLon());
+        this.stopTimeId = stopTime.getId();
+        this.time = time;
+        this.routeId = stopTime.getTrip().getRoute().getId().toString();
+        this.routeName = stopTime.getTrip().getRoute().getShortName();
+        this.stopId = stopTime.getStop().getId().toString();
+        this.stopName = stopTime.getStop().getName();
+        this.tripId = stopTime.getTrip().getRoute().getId().toString();
     }
 
+    public Report(String message, ZonedDateTime time, Stop stop, String routeName) {
+        this.title = routeName + " " + stop.getName();
+        this.originalMessage = message;
+        this.coordinates = new Coordinates(stop.getLat(), stop.getLon());
+        this.time = time;
+        this.routeName = routeName;
+        this.stopId = stop.getId().toString();
+        this.stopName = stop.getName();
+        this.routeId = null;
+        this.tripId = null;
+        this.stopTimeId = null;
+    }
+
+
+    public Report(String message, ZonedDateTime time, Stop stop) {
+        this.title = stop.getName();
+        this.originalMessage = message;
+        this.coordinates = new Coordinates(stop.getLat(), stop.getLon());
+        this.time = time;
+        this.stopId = stop.getId().toString();
+        this.stopName = stop.getName();
+        this.tripId = null;
+        this.routeName = null;
+        this.routeId = null;
+        this.stopTimeId = null;
+    }
 }

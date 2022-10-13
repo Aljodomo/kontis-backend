@@ -96,7 +96,7 @@ public class DefaultReportService implements ReportService {
                         stopTimeOp.get().getTrip().getRoute().getShortName(),
                         stopTimeOp.get().getStop().getName()
                 );
-                return buildReport(message, time, stopTimeOp.get());
+                return Optional.of(new Report(message, time, stopTimeOp.get()));
             }
         }
 
@@ -113,7 +113,7 @@ public class DefaultReportService implements ReportService {
                     someRoute.getShortName(),
                     someStop.getName()
             );
-            return buildReport(message, time, someStop, someRoute);
+            return Optional.of(new Report(message, time, someStop, someRoute.getShortName()));
         }
 
         if(!stops.isEmpty()){
@@ -122,7 +122,7 @@ public class DefaultReportService implements ReportService {
             log.info("Building partial report. StopTimeId[] Route[] Stop[{}]",
                     someStop.getName()
             );
-            return buildReport(message, time, someStop, null);
+            return Optional.of(new Report(message, time, someStop));
         }
 
         if (!routes.isEmpty()) {
@@ -171,40 +171,8 @@ public class DefaultReportService implements ReportService {
         return direction;
     }
 
-    private Optional<Report> buildReport(String message, ZonedDateTime time, Stop someStop, Route someRoute) {
-        Coordinates coords = new Coordinates(someStop.getLat(), someStop.getLon());
-        return Optional.of(Report.builder()
-                .title(someStop.getName())
-                .originalMessage(message)
-                .time(time)
-                .coordinates(coords)
-                .stop(someStop)
-                .route(someRoute)
-                .build());
-    }
-
-    private Optional<Report> buildReport(String message, ZonedDateTime time, StopTime stopTime) {
-        Coordinates coords = new Coordinates(stopTime.getStop().getLat(), stopTime.getStop().getLon());
-
-        return Optional.of(Report.builder()
-                .title(stopTime.getStop().getName())
-                .originalMessage(message)
-                .stopTimeId(stopTime.getId())
-                .time(time)
-                .coordinates(coords)
-                .stopTime(stopTime)
-                .stop(stopTime.getStop())
-                .route(stopTime.getTrip().getRoute())
-                .trip(stopTime.getTrip())
-                .build());
-    }
-
     private <T> String joinDistinct(Collection<T> objs, Function<T, String> keyMapper) {
         return objs.stream().map(keyMapper).distinct().collect(Collectors.joining(","));
-    }
-
-    private <T> String join(Collection<T> objs, Function<T, String> keyMapper) {
-        return objs.stream().map(keyMapper).collect(Collectors.joining(","));
     }
 
     private List<Stop> parseStops(String cleanedMessage, List<String> stopNames) {
