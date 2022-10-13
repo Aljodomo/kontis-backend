@@ -76,7 +76,7 @@ public class DefaultReportService implements ReportService {
         List<Stop> stops = getStops(messageWords, routes);
         log.debug("Identified stops [{}]", joinDistinct(stops, Stop::getName));
 
-        if(!routes.isEmpty()) {
+        if (!routes.isEmpty()) {
             routes = filterRoutes(routes, stops);
             log.debug("Filtered routes [{}]", joinDistinct(routes, Route::getShortName));
         }
@@ -100,38 +100,61 @@ public class DefaultReportService implements ReportService {
             }
         }
 
-        if (!routes.isEmpty() && !stops.isEmpty()) {
-            Stop someStop = stops.get(0);
+        Optional<Stop> distinctStop = findDistinctParentStop(stops);
+        Optional<String> distinctRouteName = findDistinctRouteName(routes);
+
+        if (distinctStop.isPresent() && distinctRouteName.isPresent()) {
+            Stop someStop = distinctStop.get();
             log.info("First stop selected to produce report with incomplete data. Stop[{}]", someStop.getName());
-            Route someRoute = routes.stream()
-                    .filter(route -> gtfsService.isPartOf(route, someStop))
-                    .findAny()
-                    .orElseThrow(() -> new IllegalStateException("No route belongs to the given stop"));
-            log.info("Random route selected to produce report with incomplete data. Route[{}]", someRoute.getShortName());
 
             log.info("Building partial report. StopTimeId[] Route[{}] Stop[{}]",
-                    someRoute.getShortName(),
+                    distinctRouteName.get(),
                     someStop.getName()
             );
-            return Optional.of(new Report(message, time, someStop, someRoute.getShortName()));
+            Coordinates coords = new Coordinates(someStop.getLat(), someStop.getLon());
+            return Optional.of(new Report(message, time, coords, someStop.getName(), distinctRouteName.get()));
+
         }
 
-        if(!stops.isEmpty()){
-            Stop someStop = stops.get(0);
-            log.info("First stop selected to produce report with incomplete data. Stop[{}]", someStop.getName());
+        if (distinctStop.isPresent()) {
+            Stop someStop = distinctStop.get();
             log.info("Building partial report. StopTimeId[] Route[] Stop[{}]",
                     someStop.getName()
             );
             return Optional.of(new Report(message, time, someStop));
         }
 
-        if (!routes.isEmpty()) {
-            // TODO handle route only
-        }
-
 
         log.info("Not enough information to build report");
         return Optional.empty();
+    }
+
+    private Optional<Stop> findDistinctParentStop(List<Stop> stops) {
+        List<Stop> distinctStops = stops.stream()
+                .map(gtfsService::getParentStation)
+                .distinct()
+                .collect(Collectors.toList());
+
+        if (distinctStops.size() != 1) {
+            log.warn("More then one unique stop name");
+            return Optional.empty();
+        } else {
+            return Optional.of(distinctStops.get(0));
+        }
+    }
+
+    private Optional<String> findDistinctRouteName(List<Route> routes) {
+        List<String> distinctRouteNames = routes.stream()
+                .map(Route::getShortName)
+                .distinct()
+                .collect(Collectors.toList());
+
+        if (distinctRouteNames.size() != 1) {
+            log.warn("More then one unique route name");
+            return Optional.empty();
+        } else {
+            return Optional.of(distinctRouteNames.get(0));
+        }
     }
 
     private List<Route> filterRoutes(List<Route> routes, List<Stop> stops) {

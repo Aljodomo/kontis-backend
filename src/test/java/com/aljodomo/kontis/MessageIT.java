@@ -2,6 +2,7 @@ package com.aljodomo.kontis;
 
 import com.aljodomo.kontis.gtfs.GTFSService;
 import com.aljodomo.kontis.gtfs.ReportService;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 @SpringBootTest
 @ActiveProfiles({"dev", "inMemory"})
+@Slf4j
 class MessageIT {
 
     @Autowired
@@ -33,9 +35,12 @@ class MessageIT {
 
         assertTrue(report.isPresent(),
                 "No report was build even tho all necessary information is present");
+
+        log.info(report.get().toString());
+
         assertNotNull(report.get().getStopTimeId(),
                 "There was no specified StopTimeId present even tho all necessary information is present");
-        assertEquals(stop, report.get().getTitle(),
+        assertEquals(stop, report.get().getStopName(),
                 "The expected stop name is not the one identified");
     }
 

@@ -46,14 +46,14 @@ public class Report {
         this.tripId = stopTime.getTrip().getRoute().getId().toString();
     }
 
-    public Report(String message, ZonedDateTime time, Stop stop, String routeName) {
-        this.title = routeName + " " + stop.getName();
+    public Report(String message, ZonedDateTime time, Coordinates coordinates, String stopName, String routeName) {
+        this.title = routeName + " " + stopName;
         this.originalMessage = message;
-        this.coordinates = new Coordinates(stop.getLat(), stop.getLon());
+        this.coordinates = coordinates;
         this.time = time;
         this.routeName = routeName;
-        this.stopId = stop.getId().toString();
-        this.stopName = stop.getName();
+        this.stopId = null;
+        this.stopName = stopName;
         this.routeId = null;
         this.tripId = null;
         this.stopTimeId = null;
