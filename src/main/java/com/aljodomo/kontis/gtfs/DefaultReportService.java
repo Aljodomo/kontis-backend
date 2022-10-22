@@ -54,7 +54,7 @@ public class DefaultReportService implements ReportService {
         // 1. Preparation
         String normalizedMessage = messageNormalizer.normalize(message);
         log.debug("Normalized message [{}]", normalizedMessage);
-        List<String> messageWords = List.of(normalizedMessage.split(" "));
+        List<String> messageWords = new ArrayList<>(List.of(normalizedMessage.split(" ")));
 
         // 2. Identify Route
         List<Route> routes = parseRoute(messageWords);
