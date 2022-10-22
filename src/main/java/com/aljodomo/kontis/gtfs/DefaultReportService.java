@@ -32,6 +32,14 @@ public class DefaultReportService implements ReportService {
     private final DirectionRemover directionRemover;
     private final GTFSService gtfsService;
     private final StringSimilarityService similarityService;
+    private final Map<String, String> routeSynonyms = Map.of(
+            "41", "s41",
+            "42", "s42"
+    );
+    private final Map<String, List<String>> ambiguousRouteSynonyms = Map.of(
+            "ring", List.of("s41", "s42"),
+            "ringbahn", List.of("s41", "s42")
+    );
 
     @Autowired
     public DefaultReportService(MessageNormalizer messageNormalizer, DirectionRemover directionRemover, GTFSService gtfsService, StringSimilarityService similarityService) {
@@ -222,27 +230,54 @@ public class DefaultReportService implements ReportService {
                 .collect(Collectors.toList());
 
         if (routes.isEmpty()) {
+            parseRouteSynonyms(words, routes);
+        }
 
-            if (words.contains("41")) {
-                routes.addAll(gtfsService.getRoutes().get("s41"));
-            } else if (words.contains("42")) {
-                routes.addAll(gtfsService.getRoutes().get("s42"));
-            } else if (words.contains("ring")) {
-                routes.addAll(gtfsService.getRoutes().get("s41"));
-                routes.addAll(gtfsService.getRoutes().get("s42"));
-            } else if (words.contains("s")) {
-                gtfsService.getRoutes()
-                        .keySet().stream()
-                        .filter(routeKey -> routeKey.startsWith("s"))
-                        .forEach(routeKey -> routes.addAll(gtfsService.getRoutes().get(routeKey)));
-            } else if (words.contains("u")) {
-                gtfsService.getRoutes()
-                        .keySet().stream()
-                        .filter(routeKey -> routeKey.startsWith("u"))
-                        .forEach(routeKey -> routes.addAll(gtfsService.getRoutes().get(routeKey)));
-            }
+        if (routes.isEmpty()) {
+            parseAmbiguousRouteLetters(words, routes);
         }
 
         return routes;
+    }
+
+    private void parseAmbiguousRouteLetters(List<String> words, List<Route> routes) {
+        if (words.contains("s")) {
+            log.info("Message did not contain a known route name but a single 's'. Using all S-Bahn routes");
+            gtfsService.getRoutes()
+                    .keySet().stream()
+                    .filter(routeKey -> routeKey.startsWith("s"))
+                    .forEach(routeKey -> routes.addAll(gtfsService.getRoutes().get(routeKey)));
+        }
+
+        if (words.contains("u")) {
+            log.info("Message did not contain a known route name but a single 'u'. Using all U-Bahn routes.");
+            gtfsService.getRoutes()
+                    .keySet().stream()
+                    .filter(routeKey -> routeKey.startsWith("u"))
+                    .forEach(routeKey -> routes.addAll(gtfsService.getRoutes().get(routeKey)));
+        }
+    }
+
+
+    private void parseRouteSynonyms(List<String> words, List<Route> routes) {
+
+        for (String word : words) {
+            if (routeSynonyms.containsKey(word)) {
+                log.info("Identified known synonym [{}]. Using [{}] routes", word, ambiguousRouteSynonyms.get(word));
+                routes.addAll(gtfsService.getRoutes().get(routeSynonyms.get(word)));
+            }
+        }
+
+        if(!routes.isEmpty()) {
+            return; // Prevent cases like "ring 41" to be counted twice
+        }
+
+        for (String word : words) {
+            if (ambiguousRouteSynonyms.containsKey(word)) {
+                log.info("Identified known synonym [{}]. Using [{}] routes", word, ambiguousRouteSynonyms.get(word));
+                ambiguousRouteSynonyms.get(word)
+                        .forEach(synonym -> routes.addAll(gtfsService.getRoutes().get(synonym)));
+            }
+        }
     }
 }
