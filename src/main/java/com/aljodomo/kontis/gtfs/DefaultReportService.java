@@ -53,9 +53,8 @@ public class DefaultReportService implements ReportService {
 
         // 1. Preparation
         String normalizedMessage = messageNormalizer.normalize(message);
-        // Needs to be an ArrayList to allow List.sublist().clear() to work.
-        ArrayList<String> messageWords = new ArrayList<>(List.of(normalizedMessage.split(" ")));
         log.debug("Normalized message [{}]", normalizedMessage);
+        List<String> messageWords = List.of(normalizedMessage.split(" "));
 
         // 2. Identify Route
         List<Route> routes = parseRoute(messageWords);
@@ -161,7 +160,7 @@ public class DefaultReportService implements ReportService {
                 .collect(Collectors.toList());
     }
 
-    private List<Stop> getStops(ArrayList<String> messageWords, List<Route> routes) {
+    private List<Stop> getStops(List<String> messageWords, List<Route> routes) {
         String cleanedMessage = concat(messageWords);
         List<Stop> stops;
         List<String> stopNames;
@@ -174,17 +173,17 @@ public class DefaultReportService implements ReportService {
         return stops;
     }
 
-    private Optional<String> findDirection(ArrayList<String> messageWords) {
+    private Optional<String> findDirection(List<String> messageWords) {
         List<String> headSigns = new ArrayList<>(gtfsService.getTrips().keySet());
         return getDirection(messageWords, headSigns);
     }
 
-    private Optional<String> findDirection(ArrayList<String> messageWords, List<Route> routes) {
+    private Optional<String> findDirection(List<String> messageWords, List<Route> routes) {
         List<String> headSigns = gtfsService.findHeadSigns(routes);
         return getDirection(messageWords, headSigns);
     }
 
-    private Optional<String> getDirection(ArrayList<String> messageWords, List<String> headSigns) {
+    private Optional<String> getDirection(List<String> messageWords, List<String> headSigns) {
         Optional<String> direction;
         List<String> directions = directionRemover.cutHeadSignsAndKeywords(messageWords, headSigns);
         direction = Optional.ofNullable(findFirst(directions));
@@ -218,7 +217,7 @@ public class DefaultReportService implements ReportService {
         }
     }
 
-    private List<Route> parseRoute(ArrayList<String> words) {
+    private List<Route> parseRoute(List<String> words) {
 
         List<Route> routes = words.stream()
                 .filter(word -> gtfsService.getRoutes().containsKey(word))
