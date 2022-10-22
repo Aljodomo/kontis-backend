@@ -78,7 +78,7 @@ class DirectionRemoverTest {
 
     private void test(String message, String expected, List<String> expectedDirections) {
         ArrayList<String> words = new ArrayList<>(List.of(message.split(" ")));
-        List<String> removedDirections = this.directionRemover.cutHeadSignsAndKeywords(words, stops);
+        List<String> removedDirections = this.directionRemover.cutStopNameWithKeyword(words, stops);
         Assertions.assertEquals(expected, StringUtils.concat(words),
                 "The remaining message after cutting out the direction keywords and headSigns is not as expected");
         Assertions.assertEquals(expectedDirections, removedDirections,

@@ -61,18 +61,11 @@ public class DefaultReportService implements ReportService {
         log.debug("Identified routes [{}]", joinDistinct(routes, Route::getShortName));
 
         // 3. Identify Direction
-        Optional<String> direction;
-        // Direction is removed from messageWords
-        if (!routes.isEmpty()) {
-            direction = findDirection(messageWords, routes);
-        } else {
-            direction = findDirection(messageWords);
-        }
-
+        Optional<String> direction = parseAndCutDirection(messageWords, routes);
         direction.ifPresent(s -> log.debug("Identified direction [{}]", s));
 
         // 3. Identify Stop
-        List<Stop> stops = getStops(messageWords, routes);
+        List<Stop> stops = getStops(messageWords, routes); // TODO rename to parseStops
         log.debug("Identified stops [{}]", joinDistinct(stops, Stop::getName));
 
         if (!routes.isEmpty()) {
@@ -99,8 +92,8 @@ public class DefaultReportService implements ReportService {
             }
         }
 
-        Optional<Stop> distinctStop = findDistinctParentStop(stops);
-        Optional<String> distinctRouteName = findDistinctRouteName(routes);
+        Optional<Stop> distinctStop = findDistinctParentStop(stops); // TODO rename, logs
+        Optional<String> distinctRouteName = findDistinctRouteName(routes); // TODO rename, logs
 
         if (distinctStop.isPresent() && distinctRouteName.isPresent()) {
             Stop someStop = distinctStop.get();
@@ -173,21 +166,37 @@ public class DefaultReportService implements ReportService {
         return stops;
     }
 
-    private Optional<String> findDirection(List<String> messageWords) {
-        List<String> headSigns = new ArrayList<>(gtfsService.getTrips().keySet());
-        return getDirection(messageWords, headSigns);
-    }
-
-    private Optional<String> findDirection(List<String> messageWords, List<Route> routes) {
-        List<String> headSigns = gtfsService.findHeadSigns(routes);
-        return getDirection(messageWords, headSigns);
-    }
-
-    private Optional<String> getDirection(List<String> messageWords, List<String> headSigns) {
+    private Optional<String> parseAndCutDirection(List<String> messageWords, List<Route> routes) {
+        List<String> possibleDirections;
         Optional<String> direction;
-        List<String> directions = directionRemover.cutHeadSignsAndKeywords(messageWords, headSigns);
-        direction = Optional.ofNullable(findFirst(directions));
+
+        // Route headsigns
+        possibleDirections = gtfsService.findHeadSigns(routes);
+        direction = cutDirection(messageWords, possibleDirections);
+
+        // All headsigns
+        if(direction.isEmpty()) {
+            log.debug("Using head signs of all available trips as possible directions");
+            possibleDirections = new ArrayList<>(gtfsService.getTrips().keySet());
+            direction = cutDirection(messageWords, possibleDirections);
+        }
+
+        // All Route Stops
+        if(direction.isEmpty()) {
+            log.debug("Using names of of all stops of found routes as possible directions");
+            possibleDirections = gtfsService.findStopNames(routes);
+            direction = cutDirection(messageWords, possibleDirections);
+        }
+
         return direction;
+    }
+
+    private Optional<String> cutDirection(List<String> messageWords, List<String> stopNames) {
+        List<String> directions = directionRemover.cutStopNameWithKeyword(messageWords, stopNames);
+        if (directions.size() > 1) {
+            log.info("More then one direction was identified but only the first one will be used [{}]", directions);
+        }
+        return directions.stream().findFirst();
     }
 
     private <T> String joinDistinct(Collection<T> objs, Function<T, String> keyMapper) {
@@ -202,19 +211,6 @@ public class DefaultReportService implements ReportService {
                 .map(similarityScore -> gtfsService.getStops().get(similarityScore.getKey()))
                 .flatMap(Set::stream)
                 .collect(Collectors.toList());
-    }
-
-    private String findFirst(List<String> directions) {
-        if (directions.isEmpty()) {
-            log.debug("No direction was identified");
-            return null;
-        } else {
-            if (directions.size() > 1) {
-                log.info("More then one direction was identified but only the first one will be used [{}]", directions);
-            }
-
-            return directions.get(0);
-        }
     }
 
     private List<Route> parseRoute(List<String> words) {

@@ -35,27 +35,29 @@ public class DirectionRemover {
     }
 
     /**
-     * Search for direction keywords and remove with trailing stopNames.
+     * Search for direction keywords and remove with trailing stop name.
      * Return the cleaned message.
      *
      * @param message {@link MessageNormalizer#normalize(String) normalized} message split into words.
-     * @param targetHeadSigns List of headSigns to scan the message for
+     * @param targetStopNames List of stop names that represent a direction of travel to scan the message for.
      * @return List of all removed HeadSigns;
      */
-    public List<String> cutHeadSignsAndKeywords(List<String> message, List<String> targetHeadSigns) {
-        List<String> headSigns = new ArrayList<>();
+    public List<String> cutStopNameWithKeyword(List<String> message, List<String> targetStopNames) {
+        List<String> stopNames = new ArrayList<>();
 
         List<Integer> directionKeyIndexes = findKeyWordIndexes(message);
         for(int keywordIdx : directionKeyIndexes) {
-            cutHeadSign(message, keywordIdx, targetHeadSigns)
-                    .ifPresent(headSigns::add);
-            message.remove(keywordIdx);
+            Optional<String> stopNameOp = cutStopName(message, keywordIdx, targetStopNames);
+            if(stopNameOp.isPresent()) {
+                stopNames.add(stopNameOp.get());
+                message.remove(keywordIdx);
+            }
         }
 
-        return headSigns;
+        return stopNames;
     }
 
-    private Optional<String> cutHeadSign(List<String> words, int keywordIdx, List<String> targetHeadSigns) {
+    private Optional<String> cutStopName(List<String> words, int keywordIdx, List<String> targetHeadSigns) {
         int maxForwardSteps = 3;
 
         List<SimilarityScore> stepScores = new ArrayList<>();
