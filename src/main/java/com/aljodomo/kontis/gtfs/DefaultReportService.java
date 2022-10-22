@@ -105,15 +105,12 @@ public class DefaultReportService implements ReportService {
 
         if (distinctStop.isPresent() && distinctRouteName.isPresent()) {
             Stop someStop = distinctStop.get();
-            log.info("First stop selected to produce report with incomplete data. Stop[{}]", someStop.getName());
-
             log.info("Building partial report. StopTimeId[] Route[{}] Stop[{}]",
                     distinctRouteName.get(),
                     someStop.getName()
             );
             Coordinates coords = new Coordinates(someStop.getLat(), someStop.getLon());
             return Optional.of(new Report(message, time, coords, someStop.getName(), distinctRouteName.get()));
-
         }
 
         if (distinctStop.isPresent()) {
@@ -210,7 +207,7 @@ public class DefaultReportService implements ReportService {
 
     private String findFirst(List<String> directions) {
         if (directions.isEmpty()) {
-            log.debug("No directions were identified [{}]", directions);
+            log.debug("No direction was identified");
             return null;
         } else {
             if (directions.size() > 1) {
