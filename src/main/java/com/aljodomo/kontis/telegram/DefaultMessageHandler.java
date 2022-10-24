@@ -15,13 +15,13 @@ import java.util.Optional;
  */
 @Service
 @Slf4j
-public class MessageHandlerImpl implements MessageHandler {
+public class DefaultMessageHandler implements MessageHandler {
 
     private final ReportService reportService;
     private final ReportRepository db;
 
     @Autowired
-    public MessageHandlerImpl(ReportService reportService, ReportRepository db) {
+    public DefaultMessageHandler(ReportService reportService, ReportRepository db) {
         this.reportService = reportService;
         this.db = db;
     }
