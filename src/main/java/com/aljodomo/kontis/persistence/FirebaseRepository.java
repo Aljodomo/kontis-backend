@@ -14,8 +14,6 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-import java.util.Collections;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
@@ -25,7 +23,7 @@ import java.util.concurrent.ExecutionException;
  * @author Aljoscha Domonell
  */
 @Service
-@Profile("!inMemory")
+@Profile({"!test & !dev"})
 @Slf4j
 public class FirebaseRepository implements ReportRepository {
 

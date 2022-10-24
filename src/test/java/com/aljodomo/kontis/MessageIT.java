@@ -1,9 +1,7 @@
 package com.aljodomo.kontis;
 
-import com.aljodomo.kontis.gtfs.GTFSService;
 import com.aljodomo.kontis.gtfs.ReportService;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,15 +17,12 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author Aljoscha Domonell
  */
 @SpringBootTest
-@ActiveProfiles({"dev", "inMemory"})
 @Slf4j
+@ActiveProfiles("test")
 class MessageIT {
 
     @Autowired
     ReportService reportService;
-
-    @Autowired
-    GTFSService gtfsService;
 
     void testComplete(String message, String timeS, String stop, String routeName) {
         var time = ZonedDateTime.of(LocalDateTime.parse(timeS), TimeZone.getDefault().toZoneId());
@@ -102,9 +97,6 @@ class MessageIT {
         testComplete("s25 richtung südkreuz jetzt nordbahnhof", "2022-02-21T17:39:00", "S Nordbahnhof (Berlin)", "S25");
     }
 
-    /**
-     * FIXME fails because "ringbahn" is not mapped to S42 / S41
-     */
     @Test
     void complete_message_expect_treptower() {
         testComplete("3 kontrolletis grade am Treptower park ausgestiegen. Kamen aus der Ringbahn Richtung Frankfurter Allee.", "2022-02-21T17:39:00", "S Treptower Park (Berlin)", "S42");
