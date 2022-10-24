@@ -37,7 +37,7 @@ class DirectionRemoverTest {
     @Test
     void testOnlyKeyWord() {
         String message = "richtung";
-        String expected = "";
+        String expected = "richtung";
         test(message, expected, new ArrayList<>());
     }
 
