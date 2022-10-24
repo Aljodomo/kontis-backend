@@ -11,8 +11,4 @@ public interface ReportRepository {
     void create(Report report);
 
     Report findById(String id);
-
-    List<Report> findAll();
-
-    List<Report> findActive();
 }

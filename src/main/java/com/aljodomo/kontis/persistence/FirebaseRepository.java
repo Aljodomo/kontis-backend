@@ -73,16 +73,4 @@ public class FirebaseRepository implements ReportRepository {
             throw new RuntimeException(e);
         }
     }
-
-    @Override
-    public List<Report> findAll() {
-        log.error("Not implemented method was called");
-        return Collections.emptyList();
-    }
-
-    @Override
-    public List<Report> findActive() {
-        log.error("Not implemented method was called");
-        return Collections.emptyList();
-    }
 }

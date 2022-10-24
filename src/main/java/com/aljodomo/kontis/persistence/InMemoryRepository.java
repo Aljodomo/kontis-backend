@@ -36,19 +36,4 @@ public class InMemoryRepository implements ReportRepository {
                 .findFirst()
                 .orElse(null);
     }
-
-    @Override
-    public List<Report> findAll() {
-        return this.reports;
-    }
-
-    @Override
-    public List<Report> findActive() {
-        return this.reports
-                .stream()
-                .filter(report -> report
-                        .getTime()
-                        .isAfter(ZonedDateTime.now().minus(this.offset)))
-                .collect(Collectors.toList());
-    }
 }
