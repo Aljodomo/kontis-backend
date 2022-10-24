@@ -68,37 +68,56 @@ public class DefaultReportService implements ReportService {
         List<Route> routes = parseRoute(messageWords);
         log.debug("Identified routes [{}]", joinDistinct(routes, Route::getShortName));
 
-        // 3. Identify Direction
+        // 3. Identify direction
         Optional<String> direction = parseAndCutDirection(messageWords, routes);
         direction.ifPresent(s -> log.debug("Identified direction [{}]", s));
 
-        // 3. Identify Stop
-        List<Stop> stops = getStops(messageWords, routes); // TODO rename to parseStops
+        // 4. Identify Stops - Must be done AFTER direction is removed from message
+        List<Stop> stops = parseStops(messageWords, routes);
         log.debug("Identified stops [{}]", joinDistinct(stops, Stop::getName));
 
-        if (!routes.isEmpty()) {
-            routes = filterRoutes(routes, stops);
-            log.debug("Filtered routes [{}]", joinDistinct(routes, Route::getShortName));
-        }
+        // 5. Filter routes with identified stops
+        routes = filterRoutes(routes, stops);
+        log.debug("Filtered routes [{}]", joinDistinct(routes, Route::getShortName));
 
-        return getReport(message, time, routes, direction.orElse(null), stops);
-    }
-
-    private Optional<Report> getReport(String message, ZonedDateTime time, List<Route> routes, String direction, List<Stop> stops) {
-
-        // TODO falls keine direction angeben wurde, kann hier einfach eine "zufällige" richtung genommen werden. Die Methode gibt es schon im GTFSService.
-        if (!routes.isEmpty() && !stops.isEmpty() && direction != null) {
-            // 4. Identify StopTime
-            Optional<StopTime> stopTimeOp = gtfsService.findStopTime(time, routes, direction, stops);
-            if (stopTimeOp.isPresent()) {
-                log.info("Building complete report. StopTimeId[{}] Route[{}] Stop[{}]",
-                        stopTimeOp.get().getId(),
-                        stopTimeOp.get().getTrip().getRoute().getShortName(),
-                        stopTimeOp.get().getStop().getName()
-                );
-                return Optional.of(new Report(message, time, stopTimeOp.get()));
+        // 6. Identify stopTime
+        Optional<StopTime> stopTimeOp = Optional.empty();
+        if (isCircleRoute(routes)) {
+            // 6.1 Handle circle route
+            stopTimeOp = gtfsService.findStopTimes(routes, stops, time).stream().findFirst();
+        } else {
+            // 6.2 Handle normal route
+            if (direction.isPresent()) {
+                stopTimeOp = gtfsService.findStopTime(time, routes, direction.get(), stops);
             }
         }
+
+        // 7. Build report
+        if(stopTimeOp.isPresent()) {
+            return buildCompleteReport(message, time, stopTimeOp.get());
+        }
+        return buildPartialReport(message, time, routes, stops);
+    }
+
+    private static Optional<Report> buildCompleteReport(String message, ZonedDateTime time, StopTime stopTime) {
+        log.info("Building complete report. StopTimeId[{}] Route[{}] Stop[{}]",
+                stopTime.getId(),
+                stopTime.getTrip().getRoute().getShortName(),
+                stopTime.getStop().getName()
+        );
+        return Optional.of(new Report(message, time, stopTime));
+    }
+
+    private boolean isCircleRoute(List<Route> routes) {
+        return  routes.stream().map(Route::getShortName).distinct().count() == 1 // Is only one route
+                && routes.stream().allMatch(route -> isCircleRoute(route.getShortName()));
+    }
+
+    private boolean isCircleRoute(String shortName) {
+        return shortName.equals("S41") || shortName.equals("S42");
+    }
+
+    private Optional<Report> buildPartialReport(String message, ZonedDateTime time, List<Route> routes, List<Stop> stops) {
 
         Optional<Stop> distinctStop = findDistinctParentStop(stops); // TODO rename, logs
         Optional<String> distinctRouteName = findDistinctRouteName(routes); // TODO rename, logs
@@ -161,7 +180,7 @@ public class DefaultReportService implements ReportService {
                 .collect(Collectors.toList());
     }
 
-    private List<Stop> getStops(List<String> messageWords, List<Route> routes) {
+    private List<Stop> parseStops(List<String> messageWords, List<Route> routes) {
         String cleanedMessage = concat(messageWords);
         List<Stop> stops;
         List<String> stopNames;

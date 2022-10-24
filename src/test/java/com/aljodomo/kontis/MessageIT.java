@@ -78,8 +78,8 @@ class MessageIT {
     }
 
     @Test
-    void partial_message_expect_tempelhof() {
-        testPartial("Ring 41, die steigen gleich in Tempelhof aus\n", "2022-02-21T17:39:00", "S+U Tempelhof (Berlin)", "S41");
+    void complete_message_expect_tempelhof() {
+        testComplete("Ring 41, die steigen gleich in Tempelhof aus\n", "2022-02-21T17:39:00", "S+U Tempelhof (Berlin)", "S41");
     }
 
     @Test
