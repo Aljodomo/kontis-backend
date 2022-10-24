@@ -190,11 +190,11 @@ public class GTFSService {
     }
 
     private Optional<StopTime> identifyDirection(List<StopTime> stopTimes, String direction) {
-        if (stopTimes.isEmpty()) {
-            return Optional.empty();
+        if(stopTimes.size() <= 1) {
+            return stopTimes.stream().findFirst();
         }
 
-        if (stopTimes.size() != 2) {
+        if (stopTimes.size() > 2) {
             log.warn("More then two stopTimes were supplied [{}]", join(stopTimes, st -> st.getId().toString()));
         }
 
