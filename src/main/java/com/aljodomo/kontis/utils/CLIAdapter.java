@@ -10,7 +10,7 @@ import java.time.ZonedDateTime;
 import java.util.Scanner;
 
 @Slf4j
-@Profile("dev")
+@Profile("cli")
 @Service
 public class CLIAdapter {
 
