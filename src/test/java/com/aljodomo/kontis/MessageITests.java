@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 @Slf4j
 @ActiveProfiles("test")
-class MessageIT {
+class MessageITests {
 
     @Autowired
     ReportService reportService;
