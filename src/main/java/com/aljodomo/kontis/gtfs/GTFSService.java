@@ -136,10 +136,6 @@ public class GTFSService {
                 .orElse(0);
     }
 
-    public Stop getParentStation(Stop stop) {
-        return this.store.getStopForId(new AgencyAndId(stop.getId().getAgencyId(), stop.getParentStation()));
-    }
-
     private boolean isCloseToGivenTime(StopTime stopTime, ZonedDateTime time, TemporalAmount lookAhead) {
         LocalDateTime arrivalTime = toLDT(time.toLocalDate(), stopTime.getArrivalTime());
 

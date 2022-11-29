@@ -1,7 +1,6 @@
 package com.aljodomo.kontis.model;
 
 import lombok.Data;
-import org.onebusaway.gtfs.model.Stop;
 import org.onebusaway.gtfs.model.StopTime;
 
 import javax.annotation.Nullable;
@@ -59,14 +58,13 @@ public class Report {
         this.stopTimeId = null;
     }
 
-
-    public Report(String message, ZonedDateTime time, Stop stop) {
-        this.title = stop.getName();
+    public Report(String message, ZonedDateTime time, Coordinates coords, String stopName) {
+        this.title = stopName;
         this.originalMessage = message;
-        this.coordinates = new Coordinates(stop.getLat(), stop.getLon());
+        this.coordinates = coords;
         this.time = time;
-        this.stopId = stop.getId().toString();
-        this.stopName = stop.getName();
+        this.stopId = null;
+        this.stopName = stopName;
         this.tripId = null;
         this.routeName = null;
         this.routeId = null;

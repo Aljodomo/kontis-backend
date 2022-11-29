@@ -119,7 +119,7 @@ public class DefaultReportService implements ReportService {
 
     private Optional<Report> buildPartialReport(String message, ZonedDateTime time, List<Route> routes, List<Stop> stops) {
 
-        Optional<Stop> distinctStop = findDistinctParentStop(stops); // TODO rename, logs
+        Optional<Stop> distinctStop = findFirstIfAllNamesAreEqual(stops); // TODO rename, logs
         Optional<String> distinctRouteName = findDistinctRouteName(routes); // TODO rename, logs
 
         if (distinctStop.isPresent() && distinctRouteName.isPresent()) {
@@ -135,9 +135,9 @@ public class DefaultReportService implements ReportService {
         if (distinctStop.isPresent()) {
             Stop someStop = distinctStop.get();
             log.info("Building partial report. StopTimeId[] Route[] Stop[{}]",
-                    someStop.getName()
-            );
-            return Optional.of(new Report(message, time, someStop));
+                    someStop.getName());
+            Coordinates coords = new Coordinates(someStop.getLat(), someStop.getLon());
+            return Optional.of(new Report(message, time, coords, someStop.getName()));
         }
 
 
@@ -145,17 +145,18 @@ public class DefaultReportService implements ReportService {
         return Optional.empty();
     }
 
-    private Optional<Stop> findDistinctParentStop(List<Stop> stops) {
-        List<Stop> distinctStops = stops.stream()
-                .map(gtfsService::getParentStation)
+    private Optional<Stop> findFirstIfAllNamesAreEqual(List<Stop> stops) {
+        List<String> distinctStops = stops.stream()
+                .map(Stop::getName)
                 .distinct()
                 .collect(Collectors.toList());
 
         if (distinctStops.size() != 1) {
-            log.warn("More then one unique stop name");
+            log.warn("Stops are not distinct");
             return Optional.empty();
         } else {
-            return Optional.of(distinctStops.get(0));
+            log.info("Stop names are all the same. Using the first stop");
+            return Optional.of(stops.get(0));
         }
     }
 
