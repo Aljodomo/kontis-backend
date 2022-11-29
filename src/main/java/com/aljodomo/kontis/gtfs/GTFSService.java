@@ -33,7 +33,6 @@ import java.util.stream.Stream;
 @Getter
 public class GTFSService {
 
-    private final GtfsDaoImpl store = new GtfsDaoImpl();
     private final MessageNormalizer messageNormalizer;
     private final StringSimilarityService similarityService;
 
@@ -45,6 +44,7 @@ public class GTFSService {
     private final Map<Route, Set<String>> routeTrips = new HashMap<>();
     private final Map<Stop, Set<StopTime>> stopStopTimes = new HashMap<>();
     private final Map<Trip, Set<StopTime>> tripStopTimes = new HashMap<>();
+    private final List<ServiceCalendar> calendars = new ArrayList<>();
 
     private final Set<StopTime> stopTimes = new LinkedHashSet<>();
 
@@ -56,13 +56,15 @@ public class GTFSService {
         this.messageNormalizer = messageNormalizer;
         this.similarityService = similarityService;
 
+        GtfsDaoImpl store = new GtfsDaoImpl();        
         GtfsReader reader = new GtfsReader();
-        reader.setInputLocation(new File("src/main/resources/GTFS"));
+        reader.setInputLocation(new File("src/main/resources/GTFS_FILTERED"));
         reader.setEntityStore(store);
         reader.run();
-        ini();
+        
+        ini(store);
 
-        logDetails();
+        logDetails(store);
     }
 
     /**
@@ -154,7 +156,7 @@ public class GTFSService {
      */
     public boolean isActiveAt(Trip trip, LocalDate date) {
 
-        ServiceCalendar calendar = store.getAllCalendars().stream()
+        ServiceCalendar calendar = calendars.stream()
                 .filter(serviceCalendar -> serviceCalendar.getServiceId().equals(trip.getServiceId()))
                 .findFirst()
                 .orElseThrow(() -> new IllegalStateException("No active calendar for trip: " + trip));
@@ -285,60 +287,36 @@ public class GTFSService {
                 Math.abs(now.toLocalTime().toSecondOfDay() - time2.toSecondOfDay());
     }
 
-    /**
-     * Filter routes while loading
-     */
-    private boolean shouldBeLoaded(Route route) {
-        return props.getAgencyWhitelist().contains(route.getId().getAgencyId())
-                && route.getShortName().matches(props.getRouteShortNameRegEx())
-                && isTrain(route);
-    }
-
-    private void ini() {
+    private void ini(GtfsDaoImpl store) {
         log.debug("Start loading route");
-        Set<Route> tmpRouteSet = iniRoutes();
+        iniRoutes(store);
 
         log.debug("Start loading trips");
-        Set<Trip> tmpTripSet = iniTrips(tmpRouteSet);
+        iniTrips(store);
 
         log.debug("Start loading stopTimes");
-        iniStopTimes(tmpTripSet);
+        stopTimes.addAll(store.getAllStopTimes());
 
         log.debug("Start loading stops");
         iniStops();
+
+        log.debug("Start loading service calendars");
+        calendars.addAll(store.getAllCalendars());
+
     }
 
-    private Set<Route> iniRoutes() {
-        Set<Route> tmpRouteSet = new HashSet<>();
-
+    private void iniRoutes(GtfsDaoImpl store) {
         store.getAllRoutes()
                 .stream()
-                .filter(this::shouldBeLoaded)
                 .forEach(route -> {
                     String name = getKey(route);
                     add(routes, name, route);
-
-                    tmpRouteSet.add(route);
                 });
-        return tmpRouteSet;
     }
 
-    private boolean isTrain(Route route) {
-        int type = route.getType();
-
-        RouteType routeType = RouteType.fromType(type);
-
-        return  routeType == RouteType.RailwayService ||
-                routeType == RouteType.TramService ||
-                routeType == RouteType.UrbanRailwayService;
-    }
-
-    private Set<Trip> iniTrips(Set<Route> tmpRouteSet) {
-        Set<Trip> tmpTripSet = new HashSet<>();
-
+    private void iniTrips(GtfsDaoImpl store) {
         store.getAllTrips()
                 .stream()
-                .filter(trip -> tmpRouteSet.contains(trip.getRoute()))
                 .forEach(trip -> {
                     if (trip.getTripHeadsign() == null) {
                         return;
@@ -347,16 +325,7 @@ public class GTFSService {
                     add(trips, headSign, trip);
 
                     add(routeTrips, trip.getRoute(), headSign);
-
-                    tmpTripSet.add(trip);
                 });
-        return tmpTripSet;
-    }
-
-    private void iniStopTimes(Set<Trip> tmpTripSet) {
-        store.getAllStopTimes().stream()
-                .filter(stopTime -> tmpTripSet.contains(stopTime.getTrip()))
-                .forEach(stopTimes::add);
     }
 
     private void iniStops() {
@@ -377,7 +346,7 @@ public class GTFSService {
         });
     }
 
-    private void logDetails() {
+    private void logDetails(GtfsDaoImpl store) {
         int rCnt = routes.values().stream().map(Set::size).reduce(Integer::sum).orElse(0);
         int rCntO = store.getAllRoutes().size();
 

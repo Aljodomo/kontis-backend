@@ -1,0 +1,1299 @@
+stop_id,stop_name,stop_lat,stop_lon,stop_desc,zone_id,parent_station,wheelchair_boarding,platform_code
+000300004001,S+U Potsdamer Platz Bhf (Berlin),52.508998,13.378047,Bahnsteig U2 Gleis 2,5555 S+U Potsdamer Platz Bhf (Berlin),de:11000:900100020,,
+000300004160,S+U Potsdamer Platz Bhf (Berlin),52.509072,13.377905,Bahnsteig U2 Gleis 1,5555 S+U Potsdamer Platz Bhf (Berlin),de:11000:900100020,,
+000300106001,U Uhlandstr. (Berlin),52.502832,13.326930,Bahnsteig U1,5555 U Uhlandstr. (Berlin),de:11000:900023301,,
+de:11000:900001201:1:50,S+U Westhafen (Berlin),52.536218,13.344329,Bahnsteig S-Bahn Gleis 1,5555 S+U Westhafen (Berlin),de:11000:900001201,,1
+de:11000:900001201:1:51,S+U Westhafen (Berlin),52.536318,13.344298,Bahnsteig S-Bahn Gleis 2,5555 S+U Westhafen (Berlin),de:11000:900001201,,2
+de:11000:900001201::1,S+U Westhafen (Berlin),52.536766,13.342507,Bahnsteig 1 U9,5555 S+U Westhafen (Berlin),de:11000:900001201,,
+de:11000:900001201::2,S+U Westhafen (Berlin),52.536744,13.342635,Bahnsteig 2 U9,5555 S+U Westhafen (Berlin),de:11000:900001201,,
+de:11000:900002201::1,U Birkenstr. (Berlin),52.532192,13.341235,U Bahnsteig Gleis 1,5555 U Birkenstr. (Berlin),de:11000:900002201,,
+de:11000:900002201::2,U Birkenstr. (Berlin),52.532191,13.341410,U Bahnsteig Gleis 2,5555 U Birkenstr. (Berlin),de:11000:900002201,,
+de:11000:900003101::1,U Hansaplatz (Berlin),52.517873,13.341988,U Bahnsteig Gleis 1,5555 U Hansaplatz (Berlin),de:11000:900003101,,
+de:11000:900003101::2,U Hansaplatz (Berlin),52.517882,13.342161,U Bahnsteig Gleis 2,5555 U Hansaplatz (Berlin),de:11000:900003101,,
+de:11000:900003102:1:50,S Bellevue (Berlin),52.519946,13.348090,S-Bahnsteig Gleis 3,5555 S Bellevue (Berlin),de:11000:900003102,,
+de:11000:900003102:1:51,S Bellevue (Berlin),52.520012,13.348101,S-Bahnsteig Gleis 4,5555 S Bellevue (Berlin),de:11000:900003102,,
+de:11000:900003103:1:50,S Tiergarten (Berlin),52.514419,13.336536,Bahnsteig Gleis 3,5555 S Tiergarten (Berlin),de:11000:900003103,,
+de:11000:900003103:1:51,S Tiergarten (Berlin),52.514440,13.336420,Bahnsteig Gleis 4,5555 S Tiergarten (Berlin),de:11000:900003103,,
+de:11000:900003104::1,U Turmstr. (Berlin),52.526136,13.341178,U Bahnsteig Gleis 1,5555 U Turmstr. (Berlin),de:11000:900003104,,
+de:11000:900003104::2,U Turmstr. (Berlin),52.526128,13.341406,U Bahnsteig Gleis 2,5555 U Turmstr. (Berlin),de:11000:900003104,,
+de:11000:900003201:3:54,S+U Berlin Hauptbahnhof,52.525147,13.369354,S-Bahnsteig Gleis 15,5555 S+U Berlin Hauptbahnhof,de:11000:900003201,,15
+de:11000:900003201:3:55,S+U Berlin Hauptbahnhof,52.525261,13.369313,S-Bahnsteig Gleis 16,5555 S+U Berlin Hauptbahnhof,de:11000:900003201,,16
+de:11000:900003201::10,S+U Berlin Hauptbahnhof,52.525225,13.370030,U Bahnsteig Gleis 2,5555 S+U Berlin Hauptbahnhof,de:11000:900003201,,
+de:11000:900003201::2,S+U Berlin Hauptbahnhof,52.526583,13.369713,Tramsteig Invalidenstr. ht. Friedrich-L.-U. Pos. 4,5555 S+U Berlin Hauptbahnhof,de:11000:900003201,,
+de:11000:900003201::3,S+U Berlin Hauptbahnhof,52.526556,13.369735,Tramsteig Invalidenstr. v. Friedrich-L.-U. Pos. 5,5555 S+U Berlin Hauptbahnhof,de:11000:900003201,,
+de:11000:900003254::1,U Bundestag (Berlin),52.520156,13.373086,U Bahnsteig Gleis 1,5555 U Bundestag (Berlin),de:11000:900003254,,
+de:11000:900003254::5,U Bundestag (Berlin),52.520109,13.372842,U Bahnsteig Gleis 2,5555 U Bundestag (Berlin),de:11000:900003254,,
+de:11000:900003255::3,Clara-Jaschke-Str. (Berlin),52.525146,13.366224,Tramsteig Clara-Jaschke-Straße vor Invalidenstraße,5555 Clara-Jaschke-Str. (Berlin),,,
+de:11000:900003257::1,Lesser-Ury-Weg (Berlin),52.524246,13.361950,Tram-u. Bushalt Invalidenstraße ht. Lesser-Ury-Weg,5555 Lesser-Ury-Weg (Berlin),,,
+de:11000:900003259::2,Lüneburger Str. (Berlin),52.523099,13.361844,Tramsteig Alt-Moabit vor Lüneburger Straße,5555 Lüneburger Str. (Berlin),de:11000:900003259,,
+de:11000:900005201::1,U Kurfürstenstr. (Berlin),52.500152,13.361504,U Bahnsteig Gleis 1,5555 U Kurfürstenstr. (Berlin),de:11000:900005201,,
+de:11000:900005201::2,U Kurfürstenstr. (Berlin),52.500068,13.361436,U Bahnsteig Gleis 2,5555 U Kurfürstenstr. (Berlin),de:11000:900005201,,
+de:11000:900005252::1,U Mendelssohn-Bartholdy-Park (Berlin),52.503806,13.374862,U Bahnsteig Gleis 1,5555 U Mendelssohn-Bartholdy-Park (Berlin),de:11000:900005252,,
+de:11000:900005252::2,U Mendelssohn-Bartholdy-Park (Berlin),52.503800,13.374904,Bahnsteig U2 Gleis 2,5555 U Mendelssohn-Bartholdy-Park (Berlin),de:11000:900005252,,
+de:11000:900007102:1:50,S+U Gesundbrunnen Bhf (Berlin),52.549316,13.389883,S-Bahnsteig Gleis 1,5555 S+U Gesundbrunnen Bhf (Berlin),de:11000:900007102,,
+de:11000:900007102:1:51,S+U Gesundbrunnen Bhf (Berlin),52.549212,13.389895,S-Bahnsteig Gleis 2,5555 S+U Gesundbrunnen Bhf (Berlin),de:11000:900007102,,
+de:11000:900007102:2:52,S+U Gesundbrunnen Bhf (Berlin),52.549131,13.389907,S-Bahnsteig Gleis 3,5555 S+U Gesundbrunnen Bhf (Berlin),de:11000:900007102,,
+de:11000:900007102:2:53,S+U Gesundbrunnen Bhf (Berlin),52.549033,13.389919,S-Bahnsteig Gleis 4,5555 S+U Gesundbrunnen Bhf (Berlin),de:11000:900007102,,
+de:11000:900007102::1,S+U Gesundbrunnen Bhf (Berlin),52.548736,13.388263,U-Bahnsteig Gleis 1,5555 S+U Gesundbrunnen Bhf (Berlin),de:11000:900007102,,
+de:11000:900007102::2,S+U Gesundbrunnen Bhf (Berlin),52.548802,13.388396,U-Bahnsteig Gleis 2,5555 S+U Gesundbrunnen Bhf (Berlin),de:11000:900007102,,
+de:11000:900007103::1,U Voltastr. (Berlin),52.542101,13.392932,U Bahnsteig Gleis 1,5555 U Voltastr. (Berlin),de:11000:900007103,,
+de:11000:900007103::2,U Voltastr. (Berlin),52.542150,13.393114,U Bahnsteig Gleis 2,5555 U Voltastr. (Berlin),de:11000:900007103,,
+de:11000:900007104:1:50,S Nordbahnhof (Berlin),52.532334,13.387507,S-Bahnsteig Gleis 1,5555 S Nordbahnhof (Berlin),de:11000:900007104,,
+de:11000:900007104:2:52,S Nordbahnhof (Berlin),52.532421,13.387655,S-Bahnsteig Gleis 3,5555 S Nordbahnhof (Berlin),de:11000:900007104,,
+de:11000:900007104::1,S Nordbahnhof (Berlin),52.531641,13.388912,Tram u. Bussteig Invalidenstraße vor Gartenstraße,5555 S Nordbahnhof (Berlin),,,
+de:11000:900007104::2,S Nordbahnhof (Berlin),52.531683,13.388813,Tram u. Bussteig Invalidenstraße ht. Gartenstraße,5555 S Nordbahnhof (Berlin),,,
+de:11000:900007104::3,S Nordbahnhof (Berlin),52.532280,13.387629,Tramsteig S Nordbahnhof vor Invalidenstraße,5555 S Nordbahnhof (Berlin),,,
+de:11000:900007104::4,S Nordbahnhof (Berlin),52.532292,13.387672,Tramsteig S Nordbahnhof ht. Invalidenstraße,5555 S Nordbahnhof (Berlin),,,
+de:11000:900007105::3,"Berlin, Wolliner Str.",52.540066,13.402119,Tramsteig Bernauer Straße vor Wolliner Straße,"5555 Berlin, Wolliner Str.",,,
+de:11000:900007105::4,"Berlin, Wolliner Str.",52.539637,13.401198,Tramsteig Bernauer Straße vor Wolliner Straße,"5555 Berlin, Wolliner Str.",,,
+de:11000:900007110::1,U Bernauer Str. (Berlin),52.537276,13.396665,U Bahnsteig Gleis 1,5555 U Bernauer Str. (Berlin),de:11000:900007110,,
+de:11000:900007110::2,U Bernauer Str. (Berlin),52.537319,13.396828,U Bahnsteig Gleis 2,5555 U Bernauer Str. (Berlin),de:11000:900007110,,
+de:11000:900007110::3,U Bernauer Str. (Berlin),52.538531,13.396637,Tramhalt Bernauer Straße vor Brunnenstraße,5555 U Bernauer Str. (Berlin),,,
+de:11000:900007110::4,U Bernauer Str. (Berlin),52.537997,13.395400,Tramhalt Bernauer Straße vor Brunnenstraße,5555 U Bernauer Str. (Berlin),,,
+de:11000:900007150::2,Gedenkstätte Berliner Mauer (Berlin),52.535846,13.390800,Tramhalt und Bushalt Bernauer Straße ht. Ackerstraße,5555 Gedenkstätte Berliner Mauer (Berlin),,,
+de:11000:900007150::3,Gedenkstätte Berliner Mauer (Berlin),52.535776,13.390542,Tramhalt Bernauer Straße vor Ackerstraße,5555 Gedenkstätte Berliner Mauer (Berlin),,,
+de:11000:900007160::3,Grüntaler Str. (Berlin),52.555363,13.390579,Tramsteig Osloer Straße vor Grüntaler Straße,5656 Grüntaler Str. (Berlin),de:11000:900007160,,
+de:11000:900007160::4,Grüntaler Str. (Berlin),52.555395,13.390576,Tramsteig Osloer Straße hinter Grüntaler Straße,5656 Grüntaler Str. (Berlin),de:11000:900007160,,
+de:11000:900008101:1:50,S Humboldthain (Berlin),52.544883,13.379364,S-Bahnsteig Gleis 1,5555 S Humboldthain (Berlin),de:11000:900008101,,1
+de:11000:900008101:1:51,S Humboldthain (Berlin),52.544856,13.379497,S-Bahnsteig Gleis 2,5555 S Humboldthain (Berlin),de:11000:900008101,,2
+de:11000:900008102::1,U Reinickendorfer Str. (Berlin),52.540046,13.370176,U Bahnsteig Gleis 1,5555 U Reinickendorfer Str. (Berlin),de:11000:900008102,,
+de:11000:900008102::2,U Reinickendorfer Str. (Berlin),52.540096,13.370265,U Bahnsteig Gleis 2,5555 U Reinickendorfer Str. (Berlin),de:11000:900008102,,
+de:11000:900009101::1,U Amrumer Str. (Berlin),52.542370,13.350099,U Bahnsteig Gleis 1,5656 U Amrumer Str. (Berlin),de:11000:900009101,,
+de:11000:900009101::2,U Amrumer Str. (Berlin),52.542294,13.350191,U Bahnsteig Gleis 2,5656 U Amrumer Str. (Berlin),de:11000:900009101,,
+de:11000:900009102::1,U Leopoldplatz (Berlin),52.546389,13.359121,U Bahnsteig Gleis 1 (oben),5656 U Leopoldplatz (Berlin),de:11000:900009102,,
+de:11000:900009102::2,U Leopoldplatz (Berlin),52.546419,13.359163,U Bahnsteig Gleis 2 (oben),5656 U Leopoldplatz (Berlin),de:11000:900009102,,
+de:11000:900009102::3,U Leopoldplatz (Berlin),52.546448,13.359059,U Bahnsteig Gleis 1 (U9),5656 U Leopoldplatz (Berlin),de:11000:900009102,,
+de:11000:900009102::4,U Leopoldplatz (Berlin),52.546349,13.359230,U Bahnsteig Gleis 2 (U9),5656 U Leopoldplatz (Berlin),de:11000:900009102,,
+de:11000:900009103::1,U Seestr. (Berlin),52.549731,13.353007,U Bahnsteig Gleis 1,5656 U Seestr. (Berlin),de:11000:900009103,,
+de:11000:900009103::2,U Seestr. (Berlin),52.549813,13.353142,U Bahnsteig Gleis 2,5656 U Seestr. (Berlin),de:11000:900009103,,
+de:11000:900009103::4,U Seestr. (Berlin),52.550104,13.351365,Tramsteig Seestraße vor Müllerstraße,5656 U Seestr. (Berlin),de:11000:900009103,,
+de:11000:900009103::5,U Seestr. (Berlin),52.550129,13.351328,Tramsteig Seestraße ht. Müllerstraße,5656 U Seestr. (Berlin),de:11000:900009103,,
+de:11000:900009104:1:50,S+U Wedding (Berlin),52.543042,13.367693,S-Bahnsteig Gleis 1,5555 S+U Wedding (Berlin),de:11000:900009104,,1
+de:11000:900009104:1:51,S+U Wedding (Berlin),52.543102,13.367604,S-Bahnsteig Gleis 2,5555 S+U Wedding (Berlin),de:11000:900009104,,2
+de:11000:900009104::1,S+U Wedding (Berlin),52.543028,13.364987,U Bahnsteig Gleis 1,5555 S+U Wedding (Berlin),de:11000:900009104,,
+de:11000:900009104::2,S+U Wedding (Berlin),52.543092,13.365090,U Bahnsteig Gleis 2,5555 S+U Wedding (Berlin),de:11000:900009104,,
+de:11000:900009105::5,Seestr./Amrumer Str. (Berlin),52.546575,13.344656,Tramsteig Seestraße hinter Amrumer Straße,5656 Seestr./Amrumer Str. (Berlin),de:11000:900009105,,
+de:11000:900009105::6,Seestr./Amrumer Str. (Berlin),52.546612,13.344599,Tramsteig Seestraße vor Amrumer Straße,5656 Seestr./Amrumer Str. (Berlin),de:11000:900009105,,
+de:11000:900009201::1,U Nauener Platz (Berlin),52.551666,13.367384,U Bahnsteig Gleis 1,5656 U Nauener Platz (Berlin),de:11000:900009201,,
+de:11000:900009201::2,U Nauener Platz (Berlin),52.551585,13.367543,U Bahnsteig Gleis 2,5656 U Nauener Platz (Berlin),de:11000:900009201,,
+de:11000:900009202::1,U Osloer Str. (Berlin),52.557098,13.373196,U Bahnsteig Gleis 1 (unten),5656 U Osloer Str. (Berlin),de:11000:900009202,,
+de:11000:900009202::2,U Osloer Str. (Berlin),52.557175,13.373355,U Bahnsteig Gleis 2 (unten),5656 U Osloer Str. (Berlin),de:11000:900009202,,
+de:11000:900009202::3,U Osloer Str. (Berlin),52.557207,13.373128,U Bahnsteig Gleis 1 (oben),5656 U Osloer Str. (Berlin),de:11000:900009202,,
+de:11000:900009202::4,U Osloer Str. (Berlin),52.557148,13.373341,U Bahnsteig Gleis 2 (oben),5656 U Osloer Str. (Berlin),de:11000:900009202,,
+de:11000:900009202::5,U Osloer Str. (Berlin),52.556727,13.372890,Tramsteig Osloer Straße vor Schwedenstraße Pos. 7,5656 U Osloer Str. (Berlin),de:11000:900009202,,
+de:11000:900009202::6,U Osloer Str. (Berlin),52.556757,13.372896,Tramsteig Osloer Straße ht. Schwedenstraße Pos. 8,5656 U Osloer Str. (Berlin),de:11000:900009202,,
+de:11000:900009203::1,U Pankstr. (Berlin),52.552240,13.381422,U Bahnsteig Gleis 1,5656 U Pankstr. (Berlin),de:11000:900009203,,
+de:11000:900009203::2,U Pankstr. (Berlin),52.552294,13.381482,U Bahnsteig Gleis 2,5656 U Pankstr. (Berlin),de:11000:900009203,,
+de:11000:900009204::5,"Berlin, Osloer Str./Prinzenallee",52.555936,13.383410,Tramsteig Osloer Straße vor Prinzenallee,"5656 Berlin, Osloer Str./Prinzenallee",de:11000:900009204,,
+de:11000:900009204::6,"Berlin, Osloer Str./Prinzenallee",52.555964,13.383415,Tramsteig Osloer Straße ht. Prinzenallee,"5656 Berlin, Osloer Str./Prinzenallee",de:11000:900009204,,
+de:11000:900009206::5,Drontheimer Str. (Berlin),52.556342,13.378249,Tramsteig Osloer Straße hinter Koloniestraße,5656 Drontheimer Str. (Berlin),de:11000:900009206,,
+de:11000:900009206::6,Drontheimer Str. (Berlin),52.556373,13.378257,Tramsteig Osloer Straße vor Koloniestraße,5656 Drontheimer Str. (Berlin),de:11000:900009206,,
+de:11000:900010251::4,"Berlin, Virchow-Klinikum",52.543777,13.339320,Tramsteig Seestraße ht. Einfahrt Virchow Klinikum,"5656 Berlin, Virchow-Klinikum",de:11000:900010251,,
+de:11000:900010251::5,"Berlin, Virchow-Klinikum",52.543801,13.339273,Tramsteig Seestraße vor Einfahrt Virchow Klinikum,"5656 Berlin, Virchow-Klinikum",de:11000:900010251,,
+de:11000:900011101::1,U Rehberge (Berlin),52.556593,13.340990,U Bahnsteig Gleis 1,5656 U Rehberge (Berlin),de:11000:900011101,,
+de:11000:900011101::2,U Rehberge (Berlin),52.556638,13.341060,U Bahnsteig Gleis 2,5656 U Rehberge (Berlin),de:11000:900011101,,
+de:11000:900011102::1,U Afrikanische Str. (Berlin),52.560199,13.334557,U Bahnsteig Gleis 1,5656 U Afrikanische Str. (Berlin),de:11000:900011102,,
+de:11000:900011102::2,U Afrikanische Str. (Berlin),52.560271,13.334667,U Bahnsteig Gleis 2,5656 U Afrikanische Str. (Berlin),de:11000:900011102,,
+de:11000:900011201::5,Louise-Schroeder-Platz (Berlin),52.557010,13.366355,Tramsteig Seestraße hinter Reinickendorfer Straße,5656 Louise-Schroeder-Platz (Berlin),de:11000:900011201,,
+de:11000:900011201::6,Louise-Schroeder-Platz (Berlin),52.557041,13.366350,Tramsteig Seestraße vor Louise-Schroeder-Platz,5656 Louise-Schroeder-Platz (Berlin),de:11000:900011201,,
+de:11000:900011252::5,Osram-Höfe (Berlin),52.553682,13.358243,Tramsteig Seestraße vor Oudenarder Straße,5656 Osram-Höfe (Berlin),de:11000:900011252,,
+de:11000:900011252::6,Osram-Höfe (Berlin),52.553700,13.358202,Tramsteig Seestraße hinter Indische Straße,5656 Osram-Höfe (Berlin),de:11000:900011252,,
+de:11000:900012101:1:51,S Anhalter Bahnhof (Berlin),52.503564,13.381396,Bahnsteig Gleis 2,5555 S Anhalter Bahnhof (Berlin),de:11000:900012101,,2
+de:11000:900012101:2:52,S Anhalter Bahnhof (Berlin),52.503542,13.381498,Bahnsteig Gleis 3,5555 S Anhalter Bahnhof (Berlin),de:11000:900012101,,3
+de:11000:900012101:2:53,S Anhalter Bahnhof (Berlin),52.503514,13.381617,Bahnsteig Gleis 4,5555 S Anhalter Bahnhof (Berlin),de:11000:900012101,,4
+de:11000:900012102::1,U Kochstr./Checkpoint Charlie (Berlin),52.506032,13.390528,U Bahnsteig Gleis 1,5555 U Kochstr./Checkpoint Charlie (Berlin),de:11000:900012102,,
+de:11000:900012102::2,U Kochstr./Checkpoint Charlie (Berlin),52.506044,13.390689,U Bahnsteig Gleis 2,5555 U Kochstr./Checkpoint Charlie (Berlin),de:11000:900012102,,
+de:11000:900012103::1,U Hallesches Tor (Berlin),52.497812,13.390351,Bahnsteig U1/U3 Gleis 2,5555 U Hallesches Tor (Berlin),de:11000:900012103,,
+de:11000:900012103::2,U Hallesches Tor (Berlin),52.497767,13.390336,Bahnsteig U1/U3 Gleis 2,5555 U Hallesches Tor (Berlin),de:11000:900012103,,
+de:11000:900012103::3,U Hallesches Tor (Berlin),52.498999,13.391628,Bahnsteig U6 Gleis 1,5555 U Hallesches Tor (Berlin),de:11000:900012103,,
+de:11000:900012103::4,U Hallesches Tor (Berlin),52.499006,13.391805,Bahnsteig U6 Gleis 2,5555 U Hallesches Tor (Berlin),de:11000:900012103,,
+de:11000:900013101::1,U Moritzplatz (Berlin),52.503676,13.410615,U Bahnsteig Gleis 1,5555 U Moritzplatz (Berlin),de:11000:900013101,,
+de:11000:900013101::2,U Moritzplatz (Berlin),52.503618,13.410788,U Bahnsteig Gleis 2,5555 U Moritzplatz (Berlin),de:11000:900013101,,
+de:11000:900013102::1,U Kottbusser Tor (Berlin),52.499051,13.418395,U Bahnsteig U1 U3 Gleis 1,5555 U Kottbusser Tor (Berlin),de:11000:900013102,,
+de:11000:900013102::2,U Kottbusser Tor (Berlin),52.498933,13.418417,U Bahnsteig U1 U3 Gleis 2,5555 U Kottbusser Tor (Berlin),de:11000:900013102,,
+de:11000:900013102::3,U Kottbusser Tor (Berlin),52.498849,13.417900,U Bahnsteig U8 Gleis 1,5555 U Kottbusser Tor (Berlin),de:11000:900013102,,
+de:11000:900013102::4,U Kottbusser Tor (Berlin),52.498959,13.418101,U Bahnsteig U8 Gleis 2,5555 U Kottbusser Tor (Berlin),de:11000:900013102,,
+de:11000:900013103::1,U Prinzenstr. (Berlin),52.498406,13.405401,U Bahnsteig Gleis 1,5555 U Prinzenstr. (Berlin),de:11000:900013103,,
+de:11000:900013103::2,U Prinzenstr. (Berlin),52.498379,13.405403,U Bahnsteig Gleis 2,5555 U Prinzenstr. (Berlin),de:11000:900013103,,
+de:11000:900014101::1,U Görlitzer Bahnhof (Berlin),52.499292,13.428277,U Bahnsteig Gleis 1,5555 U Görlitzer Bahnhof (Berlin),de:11000:900014101,,
+de:11000:900014101::2,U Görlitzer Bahnhof (Berlin),52.499270,13.428283,U Bahnsteig Gleis 2,5555 U Görlitzer Bahnhof (Berlin),de:11000:900014101,,
+de:11000:900014102::1,U Schlesisches Tor (Berlin),52.500747,13.441051,Bahnsteig Richtung Uhlandstraße/Krumme Lanke,5555 U Schlesisches Tor (Berlin),de:11000:900014102,,
+de:11000:900014102::2,U Schlesisches Tor (Berlin),52.500720,13.441059,Bahnsteig Richtung Warschauer Straße,5555 U Schlesisches Tor (Berlin),de:11000:900014102,,
+de:11000:900016101::1,U Gneisenaustr. (Berlin),52.491268,13.395700,U Bahnsteig Gleis 1,5555 U Gneisenaustr. (Berlin),de:11000:900016101,,
+de:11000:900016101::2,U Gneisenaustr. (Berlin),52.491355,13.395745,U Bahnsteig Gleis 2,5555 U Gneisenaustr. (Berlin),de:11000:900016101,,
+de:11000:900016201::1,U Schönleinstr. (Berlin),52.493448,13.421725,U Bahnsteig Gleis 1,5555 U Schönleinstr. (Berlin),de:11000:900016201,,
+de:11000:900016201::2,U Schönleinstr. (Berlin),52.493480,13.421844,U Bahnsteig Gleis 2,5555 U Schönleinstr. (Berlin),de:11000:900016201,,
+de:11000:900016202::1,U Südstern (Berlin),52.489216,13.407672,U Bahnsteig Gleis 1,5555 U Südstern (Berlin),de:11000:900016202,,
+de:11000:900016202::2,U Südstern (Berlin),52.489298,13.407737,U Bahnsteig Gleis 2,5555 U Südstern (Berlin),de:11000:900016202,,
+de:11000:900017101::1,U Mehringdamm (Berlin),52.494625,13.388864,U Bahnsteig Gleis 1,5555 U Mehringdamm (Berlin),de:11000:900017101,,
+de:11000:900017101::2,U Mehringdamm (Berlin),52.494542,13.389109,U Bahnsteig Gleis 2,5555 U Mehringdamm (Berlin),de:11000:900017101,,
+de:11000:900017101::3,U Mehringdamm (Berlin),52.494594,13.388959,U Bahnsteig Gleis 3,5555 U Mehringdamm (Berlin),de:11000:900017101,,
+de:11000:900017101::4,U Mehringdamm (Berlin),52.494575,13.389014,U Bahnsteig Gleis 4,5555 U Mehringdamm (Berlin),de:11000:900017101,,
+de:11000:900017102::1,U Platz der Luftbrücke (Berlin),52.485948,13.385808,U Bahnsteig Gleis 1,5555 U Platz der Luftbrücke (Berlin),de:11000:900017102,,
+de:11000:900017102::2,U Platz der Luftbrücke (Berlin),52.485946,13.385970,U Bahnsteig Gleis 2,5555 U Platz der Luftbrücke (Berlin),de:11000:900017102,,
+de:11000:900017103::1,U Gleisdreieck (Berlin),52.499567,13.374084,U Bahnsteig Gleis 1 (oben),5555 U Gleisdreieck (Berlin),de:11000:900017103,,
+de:11000:900017103::2,U Gleisdreieck (Berlin),52.499430,13.374057,U Bahnsteig Gleis 2 (oben),5555 U Gleisdreieck (Berlin),de:11000:900017103,,
+de:11000:900017103::3,U Gleisdreieck (Berlin),52.499504,13.374061,U Bahnsteig Gleis 1,5555 U Gleisdreieck (Berlin),de:11000:900017103,,
+de:11000:900017103::4,U Gleisdreieck (Berlin),52.499494,13.374295,U Bahnsteig Gleis 2,5555 U Gleisdreieck (Berlin),de:11000:900017103,,
+de:11000:900017104::1,U Möckernbrücke (Berlin),52.499129,13.382661,U Bahnsteig Gleis 1 (oben),5555 U Möckernbrücke (Berlin),de:11000:900017104,,
+de:11000:900017104::2,U Möckernbrücke (Berlin),52.499087,13.382665,U Bahnsteig Gleis 2 (oben),5555 U Möckernbrücke (Berlin),de:11000:900017104,,
+de:11000:900017104::3,U Möckernbrücke (Berlin),52.498643,13.383020,U Bahnsteig Gleis 1,5555 U Möckernbrücke (Berlin),de:11000:900017104,,
+de:11000:900017104::4,U Möckernbrücke (Berlin),52.498769,13.383015,U Bahnsteig Gleis 2,5555 U Möckernbrücke (Berlin),de:11000:900017104,,
+de:11000:900018101::1,U Jakob-Kaiser-Platz (Berlin),52.536186,13.293646,U Bahnsteig Gleis 1,5656 U Jakob-Kaiser-Platz (Berlin),de:11000:900018101,,
+de:11000:900018101::2,U Jakob-Kaiser-Platz (Berlin),52.536296,13.293668,U Bahnsteig Gleis 2,5656 U Jakob-Kaiser-Platz (Berlin),de:11000:900018101,,
+de:11000:900018102::1,U Halemweg (Berlin),52.536571,13.286271,U Bahnsteig Gleis 1,5656 U Halemweg (Berlin),de:11000:900018102,,
+de:11000:900018102::2,U Halemweg (Berlin),52.536684,13.286264,U Bahnsteig Gleis 2,5656 U Halemweg (Berlin),de:11000:900018102,,
+de:11000:900019204::1,U Mierendorffplatz (Berlin),52.526226,13.304790,U Bahnsteig Gleis 1,5555 U Mierendorffplatz (Berlin),de:11000:900019204,,
+de:11000:900019204::2,U Mierendorffplatz (Berlin),52.526297,13.304975,U Bahnsteig Gleis 2,5555 U Mierendorffplatz (Berlin),de:11000:900019204,,
+de:11000:900020201:2:52,S+U Jungfernheide Bhf (Berlin),52.530363,13.299325,S-Bahnsteig Gleis 5,5555 S+U Jungfernheide Bhf (Berlin),de:11000:900020201,,5
+de:11000:900020201:2:53,S+U Jungfernheide Bhf (Berlin),52.530446,13.299292,S-Bahnsteig Gleis 6,5555 S+U Jungfernheide Bhf (Berlin),de:11000:900020201,,6
+de:11000:900020201::1,S+U Jungfernheide Bhf (Berlin),52.530790,13.300631,U-Bahnsteig Gleis 1 (oben),5555 S+U Jungfernheide Bhf (Berlin),de:11000:900020201,,
+de:11000:900020201::2,S+U Jungfernheide Bhf (Berlin),52.530749,13.300635,U-Bahnsteig Gleis 2 (unten),5555 S+U Jungfernheide Bhf (Berlin),de:11000:900020201,,
+de:11000:900020202:1:50,S Beusselstr. (Berlin),52.534359,13.329406,S-Bahnsteig Gleis 1,5555 S Beusselstr. (Berlin),de:11000:900020202,,1
+de:11000:900020202:1:51,S Beusselstr. (Berlin),52.534452,13.329361,S-Bahnsteig Gleis 2,5555 S Beusselstr. (Berlin),de:11000:900020202,,2
+de:11000:900022101::1,U Sophie-Charlotte-Platz (Berlin),52.510895,13.295820,U Bahnsteig Gleis 1,5555 U Sophie-Charlotte-Platz (Berlin),de:11000:900022101,,
+de:11000:900022101::2,U Sophie-Charlotte-Platz (Berlin),52.510851,13.295832,U Bahnsteig Gleis 2,5555 U Sophie-Charlotte-Platz (Berlin),de:11000:900022101,,
+de:11000:900022201::1,U Deutsche Oper (Berlin),52.511944,13.310510,U2 Bahnsteig 1 Gleis 1,5555 U Deutsche Oper (Berlin),de:11000:900022201,,
+de:11000:900022201::2,U Deutsche Oper (Berlin),52.511753,13.310546,U2 Bahnsteig 2 Gleis 2,5555 U Deutsche Oper (Berlin),de:11000:900022201,,
+de:11000:900022201::3,U Deutsche Oper (Berlin),52.511815,13.310534,U2 Bahnsteig 2  Gleis 4,5555 U Deutsche Oper (Berlin),de:11000:900022201,,
+de:11000:900022202::1,U Richard-Wagner-Platz (Berlin),52.516645,13.306512,U Bahnsteig Gleis 1,5555 U Richard-Wagner-Platz (Berlin),de:11000:900022202,,
+de:11000:900022202::2,U Richard-Wagner-Platz (Berlin),52.516650,13.306699,U Bahnsteig Gleis 2,5555 U Richard-Wagner-Platz (Berlin),de:11000:900022202,,
+de:11000:900023101::1,U Ernst-Reuter-Platz (Berlin),52.511784,13.322175,Bahnsteig U2 Gleis 1,5555 U Ernst-Reuter-Platz (Berlin),de:11000:900023101,,
+de:11000:900023101::2,U Ernst-Reuter-Platz (Berlin),52.511744,13.322077,Bahnsteig U2 Gleis 2,5555 U Ernst-Reuter-Platz (Berlin),de:11000:900023101,,
+de:11000:900023201:3:54,S+U Zoologischer Garten Bhf (Berlin),52.507031,13.331849,S-Bahnsteig Gleis 5,5555 S+U Zoologischer Garten Bhf (Berlin),de:11000:900023201,,5
+de:11000:900023201:3:55,S+U Zoologischer Garten Bhf (Berlin),52.507068,13.331736,S-Bahnsteig Gleis 6,5555 S+U Zoologischer Garten Bhf (Berlin),de:11000:900023201,,6
+de:11000:900023201::1,S+U Zoologischer Garten Bhf (Berlin),52.505941,13.333055,U Bahnsteig Gleis 1 (U2),5555 S+U Zoologischer Garten Bhf (Berlin),de:11000:900023201,,
+de:11000:900023201::2,S+U Zoologischer Garten Bhf (Berlin),52.505905,13.333009,U Bahnsteig Gleis 2 (U2),5555 S+U Zoologischer Garten Bhf (Berlin),de:11000:900023201,,
+de:11000:900023201::3,S+U Zoologischer Garten Bhf (Berlin),52.506825,13.332797,U Bahnsteig Gleis 1 (U9),5555 S+U Zoologischer Garten Bhf (Berlin),de:11000:900023201,,
+de:11000:900023201::4,S+U Zoologischer Garten Bhf (Berlin),52.506776,13.332991,U Bahnsteig Gleis 2 (U9),5555 S+U Zoologischer Garten Bhf (Berlin),de:11000:900023201,,
+de:11000:900023202::1,U Augsburger Str. (Berlin),52.500386,13.336350,U Bahnsteig Gleis 1,5555 U Augsburger Str. (Berlin),de:11000:900023202,,
+de:11000:900023202::2,U Augsburger Str. (Berlin),52.500362,13.336425,U Bahnsteig Gleis 2,5555 U Augsburger Str. (Berlin),de:11000:900023202,,
+de:11000:900023203::1,U Kurfürstendamm (Berlin),52.504056,13.332587,U Bahnsteig Gleis 1 (oben),5555 U Kurfürstendamm (Berlin),de:11000:900023203,,
+de:11000:900023203::2,U Kurfürstendamm (Berlin),52.504021,13.332605,U Bahnsteig Gleis 2 (oben),5555 U Kurfürstendamm (Berlin),de:11000:900023203,,
+de:11000:900023203::3,U Kurfürstendamm (Berlin),52.503123,13.331243,U Bahnsteig Gleis 1,5555 U Kurfürstendamm (Berlin),de:11000:900023203,,
+de:11000:900023203::4,U Kurfürstendamm (Berlin),52.503114,13.331398,U Bahnsteig Gleis 2,5555 U Kurfürstendamm (Berlin),de:11000:900023203,,
+de:11000:900023302::1,U Adenauerplatz (Berlin),52.499998,13.307175,U Bahnsteig Gleis 1,5555 U Adenauerplatz (Berlin),de:11000:900023302,,
+de:11000:900023302::2,U Adenauerplatz (Berlin),52.499990,13.307401,U Bahnsteig Gleis 2,5555 U Adenauerplatz (Berlin),de:11000:900023302,,
+de:11000:900024101:3:54,S Charlottenburg Bhf (Berlin),52.504929,13.304487,S-Bahnsteig Gleis 5,5555 S Charlottenburg Bhf (Berlin),de:11000:900024101,,5
+de:11000:900024101:3:55,S Charlottenburg Bhf (Berlin),52.504988,13.304449,S-Bahnsteig Gleis 6,5555 S Charlottenburg Bhf (Berlin),de:11000:900024101,,6
+de:11000:900024101:4:56,S Charlottenburg Bhf (Berlin),52.505070,13.304390,S-Bahnsteig Gleis 7,5555 S Charlottenburg Bhf (Berlin),de:11000:900024101,,7
+de:11000:900024101:4:57,S Charlottenburg Bhf (Berlin),52.505135,13.304349,S-Bahnsteig Gleis 8,5555 S Charlottenburg Bhf (Berlin),de:11000:900024101,,8
+de:11000:900024102:1:50,S Westkreuz (Berlin),52.501095,13.284364,S-Bahnsteig Gleis 1,5555 S Westkreuz (Berlin),de:11000:900024102,,1
+de:11000:900024102:1:51,S Westkreuz (Berlin),52.501013,13.284448,S-Bahnsteig Gleis 2,5555 S Westkreuz (Berlin),de:11000:900024102,,2
+de:11000:900024102:2:52,S Westkreuz (Berlin),52.500888,13.284590,S-Bahnsteig Gleis 3,5555 S Westkreuz (Berlin),de:11000:900024102,,3
+de:11000:900024102:2:53,S Westkreuz (Berlin),52.500813,13.284665,S-Bahnsteig Gleis 4,5555 S Westkreuz (Berlin),de:11000:900024102,,4
+de:11000:900024102:3:54,S Westkreuz (Berlin),52.500854,13.283931,S-Bahnsteig Gleis 11,5555 S Westkreuz (Berlin),de:11000:900024102,,11
+de:11000:900024102:3:55,S Westkreuz (Berlin),52.500811,13.283790,S-Bahnsteig Gleis 12,5555 S Westkreuz (Berlin),de:11000:900024102,,12
+de:11000:900024106:1:50,S Messe Nord/ICC (Berlin),52.507790,13.283458,Bahnsteig Gleis 1,5555 S Messe Nord/ICC (Berlin),de:11000:900024106,,1
+de:11000:900024106:1:51,S Messe Nord/ICC (Berlin),52.507760,13.283574,Bahnsteig Gleis 2,5555 S Messe Nord/ICC (Berlin),de:11000:900024106,,2
+de:11000:900024201::1,U Bismarckstr. (Berlin),52.511540,13.305122,U Bahnsteig U2 Gleis 1,5555 U Bismarckstr. (Berlin),de:11000:900024201,,
+de:11000:900024201::2,U Bismarckstr. (Berlin),52.511478,13.305142,U Bahnsteig U2 Gleis 2,5555 U Bismarckstr. (Berlin),de:11000:900024201,,
+de:11000:900024201::3,U Bismarckstr. (Berlin),52.511500,13.305095,U Bahnsteig U7 Gleis 1,5555 U Bismarckstr. (Berlin),de:11000:900024201,,
+de:11000:900024201::4,U Bismarckstr. (Berlin),52.511515,13.305258,U Bahnsteig U7 Gleis 2,5555 U Bismarckstr. (Berlin),de:11000:900024201,,
+de:11000:900024202::1,U Wilmersdorfer Str. (Berlin),52.506353,13.306655,Bahnsteig U7 Gleis 1,5555 U Wilmersdorfer Str. (Berlin),de:11000:900024202,,
+de:11000:900024202::2,U Wilmersdorfer Str. (Berlin),52.506367,13.306833,Bahnsteig U7 Gleis 2,5555 U Wilmersdorfer Str. (Berlin),de:11000:900024202,,
+de:11000:900024203:1:51,S Savignyplatz (Berlin),52.505117,13.319066,S-Bahnsteig Gleis 3,5555 S Savignyplatz (Berlin),de:11000:900024203,,
+de:11000:900025202::2,U Ruhleben (Berlin),52.525594,13.241270,U Bahnsteig Gleis 2,5656 U Ruhleben (Berlin),de:11000:900025202,,
+de:11000:900025203::1,U Olympia-Stadion (Berlin),52.516890,13.250817,U Bahnsteig U2 Gleis 1,5656 U Olympia-Stadion (Berlin),de:11000:900025203,,
+de:11000:900025203::2,U Olympia-Stadion (Berlin),52.516786,13.250441,U Bahnsteig U2 Gleis 2,5656 U Olympia-Stadion (Berlin),de:11000:900025203,,
+de:11000:900025203::3,U Olympia-Stadion (Berlin),52.516829,13.250651,U Bahnsteig U2 Gleis 3,5656 U Olympia-Stadion (Berlin),de:11000:900025203,,
+de:11000:900025321:1:50,S Olympiastadion (Berlin),52.511216,13.242843,S-Bahnsteig Gleis 1,5656 S Olympiastadion (Berlin),de:11000:900025321,,1
+de:11000:900025321:1:51,S Olympiastadion (Berlin),52.511293,13.242806,S-Bahnsteig Gleis 2,5656 S Olympiastadion (Berlin),de:11000:900025321,,
+de:11000:900025321:3:54,S Olympiastadion (Berlin),52.511565,13.242684,S-Bahnsteig Gleis 5,5656 S Olympiastadion (Berlin),de:11000:900025321,,
+de:11000:900025321:4:56,S Olympiastadion (Berlin),52.511727,13.242607,S-Bahnsteig Gleis 7,5656 S Olympiastadion (Berlin),de:11000:900025321,,
+de:11000:900025321:5:59,S Olympiastadion (Berlin),52.511888,13.242534,S-Bahnsteig Gleis 9,5656 S Olympiastadion (Berlin),de:11000:900025321,,
+de:11000:900025423:1:50,S Messe Süd (Berlin),52.498568,13.270392,Bahnsteig Gleis 1,5656 S Messe Süd (Berlin),de:11000:900025423,,
+de:11000:900025424:1:50,S Pichelsberg (Berlin),52.510181,13.227417,S-Bahnsteig Gleis 2,5656 S Pichelsberg (Berlin),de:11000:900025424,,
+de:11000:900025424:1:51,S Pichelsberg (Berlin),52.510245,13.227486,S-Bahnsteig Gleis 1,5656 S Pichelsberg (Berlin),de:11000:900025424,,
+de:11000:900026101::1,U Neu-Westend (Berlin),52.516281,13.259258,U-Bahnsteig Gleis 1,5656 U Neu-Westend (Berlin),de:11000:900026101,,
+de:11000:900026101::2,U Neu-Westend (Berlin),52.516200,13.259241,U-Bahnsteig Gleis 2,5656 U Neu-Westend (Berlin),de:11000:900026101,,
+de:11000:900026105:1:50,S Heerstr. (Berlin),52.507814,13.259813,S-Bahnsteig Gleis 1,5656 S Heerstr. (Berlin),de:11000:900026105,,
+de:11000:900026201::1,U Theodor-Heuss-Platz (Berlin),52.509920,13.272617,U Bahnsteig Gleis 1,5656 U Theodor-Heuss-Platz (Berlin),de:11000:900026201,,
+de:11000:900026201::2,U Theodor-Heuss-Platz (Berlin),52.509866,13.272588,U Bahnsteig Gleis 2,5656 U Theodor-Heuss-Platz (Berlin),de:11000:900026201,,
+de:11000:900026202::1,U Kaiserdamm (Berlin),52.510113,13.283103,U Bahnsteig Gleis 1,5555 U Kaiserdamm (Berlin),de:11000:900026202,,
+de:11000:900026202::2,U Kaiserdamm (Berlin),52.510059,13.283103,U Bahnsteig Gleis 2,5555 U Kaiserdamm (Berlin),de:11000:900026202,,
+de:11000:900026207:1:50,S Westend (Berlin),52.517888,13.284378,S-Bahnsteig Gleis 1,5555 S Westend (Berlin),de:11000:900026207,,1
+de:11000:900026207:1:51,S Westend (Berlin),52.517906,13.284555,S-Bahnsteig Gleis 2,5555 S Westend (Berlin),de:11000:900026207,,2
+de:11000:900029101:1:50,S Spandau Bhf (Berlin),52.534774,13.197557,S-Bahnsteig Gleis 1,5656 S Spandau Bhf (Berlin),de:11000:900029101,,
+de:11000:900029101:1:51,S Spandau Bhf (Berlin),52.534720,13.197532,S-Bahnsteig Gleis 2,5656 S Spandau Bhf (Berlin),de:11000:900029101,,
+de:11000:900029301::1,U Altstadt Spandau (Berlin),52.538755,13.206326,U Bahnsteig Gleis 1,5656 U Altstadt Spandau (Berlin),de:11000:900029301,,
+de:11000:900029301::2,U Altstadt Spandau (Berlin),52.538890,13.206436,U Bahnsteig Gleis 2,5656 U Altstadt Spandau (Berlin),de:11000:900029301,,
+de:11000:900029302::1,S+U Rathaus Spandau (Berlin),52.535176,13.199857,U-Bahnsteig Gleis 1,5656 S+U Rathaus Spandau (Berlin),de:11000:900029302,,
+de:11000:900029302::2,S+U Rathaus Spandau (Berlin),52.535188,13.199712,U-Bahnsteig Gleis 2,5656 S+U Rathaus Spandau (Berlin),de:11000:900029302,,
+de:11000:900030202:1:50,S Stresow (Berlin),52.531988,13.209206,S-Bahnsteig Gleis 1,5656 S Stresow (Berlin),de:11000:900030202,,
+de:11000:900033101::1,U Zitadelle (Berlin),52.537627,13.217515,U Bahnsteig Gleis 1,5656 U Zitadelle (Berlin),de:11000:900033101,,
+de:11000:900033101::2,U Zitadelle (Berlin),52.537676,13.217555,U Bahnsteig Gleis 2,5656 U Zitadelle (Berlin),de:11000:900033101,,
+de:11000:900034101::1,U Paulsternstr. (Berlin),52.537931,13.247534,U Bahnsteig Gleis 1,5656 U Paulsternstr. (Berlin),de:11000:900034101,,
+de:11000:900034101::2,U Paulsternstr. (Berlin),52.538058,13.247559,U Bahnsteig Gleis 2,5656 U Paulsternstr. (Berlin),de:11000:900034101,,
+de:11000:900034102::1,U Haselhorst (Berlin),52.538635,13.233127,U Bahnsteig Gleis 1,5656 U Haselhorst (Berlin),de:11000:900034102,,
+de:11000:900034102::2,U Haselhorst (Berlin),52.538793,13.233056,U Bahnsteig Gleis 2,5656 U Haselhorst (Berlin),de:11000:900034102,,
+de:11000:900035101::1,U Siemensdamm (Berlin),52.536699,13.272710,U Bahnsteig Gleis 1,5656 U Siemensdamm (Berlin),de:11000:900035101,,
+de:11000:900035101::2,U Siemensdamm (Berlin),52.536811,13.272694,U Bahnsteig Gleis 2,5656 U Siemensdamm (Berlin),de:11000:900035101,,
+de:11000:900036101::1,U Rohrdamm (Berlin),52.536926,13.262347,U Bahnsteig Gleis 1,5656 U Rohrdamm (Berlin),de:11000:900036101,,
+de:11000:900036101::2,U Rohrdamm (Berlin),52.537050,13.262367,U Bahnsteig Gleis 2,5656 U Rohrdamm (Berlin),de:11000:900036101,,
+de:11000:900040101:1:50,S Halensee (Berlin),52.496038,13.290596,S-Bahnsteig Gleis 1,5555 S Halensee (Berlin),de:11000:900040101,,
+de:11000:900041101::1,U Fehrbelliner Platz (Berlin),52.490681,13.315228,U Bahnsteig Gleis 1 (oben),5555 U Fehrbelliner Platz (Berlin),de:11000:900041101,,
+de:11000:900041101::2,U Fehrbelliner Platz (Berlin),52.490597,13.315394,U Bahnsteig Gleis 2 (oben),5555 U Fehrbelliner Platz (Berlin),de:11000:900041101,,
+de:11000:900041101::3,U Fehrbelliner Platz (Berlin),52.490391,13.314185,U Bahnsteig Gleis 1,5555 U Fehrbelliner Platz (Berlin),de:11000:900041101,,
+de:11000:900041101::4,U Fehrbelliner Platz (Berlin),52.490489,13.314375,U Bahnsteig Gleis 2,5555 U Fehrbelliner Platz (Berlin),de:11000:900041101,,
+de:11000:900041102::1,U Blissestr. (Berlin),52.486328,13.321920,U Bahnsteig Gleis 1,5555 U Blissestr. (Berlin),de:11000:900041102,,
+de:11000:900041102::2,U Blissestr. (Berlin),52.486454,13.321942,U Bahnsteig Gleis 2,5555 U Blissestr. (Berlin),de:11000:900041102,,
+de:11000:900041201::1,U Konstanzer Str. (Berlin),52.494524,13.309008,U Bahnsteig Gleis 1,5555 U Konstanzer Str. (Berlin),de:11000:900041201,,
+de:11000:900041201::2,U Konstanzer Str. (Berlin),52.494580,13.309153,U Bahnsteig Gleis 2,5555 U Konstanzer Str. (Berlin),de:11000:900041201,,
+de:11000:900042101::1,U Spichernstr. (Berlin),52.496901,13.331995,U Bahnsteig Gleis 1 (oben),5555 U Spichernstr. (Berlin),de:11000:900042101,,
+de:11000:900042101::2,U Spichernstr. (Berlin),52.496860,13.332072,U Bahnsteig Gleis 2 (oben),5555 U Spichernstr. (Berlin),de:11000:900042101,,
+de:11000:900042101::3,U Spichernstr. (Berlin),52.497354,13.330719,U Bahnsteig Gleis 1 (unten),5555 U Spichernstr. (Berlin),de:11000:900042101,,
+de:11000:900042101::4,U Spichernstr. (Berlin),52.497354,13.330868,U Bahnsteig Gleis 2 (unten),5555 U Spichernstr. (Berlin),de:11000:900042101,,
+de:11000:900043101::1,U Hohenzollernplatz (Berlin),52.494188,13.324858,U Bahnsteig Gleis 1,5555 U Hohenzollernplatz (Berlin),de:11000:900043101,,
+de:11000:900043101::2,U Hohenzollernplatz (Berlin),52.494095,13.324950,U Bahnsteig Gleis 2,5555 U Hohenzollernplatz (Berlin),de:11000:900043101,,
+de:11000:900043201::1,U Güntzelstr. (Berlin),52.492049,13.330903,U Bahnsteig Gleis 1,5555 U Güntzelstr. (Berlin),de:11000:900043201,,
+de:11000:900043201::2,U Güntzelstr. (Berlin),52.492048,13.331101,U Bahnsteig Gleis 2,5555 U Güntzelstr. (Berlin),de:11000:900043201,,
+de:11000:900044101:1:50,S Hohenzollerndamm (Berlin),52.488671,13.300271,S-Bahnsteig Gleis 1,5555 S Hohenzollerndamm (Berlin),de:11000:900044101,,
+de:11000:900044201::1,U Berliner Str. (Berlin),52.487265,13.330998,U Bahnsteig Gleis 1 (unten),5555 U Berliner Str. (Berlin),de:11000:900044201,,
+de:11000:900044201::2,U Berliner Str. (Berlin),52.487349,13.330967,U Bahnsteig Gleis 2 (unten),5555 U Berliner Str. (Berlin),de:11000:900044201,,
+de:11000:900044201::3,U Berliner Str. (Berlin),52.487295,13.330798,U Bahnsteig Gleis 1 (oben),5555 U Berliner Str. (Berlin),de:11000:900044201,,
+de:11000:900044201::4,U Berliner Str. (Berlin),52.487326,13.331167,U Bahnsteig Gleis 2 (oben),5555 U Berliner Str. (Berlin),de:11000:900044201,,
+de:11000:900044202:1:50,S+U Bundesplatz (Berlin),52.477687,13.329539,S-Bahn Bahnsteig Gleis 1,5555 S+U Bundesplatz (Berlin),de:11000:900044202,,1
+de:11000:900044202:1:51,S+U Bundesplatz (Berlin),52.477611,13.329544,S-Bahn Bahnsteig Gleis 2,5555 S+U Bundesplatz (Berlin),de:11000:900044202,,2
+de:11000:900044202::1,S+U Bundesplatz (Berlin),52.477904,13.328481,U-Bahnsteig Gleis 1,5555 S+U Bundesplatz (Berlin),de:11000:900044202,,
+de:11000:900044202::2,S+U Bundesplatz (Berlin),52.477908,13.328613,U-Bahnsteig Gleis 2,5555 S+U Bundesplatz (Berlin),de:11000:900044202,,
+de:11000:900045101::1,U Rüdesheimer Platz (Berlin),52.473373,13.314366,U Bahnsteig Gleis 1,5656 U Rüdesheimer Platz (Berlin),de:11000:900045101,,
+de:11000:900045101::2,U Rüdesheimer Platz (Berlin),52.473372,13.314500,U Bahnsteig Gleis 2,5656 U Rüdesheimer Platz (Berlin),de:11000:900045101,,
+de:11000:900045102:1:50,S+U Heidelberger Platz (Berlin),52.480059,13.311856,Bahnsteig Gleis 1,5555 S+U Heidelberger Platz (Berlin),de:11000:900045102,,1
+de:11000:900045102:1:51,S+U Heidelberger Platz (Berlin),52.480026,13.311782,Bahnsteig Gleis 2,5555 S+U Heidelberger Platz (Berlin),de:11000:900045102,,2
+de:11000:900045102::1,S+U Heidelberger Platz (Berlin),52.480250,13.313117,Bahnsteig 1,5555 S+U Heidelberger Platz (Berlin),de:11000:900045102,,
+de:11000:900045102::2,S+U Heidelberger Platz (Berlin),52.480227,13.313224,Bahnsteig 2,5555 S+U Heidelberger Platz (Berlin),de:11000:900045102,,
+de:11000:900048101:1:50,S Grunewald (Berlin),52.488370,13.260926,S-Bahnsteig Gleis 1,5656 S Grunewald (Berlin),de:11000:900048101,,1
+de:11000:900048101:1:51,S Grunewald (Berlin),52.488309,13.261033,S-Bahnsteig Gleis 2,5656 S Grunewald (Berlin),de:11000:900048101,,2
+de:11000:900048101:2:52,S Grunewald (Berlin),52.488258,13.261105,S-Bahnsteig Gleis 3,5656 S Grunewald (Berlin),de:11000:900048101,,3
+de:11000:900048101:2:53,S Grunewald (Berlin),52.488179,13.261234,S-Bahnsteig Gleis 4,5656 S Grunewald (Berlin),de:11000:900048101,,4
+de:11000:900049201:1:50,S Zehlendorf (Berlin),52.430997,13.258035,S-Bahnsteig Gleis 1,5656 S Zehlendorf (Berlin),de:11000:900049201,,1
+de:11000:900049201:1:51,S Zehlendorf (Berlin),52.430876,13.258140,S-Bahnsteig Gleis 2,5656 S Zehlendorf (Berlin),de:11000:900049201,,2
+de:11000:900049202:1:50,S Sundgauer Str. (Berlin),52.436375,13.273898,S-Bahnsteig Gleis 1,5656 S Sundgauer Str. (Berlin),de:11000:900049202,,1
+de:11000:900049202:1:51,S Sundgauer Str. (Berlin),52.436317,13.273950,S-Bahnsteig Gleis 2,5656 S Sundgauer Str. (Berlin),de:11000:900049202,,2
+de:11000:900050201::2,U Krumme Lanke (Berlin),52.443519,13.241613,Bahnsteig U3 Gleis 2,5656 U Krumme Lanke (Berlin),de:11000:900050201,,
+de:11000:900050282::1,U Onkel Toms Hütte (Berlin),52.449928,13.253036,Bahnsteig U3 Gleis 1,5656 U Onkel Toms Hütte (Berlin),de:11000:900050282,,
+de:11000:900050282::2,U Onkel Toms Hütte (Berlin),52.449820,13.253110,Bahnsteig U3 Gleis 2,5656 U Onkel Toms Hütte (Berlin),de:11000:900050282,,
+de:11000:900050301:1:50,S Mexikoplatz (Berlin),52.436783,13.233258,S-Bahnsteig Gleis 1,5656 S Mexikoplatz (Berlin),de:11000:900050301,,1
+de:11000:900050301:1:51,S Mexikoplatz (Berlin),52.436719,13.233192,S-Bahnsteig Gleis 2,5656 S Mexikoplatz (Berlin),de:11000:900050301,,2
+de:11000:900050355:1:50,S Schlachtensee (Berlin),52.440146,13.215488,Bahnsteig Gleis 1,5656 S Schlachtensee (Berlin),de:11000:900050355,,1
+de:11000:900050355:1:51,S Schlachtensee (Berlin),52.440069,13.215529,Bahnsteig Gleis 2,5656 S Schlachtensee (Berlin),de:11000:900050355,,2
+de:11000:900051201::1,U Freie Universität (Thielplatz) (Berlin),52.451041,13.281602,Bahnsteig U3 Gleis 1,5656 U Freie Universität (Thielplatz) (Berlin),de:11000:900051201,,
+de:11000:900051201::2,U Freie Universität (Thielplatz) (Berlin),52.450960,13.281692,Bahnsteig U3 Gleis 2,5656 U Freie Universität (Thielplatz) (Berlin),de:11000:900051201,,
+de:11000:900051202::1,U Breitenbachplatz (Berlin),52.467012,13.308733,U Bahnsteig Gleis 1,5656 U Breitenbachplatz (Berlin),de:11000:900051202,,
+de:11000:900051202::2,U Breitenbachplatz (Berlin),52.466946,13.308834,U Bahnsteig Gleis 2,5656 U Breitenbachplatz (Berlin),de:11000:900051202,,
+de:11000:900051301::1,U Oskar-Helene-Heim (Berlin),52.450412,13.268979,U Bahnsteig Gleis 1,5656 U Oskar-Helene-Heim (Berlin),de:11000:900051301,,
+de:11000:900051301::2,U Oskar-Helene-Heim (Berlin),52.450312,13.268954,U Bahnsteig Gleis 2,5656 U Oskar-Helene-Heim (Berlin),de:11000:900051301,,
+de:11000:900051302::1,U Podbielskiallee (Berlin),52.464067,13.295480,Bahnsteig U3 Gleis 1,5656 U Podbielskiallee (Berlin),de:11000:900051302,,
+de:11000:900051302::2,U Podbielskiallee (Berlin),52.463981,13.295567,Bahnsteig U3 Gleis 2,5656 U Podbielskiallee (Berlin),de:11000:900051302,,
+de:11000:900051303::1,U Dahlem-Dorf (Berlin),52.457164,13.289407,Bahnsteig U3 Gleis 1,5656 U Dahlem-Dorf (Berlin),de:11000:900051303,,
+de:11000:900051303::2,U Dahlem-Dorf (Berlin),52.457115,13.289535,Bahnsteig U3 Gleis 2,5656 U Dahlem-Dorf (Berlin),de:11000:900051303,,
+de:11000:900052201:1:50,S Nikolassee (Berlin),52.431802,13.194064,S-Bahnsteig Gleis 1,5656 S Nikolassee (Berlin),de:11000:900052201,,1
+de:11000:900052201:1:51,S Nikolassee (Berlin),52.431741,13.194195,S-Bahnsteig Gleis 2,5656 S Nikolassee (Berlin),de:11000:900052201,,2
+de:11000:900052201:2:52,S Nikolassee (Berlin),52.432185,13.193136,S-Bahnsteig Gleis 3,5656 S Nikolassee (Berlin),de:11000:900052201,,3
+de:11000:900052201:2:53,S Nikolassee (Berlin),52.432172,13.193273,S-Bahnsteig Gleis 4,5656 S Nikolassee (Berlin),de:11000:900052201,,4
+de:11000:900053301:1:50,S Wannsee Bhf (Berlin),52.421475,13.179633,S-Bahnsteig Gleis 1,5656 S Wannsee Bhf (Berlin),de:11000:900053301,,1
+de:11000:900053301:1:51,S Wannsee Bhf (Berlin),52.421420,13.179719,S-Bahnsteig Gleis 2,5656 S Wannsee Bhf (Berlin),de:11000:900053301,,2
+de:11000:900053301:2:52,S Wannsee Bhf (Berlin),52.421356,13.179824,S-Bahnsteig Gleis 3,5656 S Wannsee Bhf (Berlin),de:11000:900053301,,3
+de:11000:900053301:2:53,S Wannsee Bhf (Berlin),52.421294,13.179915,S-Bahnsteig Gleis 4,5656 S Wannsee Bhf (Berlin),de:11000:900053301,,4
+de:11000:900054101::1,U Rathaus Schöneberg (Berlin),52.483032,13.341946,U Bahnsteig Gleis 1,5555 U Rathaus Schöneberg (Berlin),de:11000:900054101,,
+de:11000:900054101::2,U Rathaus Schöneberg (Berlin),52.483055,13.342094,U Bahnsteig Gleis 2,5555 U Rathaus Schöneberg (Berlin),de:11000:900054101,,
+de:11000:900054102::1,U Kleistpark (Berlin),52.490297,13.360266,U Bahnsteig Gleis 1,5555 U Kleistpark (Berlin),de:11000:900054102,,
+de:11000:900054102::2,U Kleistpark (Berlin),52.490431,13.360284,U Bahnsteig Gleis 2,5555 U Kleistpark (Berlin),de:11000:900054102,,
+de:11000:900054103::1,U Eisenacher Str. (Berlin),52.489521,13.350362,U Bahnsteig Gleis 1,5555 U Eisenacher Str. (Berlin),de:11000:900054103,1,
+de:11000:900054103::2,U Eisenacher Str. (Berlin),52.489620,13.350333,U Bahnsteig Gleis 2,5555 U Eisenacher Str. (Berlin),de:11000:900054103,1,
+de:11000:900054104:1:50,S Schöneberg (Berlin),52.479248,13.351921,S-Bahnsteig Gleis 1,5555 S Schöneberg (Berlin),de:11000:900054104,,1
+de:11000:900054104:1:51,S Schöneberg (Berlin),52.479308,13.351781,S-Bahnsteig Gleis 2,5555 S Schöneberg (Berlin),de:11000:900054104,,2
+de:11000:900054104:2:52,S Schöneberg (Berlin),52.479325,13.351584,S-Bahnsteig Gleis 11,5555 S Schöneberg (Berlin),de:11000:900054104,,11
+de:11000:900054104:2:53,S Schöneberg (Berlin),52.479240,13.351632,S-Bahnsteig Gleis 12,5555 S Schöneberg (Berlin),de:11000:900054104,,12
+de:11000:900054105:1:50,S+U Innsbrucker Platz (Berlin),52.478176,13.341468,S-Bahnsteig Gleis 1,5555 S+U Innsbrucker Platz (Berlin),de:11000:900054105,,1
+de:11000:900054105:1:51,S+U Innsbrucker Platz (Berlin),52.478047,13.341463,S-Bahnsteig Gleis 2,5555 S+U Innsbrucker Platz (Berlin),de:11000:900054105,,2
+de:11000:900054105::1,S+U Innsbrucker Platz (Berlin),52.479262,13.343623,U Bahnsteig Gleis 2,5555 S+U Innsbrucker Platz (Berlin),de:11000:900054105,,
+de:11000:900055101::1,U Viktoria-Luise-Platz (Berlin),52.496288,13.343380,U Bahnsteig Gleis 1,5555 U Viktoria-Luise-Platz (Berlin),de:11000:900055101,,
+de:11000:900055101::2,U Viktoria-Luise-Platz (Berlin),52.496208,13.343461,U Bahnsteig Gleis 2,5555 U Viktoria-Luise-Platz (Berlin),de:11000:900055101,,
+de:11000:900055102::1,U Bayerischer Platz (Berlin),52.489145,13.340214,U Bahnsteig Gleis 1,5555 U Bayerischer Platz (Berlin),de:11000:900055102,,
+de:11000:900055102::2,U Bayerischer Platz (Berlin),52.489135,13.340387,U Bahnsteig Gleis 2,5555 U Bayerischer Platz (Berlin),de:11000:900055102,,
+de:11000:900055102::3,U Bayerischer Platz (Berlin),52.488621,13.341516,U Bahnsteig Gleis 1,5555 U Bayerischer Platz (Berlin),de:11000:900055102,,
+de:11000:900055102::4,U Bayerischer Platz (Berlin),52.488738,13.341488,U Bahnsteig Gleis 2,5555 U Bayerischer Platz (Berlin),de:11000:900055102,,
+de:11000:900056101::1,U Wittenbergplatz (Berlin),52.501927,13.343056,U Bahnsteig Gleis 1 (U1+3),5555 U Wittenbergplatz (Berlin),de:11000:900056101,,
+de:11000:900056101::2,U Wittenbergplatz (Berlin),52.501792,13.342967,U Bahnsteig Gleis 2 (U2),5555 U Wittenbergplatz (Berlin),de:11000:900056101,,
+de:11000:900056101::3,U Wittenbergplatz (Berlin),52.501850,13.343003,U Bahnsteig Gleis 3 (U2),5555 U Wittenbergplatz (Berlin),de:11000:900056101,,
+de:11000:900056101::4,U Wittenbergplatz (Berlin),52.501711,13.342926,U Bahnsteig Gleis 4 (U3),5555 U Wittenbergplatz (Berlin),de:11000:900056101,,
+de:11000:900056101::5,U Wittenbergplatz (Berlin),52.501606,13.342871,U Bahnsteig Gleis 6 (U1),5555 U Wittenbergplatz (Berlin),de:11000:900056101,,
+de:11000:900056102::1,U Nollendorfplatz (Berlin),52.499966,13.354616,U Bahnsteig Gleis 1 (unten),5555 U Nollendorfplatz (Berlin),de:11000:900056102,,
+de:11000:900056102::2,U Nollendorfplatz (Berlin),52.499938,13.354544,U Bahnsteig Gleis 2 (mitte),5555 U Nollendorfplatz (Berlin),de:11000:900056102,,
+de:11000:900056102::3,U Nollendorfplatz (Berlin),52.499388,13.354560,U Bahnsteig Gleis 1,5555 U Nollendorfplatz (Berlin),de:11000:900056102,,
+de:11000:900056102::4,U Nollendorfplatz (Berlin),52.499369,13.354548,U Bahnsteig Gleis 2,5555 U Nollendorfplatz (Berlin),de:11000:900056102,,
+de:11000:900056102::5,U Nollendorfplatz (Berlin),52.499849,13.354710,U Bahnsteig Gleis 3 (unten),5555 U Nollendorfplatz (Berlin),de:11000:900056102,,
+de:11000:900056102::6,U Nollendorfplatz (Berlin),52.499837,13.354616,U Bahnsteig Gleis 4 (mitte),5555 U Nollendorfplatz (Berlin),de:11000:900056102,,
+de:11000:900056104::1,U Bülowstr. (Berlin),52.497620,13.363170,U Bahnsteig Gleis 1,5555 U Bülowstr. (Berlin),de:11000:900056104,,
+de:11000:900056104::2,U Bülowstr. (Berlin),52.497575,13.363156,U Bahnsteig Gleis 2,5555 U Bülowstr. (Berlin),de:11000:900056104,,
+de:11000:900057102:1:50,S+U Yorckstr. (Großgörschenstr.) (Berlin),52.492301,13.367777,S-Bahnsteig Gleis 1,5555 S+U Yorckstr. (Großgörschenstr.) (Berlin),de:11000:900057102,,
+de:11000:900057102:1:51,S+U Yorckstr. (Großgörschenstr.) (Berlin),52.492245,13.367968,S-Bahnsteig Gleis 2,5555 S+U Yorckstr. (Großgörschenstr.) (Berlin),de:11000:900057102,,
+de:11000:900057103::1,S+U Yorckstr. (Berlin),52.492922,13.370841,U Bahnsteig Gleis 1,5555 S+U Yorckstr. (Berlin),de:11000:900058103,,
+de:11000:900057103::2,S+U Yorckstr. (Berlin),52.493057,13.370822,U Bahnsteig Gleis 2,5555 S+U Yorckstr. (Berlin),de:11000:900058103,,
+de:11000:900057104:1:50,S Julius-Leber-Brücke (Berlin),52.486411,13.361128,S-Bahnsteig Gleis 1,5555 S Julius-Leber-Brücke (Berlin),de:11000:900057104,,
+de:11000:900057104:2:51,S Julius-Leber-Brücke (Berlin),52.486450,13.361028,S-Bahnsteig Gleis 2,5555 S Julius-Leber-Brücke (Berlin),de:11000:900057104,,
+de:11000:900058101:1:50,S Südkreuz Bhf (Berlin),52.476190,13.365085,S-Bahnsteig Gleis 1,5555 S Südkreuz Bhf (Berlin),de:11000:900058101,,1
+de:11000:900058101:1:51,S Südkreuz Bhf (Berlin),52.476146,13.365282,S-Bahnsteig Gleis 2,5555 S Südkreuz Bhf (Berlin),de:11000:900058101,,2
+de:11000:900058101:5:58,S Südkreuz Bhf (Berlin),52.475881,13.365602,S-Bahnsteig Gleis 11,5555 S Südkreuz Bhf (Berlin),de:11000:900058101,,11
+de:11000:900058101:5:59,S Südkreuz Bhf (Berlin),52.475662,13.365184,S-Bahnsteig Gleis 12,5555 S Südkreuz Bhf (Berlin),de:11000:900058101,,12
+de:11000:900058102:1:50,S Priesterweg (Berlin),52.459921,13.356187,S-Bahnsteig Gleis 1,5656 S Priesterweg (Berlin),de:11000:900058102,,
+de:11000:900058102:1:52,S Priesterweg (Berlin),52.459934,13.356075,S-Bahnsteig Gleis 3,5656 S Priesterweg (Berlin),de:11000:900058102,,
+de:11000:900058102:2:51,S Priesterweg (Berlin),52.459905,13.356324,S-Bahnsteig Gleis 2,5656 S Priesterweg (Berlin),de:11000:900058102,,
+de:11000:900058102:2:53,S Priesterweg (Berlin),52.459892,13.356434,S-Bahnsteig Gleis 4,5656 S Priesterweg (Berlin),de:11000:900058102,,
+de:11000:900058103:1:50,S+U Yorckstr. (Berlin),52.491339,13.372006,S-Bahnsteig Gleis 1,5555 S+U Yorckstr. (Berlin),de:11000:900058103,,
+de:11000:900058103:1:51,S+U Yorckstr. (Berlin),52.491334,13.372158,S-Bahnsteig Gleis 2,5555 S+U Yorckstr. (Berlin),de:11000:900058103,,
+de:11000:900060101:1:50,S Friedenau (Berlin),52.470498,13.341152,S-Bahnsteig Gleis 1,5656 S Friedenau (Berlin),de:11000:900060101,,1
+de:11000:900060101:1:51,S Friedenau (Berlin),52.470453,13.341258,S-Bahnsteig Gleis 2,5656 S Friedenau (Berlin),de:11000:900060101,,2
+de:11000:900061101::1,U Walther-Schreiber-Platz (Berlin),52.466103,13.328178,U Bahnsteig Gleis 1,5656 U Walther-Schreiber-Platz (Berlin),de:11000:900061101,,
+de:11000:900061101::2,U Walther-Schreiber-Platz (Berlin),52.466100,13.328345,U Bahnsteig Gleis 2,5656 U Walther-Schreiber-Platz (Berlin),de:11000:900061101,,
+de:11000:900061102::1,U Friedrich-Wilhelm-Platz (Berlin),52.472131,13.328639,U Bahnsteig Gleis 1,5656 U Friedrich-Wilhelm-Platz (Berlin),de:11000:900061102,,
+de:11000:900061102::2,U Friedrich-Wilhelm-Platz (Berlin),52.472114,13.328848,U Bahnsteig Gleis 2,5656 U Friedrich-Wilhelm-Platz (Berlin),de:11000:900061102,,
+de:11000:900062202:1:50,S+U Rathaus Steglitz (Berlin),52.455450,13.322332,S Bahnsteig Gleis 1,5656 S+U Rathaus Steglitz (Berlin),de:11000:900062202,,1
+de:11000:900062202:1:51,S+U Rathaus Steglitz (Berlin),52.455394,13.322476,S Bahnsteig Gleis 2,5656 S+U Rathaus Steglitz (Berlin),de:11000:900062202,,2
+de:11000:900062202::1,S+U Rathaus Steglitz (Berlin),52.456166,13.320478,U-Bahnsteig Gleis 1,5656 S+U Rathaus Steglitz (Berlin),de:11000:900062202,,
+de:11000:900062202::2,S+U Rathaus Steglitz (Berlin),52.456129,13.320686,U-Bahnsteig Gleis 2,5656 S+U Rathaus Steglitz (Berlin),de:11000:900062202,,
+de:11000:900062203::1,U Schloßstr. (Berlin),52.460629,13.324477,U Bahnsteig Gleis 3,5656 U Schloßstr. (Berlin),de:11000:900062203,,
+de:11000:900062203::2,U Schloßstr. (Berlin),52.460605,13.324455,U Bahnsteig Gleis 4,5656 U Schloßstr. (Berlin),de:11000:900062203,,
+de:11000:900063101:1:50,S Feuerbachstr. (Berlin),52.463431,13.332339,S-Bahnsteig Gleis 1,5656 S Feuerbachstr. (Berlin),de:11000:900063101,,
+de:11000:900063101:1:51,S Feuerbachstr. (Berlin),52.463397,13.332414,S-Bahnsteig Gleis 2,5656 S Feuerbachstr. (Berlin),de:11000:900063101,,
+de:11000:900063452:1:50,S Südende (Berlin),52.448211,13.353647,S-Bahnsteig Gleis 1,5656 S Südende (Berlin),de:11000:900063452,,1
+de:11000:900063452:1:51,S Südende (Berlin),52.448180,13.353755,S-Bahnsteig Gleis 2,5656 S Südende (Berlin),de:11000:900063452,,2
+de:11000:900064201:1:50,S Lichterfelde Süd (Berlin),52.410250,13.308587,S-Bahnsteig Gleis 1,5656 S Lichterfelde Süd (Berlin),de:11000:900064201,,1
+de:11000:900064201:1:51,S Lichterfelde Süd (Berlin),52.410219,13.308767,S-Bahnsteig Gleis 2,5656 S Lichterfelde Süd (Berlin),de:11000:900064201,,2
+de:11000:900064256:1:50,S Osdorfer Str. (Berlin),52.418911,13.314214,S-Bahnsteig Gleis 1,5656 S Osdorfer Str. (Berlin),de:11000:900064256,,1
+de:11000:900064256:1:51,S Osdorfer Str. (Berlin),52.418882,13.314304,S-Bahnsteig Gleis 2,5656 S Osdorfer Str. (Berlin),de:11000:900064256,,2
+de:11000:900064301:3:52,S Lichterfelde Ost Bhf (Berlin),52.430002,13.328130,S-Bahnsteig Gleis 1,5656 S Lichterfelde Ost Bhf (Berlin),de:11000:900064301,,1
+de:11000:900064301:3:53,S Lichterfelde Ost Bhf (Berlin),52.429919,13.328299,S-Bahnsteig Gleis 2,5656 S Lichterfelde Ost Bhf (Berlin),de:11000:900064301,,2
+de:11000:900066101:1:50,S Lichterfelde West (Berlin),52.443216,13.293109,S-Bahnsteig Gleis 1,5656 S Lichterfelde West (Berlin),de:11000:900066101,,1
+de:11000:900066101:1:51,S Lichterfelde West (Berlin),52.443101,13.293216,S-Bahnsteig Gleis 2,5656 S Lichterfelde West (Berlin),de:11000:900066101,,2
+de:11000:900066102:1:50,S Botanischer Garten (Berlin),52.448005,13.307177,S-Bahnsteig Gleis 1,5656 S Botanischer Garten (Berlin),de:11000:900066102,,1
+de:11000:900066102:1:51,S Botanischer Garten (Berlin),52.447960,13.307229,S-Bahnsteig Gleis 2,5656 S Botanischer Garten (Berlin),de:11000:900066102,,2
+de:11000:900067221:1:50,S Lankwitz (Berlin),52.438757,13.342041,S-Bahnsteig Gleis 2,5656 S Lankwitz (Berlin),de:11000:900067221,,2
+de:11000:900068101::1,U Paradestr. (Berlin),52.478191,13.386172,U Bahnsteig Gleis 1,5555 U Paradestr. (Berlin),de:11000:900068101,,
+de:11000:900068101::2,U Paradestr. (Berlin),52.478191,13.386375,U Bahnsteig Gleis 2,5555 U Paradestr. (Berlin),de:11000:900068101,,
+de:11000:900068201:1:50,S+U Tempelhof (Berlin),52.471027,13.384476,Bahnsteig Gleis 1,5555 S+U Tempelhof (Berlin),de:11000:900068201,,1
+de:11000:900068201:1:51,S+U Tempelhof (Berlin),52.470922,13.384416,Bahnsteig Gleis 2,5555 S+U Tempelhof (Berlin),de:11000:900068201,,2
+de:11000:900068201::1,S+U Tempelhof (Berlin),52.469814,13.385515,U Bahnsteig Gleis 1,5555 S+U Tempelhof (Berlin),de:11000:900068201,,
+de:11000:900068201::2,S+U Tempelhof (Berlin),52.469819,13.385692,U Bahnsteig Gleis 2,5555 S+U Tempelhof (Berlin),de:11000:900068201,,
+de:11000:900068202::1,U Alt-Tempelhof (Berlin),52.465382,13.385580,U Bahnsteig Gleis 1,5656 U Alt-Tempelhof (Berlin),de:11000:900068202,,
+de:11000:900068202::2,U Alt-Tempelhof (Berlin),52.465382,13.385719,U Bahnsteig Gleis 2,5656 U Alt-Tempelhof (Berlin),de:11000:900068202,,
+de:11000:900068301:1:50,S Attilastr. (Berlin),52.447898,13.360727,S-Bahnsteig Gleis 1,5656 S Attilastr. (Berlin),de:11000:900068301,,1
+de:11000:900068301:1:51,S Attilastr. (Berlin),52.447931,13.360892,S-Bahnsteig Gleis 2,5656 S Attilastr. (Berlin),de:11000:900068301,,2
+de:11000:900068302::1,U Kaiserin-Augusta-Str. (Berlin),52.459982,13.384567,U Bahnsteig Gleis 1,5656 U Kaiserin-Augusta-Str. (Berlin),de:11000:900068302,,
+de:11000:900068302::2,U Kaiserin-Augusta-Str. (Berlin),52.459971,13.384701,U Bahnsteig Gleis 2,5656 U Kaiserin-Augusta-Str. (Berlin),de:11000:900068302,,
+de:11000:900069271::1,U Ullsteinstr. (Berlin),52.453741,13.384397,U Bahnsteig Gleis 1,5656 U Ullsteinstr. (Berlin),de:11000:900069271,,
+de:11000:900069271::2,U Ullsteinstr. (Berlin),52.453757,13.384546,U Bahnsteig Gleis 2,5656 U Ullsteinstr. (Berlin),de:11000:900069271,,
+de:11000:900070101::1,U Westphalweg (Berlin),52.446268,13.385619,U Bahnsteig Gleis 1,5656 U Westphalweg (Berlin),de:11000:900070101,,
+de:11000:900070101::2,U Westphalweg (Berlin),52.446275,13.385757,U Bahnsteig Gleis 2,5656 U Westphalweg (Berlin),de:11000:900070101,,
+de:11000:900070301::1,U Alt-Mariendorf (Berlin),52.439865,13.387371,U Bahnsteig Gleis 1,5656 U Alt-Mariendorf (Berlin),de:11000:900070301,,
+de:11000:900070301::2,U Alt-Mariendorf (Berlin),52.439884,13.387543,U Bahnsteig Gleis 2,5656 U Alt-Mariendorf (Berlin),de:11000:900070301,,
+de:11000:900072101:1:50,S Buckower Chaussee (Berlin),52.410239,13.382877,S-Bahnsteig Gleis 1,5656 S Buckower Chaussee (Berlin),de:11000:900072101,,1
+de:11000:900072101:2:51,S Buckower Chaussee (Berlin),52.410252,13.382984,S-Bahnsteig Gleis 2,5656 S Buckower Chaussee (Berlin),de:11000:900072101,,2
+de:11000:900073101:1:50,S Marienfelde (Berlin),52.424278,13.374587,Bahnsteig Gleis 1,5656 S Marienfelde (Berlin),de:11000:900073101,,1
+de:11000:900073101:1:51,S Marienfelde (Berlin),52.424296,13.374679,Bahnsteig Gleis 2,5656 S Marienfelde (Berlin),de:11000:900073101,,2
+de:11000:900074201:1:50,S Lichtenrade (Berlin),52.389074,13.395568,S-Bahnsteig Gleis 1,5656 S Lichtenrade (Berlin),de:11000:900074201,,1
+de:11000:900074202:1:50,S Schichauweg (Berlin),52.399129,13.388959,Bahnsteig Gleis 1,5656 S Schichauweg (Berlin),de:11000:900074202,,1
+de:11000:900074202:2:51,S Schichauweg (Berlin),52.399155,13.389089,Bahnsteig Gleis 2,5656 S Schichauweg (Berlin),de:11000:900074202,,2
+de:11000:900077106:1:50,S Sonnenallee (Berlin),52.472990,13.455632,Bahnsteig Gleis 1,5555 S Sonnenallee (Berlin),de:11000:900077106,,
+de:11000:900077106:1:51,S Sonnenallee (Berlin),52.472954,13.455771,Bahnsteig Gleis 2,5555 S Sonnenallee (Berlin),de:11000:900077106,,
+de:11000:900077155:1:50,S Köllnische Heide (Berlin),52.469676,13.468060,S-Bahnsteig Gleis 1,5656 S Köllnische Heide (Berlin),de:11000:900077155,,
+de:11000:900077155:1:51,S Köllnische Heide (Berlin),52.469600,13.468084,S-Bahnsteig Gleis 2,5656 S Köllnische Heide (Berlin),de:11000:900077155,,
+de:11000:900078101::1,U Hermannplatz (Berlin),52.486364,13.424162,U-Bahnsteig Gleis 1,5555 U Hermannplatz (Berlin),de:11000:900078101,,
+de:11000:900078101::2,U Hermannplatz (Berlin),52.486446,13.424239,U-Bahnsteig Gleis 2,5555 U Hermannplatz (Berlin),de:11000:900078101,,
+de:11000:900078101::3,U Hermannplatz (Berlin),52.486466,13.424303,U-Bahnsteig oben Gleis 1,5555 U Hermannplatz (Berlin),de:11000:900078101,,
+de:11000:900078101::4,U Hermannplatz (Berlin),52.486413,13.424599,U-Bahnsteig oben Gleis 2,5555 U Hermannplatz (Berlin),de:11000:900078101,,
+de:11000:900078102::1,U Rathaus Neukölln (Berlin),52.481765,13.433958,U Bahnsteig Gleis 1,5555 U Rathaus Neukölln (Berlin),de:11000:900078102,,
+de:11000:900078102::2,U Rathaus Neukölln (Berlin),52.481805,13.434038,U Bahnsteig Gleis 2,5555 U Rathaus Neukölln (Berlin),de:11000:900078102,,
+de:11000:900078103::1,U Karl-Marx-Str. (Berlin),52.476514,13.439167,U Bahnsteig Gleis 1,5555 U Karl-Marx-Str. (Berlin),de:11000:900078103,,
+de:11000:900078103::2,U Karl-Marx-Str. (Berlin),52.476530,13.439269,U Bahnsteig Gleis 2,5555 U Karl-Marx-Str. (Berlin),de:11000:900078103,,
+de:11000:900078201:1:50,S+U Neukölln (Berlin),52.469492,13.443156,S-Bahnsteig Gleis 1,5555 S+U Neukölln (Berlin),de:11000:900078201,,
+de:11000:900078201:1:51,S+U Neukölln (Berlin),52.469373,13.443216,S-Bahnsteig Gleis 2,5555 S+U Neukölln (Berlin),de:11000:900078201,,
+de:11000:900078201::1,S+U Neukölln (Berlin),52.468614,13.441670,U-Bahnsteig Gleis 1,5555 S+U Neukölln (Berlin),de:11000:900078201,,
+de:11000:900078201::2,S+U Neukölln (Berlin),52.468637,13.441938,U-Bahnsteig Gleis 2,5555 S+U Neukölln (Berlin),de:11000:900078201,,
+de:11000:900079201::1,U Leinestr. (Berlin),52.473426,13.428058,U Bahnsteig Gleis 1,5555 U Leinestr. (Berlin),de:11000:900079201,,
+de:11000:900079201::2,U Leinestr. (Berlin),52.473448,13.428184,U Bahnsteig Gleis 2,5555 U Leinestr. (Berlin),de:11000:900079201,,
+de:11000:900079202::1,U Boddinstr. (Berlin),52.480162,13.425207,U Bahnsteig Gleis 1,5555 U Boddinstr. (Berlin),de:11000:900079202,,
+de:11000:900079202::2,U Boddinstr. (Berlin),52.480178,13.425341,U Bahnsteig Gleis 2,5555 U Boddinstr. (Berlin),de:11000:900079202,,
+de:11000:900079221:1:50,S+U Hermannstr. (Berlin),52.467690,13.431204,Bahnsteig Gleis 1,5555 S+U Hermannstr. (Berlin),de:11000:900079221,,1
+de:11000:900079221:1:51,S+U Hermannstr. (Berlin),52.467578,13.431255,Bahnsteig Gleis 2,5555 S+U Hermannstr. (Berlin),de:11000:900079221,,2
+de:11000:900079221::1,S+U Hermannstr. (Berlin),52.467622,13.431164,U Bahnsteig Gleis 1,5555 S+U Hermannstr. (Berlin),de:11000:900079221,,
+de:11000:900079221::2,S+U Hermannstr. (Berlin),52.467647,13.431289,U Bahnsteig Gleis 2,5555 S+U Hermannstr. (Berlin),de:11000:900079221,,
+de:11000:900080201::1,U Blaschkoallee (Berlin),52.452075,13.449140,Bahnsteig U7 Gleis 1,5656 U Blaschkoallee (Berlin),de:11000:900080201,,
+de:11000:900080201::2,U Blaschkoallee (Berlin),52.452086,13.449251,Bahnsteig U7 Gleis 2,5656 U Blaschkoallee (Berlin),de:11000:900080201,,
+de:11000:900080202::1,U Grenzallee (Berlin),52.462871,13.444733,U Bahnsteig Gleis 1,5656 U Grenzallee (Berlin),de:11000:900080202,,
+de:11000:900080202::2,U Grenzallee (Berlin),52.462894,13.444839,U Bahnsteig Gleis 2,5656 U Grenzallee (Berlin),de:11000:900080202,,
+de:11000:900080401::1,U Parchimer Allee (Berlin),52.444778,13.449536,U Bahnsteig Gleis 1,5656 U Parchimer Allee (Berlin),de:11000:900080401,,
+de:11000:900080401::2,U Parchimer Allee (Berlin),52.444758,13.449646,U Bahnsteig Gleis 2,5656 U Parchimer Allee (Berlin),de:11000:900080401,,
+de:11000:900080402::1,U Britz-Süd (Berlin),52.437777,13.448097,U Bahnsteig Gleis 1,5656 U Britz-Süd (Berlin),de:11000:900080402,,
+de:11000:900080402::2,U Britz-Süd (Berlin),52.437805,13.448281,U Bahnsteig Gleis 2,5656 U Britz-Süd (Berlin),de:11000:900080402,,
+de:11000:900082201::1,U Lipschitzallee (Berlin),52.424611,13.462666,U Bahnsteig Gleis 1,5656 U Lipschitzallee (Berlin),de:11000:900082201,,
+de:11000:900082201::2,U Lipschitzallee (Berlin),52.424671,13.462725,U Bahnsteig Gleis 2,5656 U Lipschitzallee (Berlin),de:11000:900082201,,
+de:11000:900082202::1,U Johannisthaler Chaussee (Berlin),52.429280,13.453239,U Bahnsteig Gleis 1,5656 U Johannisthaler Chaussee (Berlin),de:11000:900082202,,
+de:11000:900082202::2,U Johannisthaler Chaussee (Berlin),52.429378,13.453482,U Bahnsteig Gleis 2,5656 U Johannisthaler Chaussee (Berlin),de:11000:900082202,,
+de:11000:900083101::1,U Zwickauer Damm (Berlin),52.423252,13.483727,U Bahnsteig Gleis 1,5656 U Zwickauer Damm (Berlin),de:11000:900083101,,
+de:11000:900083101::2,U Zwickauer Damm (Berlin),52.423333,13.483774,U Bahnsteig Gleis 2,5656 U Zwickauer Damm (Berlin),de:11000:900083101,,
+de:11000:900083102::1,U Wutzkyallee (Berlin),52.423277,13.474655,U Bahnsteig Gleis 1,5656 U Wutzkyallee (Berlin),de:11000:900083102,,
+de:11000:900083102::2,U Wutzkyallee (Berlin),52.423383,13.474655,U Bahnsteig Gleis 2,5656 U Wutzkyallee (Berlin),de:11000:900083102,,
+de:11000:900083201::1,U Rudow (Berlin),52.416279,13.495085,U Bahnsteig Gleis 1,5656 U Rudow (Berlin),de:11000:900083201,,
+de:11000:900083201::2,U Rudow (Berlin),52.416332,13.495157,U Bahnsteig Gleis 2,5656 U Rudow (Berlin),de:11000:900083201,,
+de:11000:900084101:1:50,S Wilhelmsruh (Berlin),52.581656,13.362192,Bahnsteig Gleis 1,5656 S Wilhelmsruh (Berlin),de:11000:900084101,,1
+de:11000:900084101:1:51,S Wilhelmsruh (Berlin),52.581723,13.362300,Bahnsteig Gleis 2,5656 S Wilhelmsruh (Berlin),de:11000:900084101,,2
+de:11000:900085104::1,U Paracelsus-Bad (Berlin),52.574106,13.349019,U Bahnsteig Gleis 1,5656 U Paracelsus-Bad (Berlin),de:11000:900085104,,
+de:11000:900085104::2,U Paracelsus-Bad (Berlin),52.574198,13.349052,U Bahnsteig Gleis 2,5656 U Paracelsus-Bad (Berlin),de:11000:900085104,,
+de:11000:900085105:1:50,S Alt-Reinickendorf (Berlin),52.577776,13.351235,S-Bahnsteig Gleis 1,5656 S Alt-Reinickendorf (Berlin),de:11000:900085105,,1
+de:11000:900085201:1:50,S Schönholz (Berlin),52.571473,13.381121,"Bahnsteig Gleis 3, S-Bahn",5656 S Schönholz (Berlin),de:11000:900085201,,
+de:11000:900085201:1:51,S Schönholz (Berlin),52.571407,13.381026,"Bahnsteig Gleis 4, S-Bahn",5656 S Schönholz (Berlin),de:11000:900085201,,
+de:11000:900085202::1,U Franz-Neumann-Platz (Berlin),52.564603,13.363811,U Bahnsteig Gleis 1,5656 U Franz-Neumann-Platz (Berlin),de:11000:900085202,,
+de:11000:900085202::2,U Franz-Neumann-Platz (Berlin),52.564629,13.363965,U Bahnsteig Gleis 2,5656 U Franz-Neumann-Platz (Berlin),de:11000:900085202,,
+de:11000:900085203::1,U Residenzstr. (Berlin),52.571106,13.360435,U Bahnsteig Gleis 1,5656 U Residenzstr. (Berlin),de:11000:900085203,,
+de:11000:900085203::2,U Residenzstr. (Berlin),52.571139,13.360599,U Bahnsteig Gleis 2,5656 U Residenzstr. (Berlin),de:11000:900085203,,
+de:11000:900086102::1,U Kurt-Schumacher-Platz (Berlin),52.563206,13.327032,U Bahnsteig Gleis 1,5656 U Kurt-Schumacher-Platz (Berlin),de:11000:900086102,,
+de:11000:900086102::2,U Kurt-Schumacher-Platz (Berlin),52.563292,13.327087,U Bahnsteig Gleis 2,5656 U Kurt-Schumacher-Platz (Berlin),de:11000:900086102,,
+de:11000:900086160::1,U Lindauer Allee (Berlin),52.575354,13.339110,U Bahnsteig Gleis 1,5656 U Lindauer Allee (Berlin),de:11000:900086160,,
+de:11000:900086160::2,U Lindauer Allee (Berlin),52.575384,13.339115,U Bahnsteig Gleis 2,5656 U Lindauer Allee (Berlin),de:11000:900086160,,
+de:11000:900089303:1:50,S Tegel (Berlin),52.588123,13.289879,S-Bahnsteig Gleis 1,5656 S Tegel (Berlin),de:11000:900089303,,
+de:11000:900089303:1:51,S Tegel (Berlin),52.588072,13.289675,S-Bahnsteig Gleis 2,5656 S Tegel (Berlin),de:11000:900089303,,
+de:11000:900091203:1:50,S Heiligensee (Berlin),52.624476,13.229361,S-Bahnsteig Gleis 1,5656 S Heiligensee (Berlin),de:11000:900091203,,1
+de:11000:900091203:1:51,S Heiligensee (Berlin),52.624530,13.229471,S-Bahnsteig Gleis 2,5656 S Heiligensee (Berlin),de:11000:900091203,,2
+de:11000:900091205:1:50,S Schulzendorf (Berlin),52.612931,13.246032,S-Bahnsteig Gleis 1,5656 S Schulzendorf (Berlin),de:11000:900091205,,1
+de:11000:900092201:1:50,S Frohnau (Berlin),52.632307,13.290440,S-Bahnsteig Gleis 1,5656 S Frohnau (Berlin),de:11000:900092201,,1
+de:11000:900092201:1:51,S Frohnau (Berlin),52.632260,13.290322,S-Bahnsteig Gleis 2,5656 S Frohnau (Berlin),de:11000:900092201,,2
+de:11000:900093201:1:50,S Hermsdorf (Berlin),52.617336,13.307756,S-Bahnsteig Gleis 1,5656 S Hermsdorf (Berlin),de:11000:900093201,,1
+de:11000:900093201:1:51,S Hermsdorf (Berlin),52.617287,13.307619,S-Bahnsteig Gleis 2,5656 S Hermsdorf (Berlin),de:11000:900093201,,2
+de:11000:900094101:1:50,S Waidmannslust (Berlin),52.606320,13.321223,Bahnsteig Gleis 1,5656 S Waidmannslust (Berlin),de:11000:900094101,,1
+de:11000:900094101:1:51,S Waidmannslust (Berlin),52.606257,13.321086,Bahnsteig Gleis 2,5656 S Waidmannslust (Berlin),de:11000:900094101,,2
+de:11000:900096101:1:50,S+U Wittenau (Berlin),52.597097,13.334311,S-Bahnsteig Gleis 1,5656 S+U Wittenau (Berlin),de:11000:900096101,,
+de:11000:900096101:1:51,S+U Wittenau (Berlin),52.597008,13.334183,S-Bahnsteig Gleis 2,5656 S+U Wittenau (Berlin),de:11000:900096101,,
+de:11000:900096101::1,S+U Wittenau (Berlin),52.595694,13.334358,U-Bahnsteig Gleis 1,5656 S+U Wittenau (Berlin),de:11000:900096101,,
+de:11000:900096101::2,S+U Wittenau (Berlin),52.595540,13.334374,U-Bahnsteig Gleis 2,5656 S+U Wittenau (Berlin),de:11000:900096101,,
+de:11000:900096405:1:50,S Eichborndamm (Berlin),52.577688,13.317219,S-Bahnsteig Gleis 2,5656 S Eichborndamm (Berlin),de:11000:900096405,,
+de:11000:900096410::1,U Rathaus Reinickendorf (Berlin),52.588381,13.325626,U Bahnsteig Gleis 1,5656 U Rathaus Reinickendorf (Berlin),de:11000:900096410,,
+de:11000:900096410::2,U Rathaus Reinickendorf (Berlin),52.588417,13.325862,U Bahnsteig Gleis 2,5656 U Rathaus Reinickendorf (Berlin),de:11000:900096410,,
+de:11000:900096458:1:50,S+U Karl-Bonhoeffer-Nervenklinik (Berlin),52.578017,13.328994,S-Bahnsteig Gleis 2,5656 S+U Karl-Bonhoeffer-Nervenklinik (Berlin),de:11000:900096458,,2
+de:11000:900096458::1,S+U Karl-Bonhoeffer-Nervenklinik (Berlin),52.578880,13.333294,U Bahnsteig Gleis 1,5656 S+U Karl-Bonhoeffer-Nervenklinik (Berlin),de:11000:900096458,,1
+de:11000:900096458::2,S+U Karl-Bonhoeffer-Nervenklinik (Berlin),52.578907,13.333493,U Bahnsteig Gleis 2,5656 S+U Karl-Bonhoeffer-Nervenklinik (Berlin),de:11000:900096458,,
+de:11000:900100001:3:54,S+U Friedrichstr. Bhf (Berlin),52.520364,13.387160,S-Bahnsteig Gleis 5,5555 S+U Friedrichstr. Bhf (Berlin),de:11000:900100001,,
+de:11000:900100001:3:55,S+U Friedrichstr. Bhf (Berlin),52.520458,13.387211,S-Bahnsteig Gleis 6,5555 S+U Friedrichstr. Bhf (Berlin),de:11000:900100001,,
+de:11000:900100001:4:56,S+U Friedrichstr. Bhf (Berlin),52.520479,13.386234,S-Bahnsteig Gleis 11,5555 S+U Friedrichstr. Bhf (Berlin),de:11000:900100001,,
+de:11000:900100001:4:57,S+U Friedrichstr. Bhf (Berlin),52.520424,13.386350,S-Bahnsteig Gleis 12,5555 S+U Friedrichstr. Bhf (Berlin),de:11000:900100001,,
+de:11000:900100001::1,S+U Friedrichstr. Bhf (Berlin),52.520265,13.388196,U-Bahnsteig Gleis 1,5555 S+U Friedrichstr. Bhf (Berlin),de:11000:900100001,,
+de:11000:900100001::2,S+U Friedrichstr. Bhf (Berlin),52.520269,13.388335,U-Bahnsteig Gleis 2,5555 S+U Friedrichstr. Bhf (Berlin),de:11000:900100001,,
+de:11000:900100001::3,S+U Friedrichstr. Bhf (Berlin),52.519401,13.388394,Tramsteig Friedrichstraße ht. Georgenstraße,5555 S+U Friedrichstr. Bhf (Berlin),de:11000:900100001,,
+de:11000:900100001::4,S+U Friedrichstr. Bhf (Berlin),52.519403,13.388436,Tramsteig Friedrichstraße vor Georgenstraße,5555 S+U Friedrichstr. Bhf (Berlin),de:11000:900100001,,
+de:11000:900100002:1:50,S Hackescher Markt (Berlin),52.522663,13.402462,S-Bahnsteig Gleis 3,5555 S Hackescher Markt (Berlin),de:11000:900100002,,
+de:11000:900100002:1:51,S Hackescher Markt (Berlin),52.522726,13.402430,S-Bahnsteig Gleis 4,5555 S Hackescher Markt (Berlin),de:11000:900100002,,
+de:11000:900100002::1,S Hackescher Markt (Berlin),52.522545,13.403145,Tramsteig Henriette-Herz-Platz Pos. 3,5555 S Hackescher Markt (Berlin),,,
+de:11000:900100002::2,S Hackescher Markt (Berlin),52.521784,13.402562,Tramsteig Garnisonkirchplatz Pos. 2,5555 S Hackescher Markt (Berlin),,,
+de:11000:900100002::3,S Hackescher Markt (Berlin),52.523823,13.402593,Tramsteig Rosenthaler Straße Pos. 1,5555 S Hackescher Markt (Berlin),de:11000:900100002,,
+de:11000:900100003:2:52,S+U Alexanderplatz Bhf (Berlin),52.521520,13.411226,S-Bahnsteig Gleis 3,5555 S+U Alexanderplatz Bhf (Berlin),de:11000:900100003,,
+de:11000:900100003:2:53,S+U Alexanderplatz Bhf (Berlin),52.521589,13.411357,S-Bahnsteig Gleis 4,5555 S+U Alexanderplatz Bhf (Berlin),de:11000:900100003,,
+de:11000:900100003::1,S+U Alexanderplatz Bhf (Berlin),52.521633,13.414011,U-Bahn Gleis 1 (U2),5555 S+U Alexanderplatz Bhf (Berlin),de:11000:900100003,,
+de:11000:900100003::2,S+U Alexanderplatz Bhf (Berlin),52.521754,13.414250,U-Bahn Gleis 2 (U2),5555 S+U Alexanderplatz Bhf (Berlin),de:11000:900100003,,
+de:11000:900100003::3,S+U Alexanderplatz Bhf (Berlin),52.521488,13.413583,U-Bahn Gleis 1 (U5),5555 S+U Alexanderplatz Bhf (Berlin),de:11000:900100003,,
+de:11000:900100003::4,S+U Alexanderplatz Bhf (Berlin),52.521448,13.413646,U-Bahn Gleis 2 (U5),5555 S+U Alexanderplatz Bhf (Berlin),de:11000:900100003,,
+de:11000:900100003::5,S+U Alexanderplatz Bhf (Berlin),52.520950,13.412565,U-Bahn Gleis 1 (U8),5555 S+U Alexanderplatz Bhf (Berlin),de:11000:900100003,,
+de:11000:900100003::6,S+U Alexanderplatz Bhf (Berlin),52.521048,13.412764,U-Bahn Gleis 2 (U8),5555 S+U Alexanderplatz Bhf (Berlin),de:11000:900100003,,
+de:11000:900100004:1:50,S+U Jannowitzbrücke (Berlin),52.514193,13.419471,S-Bahnsteig Gleis 3,5555 S+U Jannowitzbrücke (Berlin),de:11000:900100004,,
+de:11000:900100004:1:51,S+U Jannowitzbrücke (Berlin),52.514250,13.419526,S-Bahnsteig Gleis 4,5555 S+U Jannowitzbrücke (Berlin),de:11000:900100004,,
+de:11000:900100004::1,S+U Jannowitzbrücke (Berlin),52.515585,13.418139,U Bahnsteig Gleis 1,5555 S+U Jannowitzbrücke (Berlin),de:11000:900100004,,
+de:11000:900100004::2,S+U Jannowitzbrücke (Berlin),52.515577,13.418239,U Bahnsteig Gleis 2,5555 S+U Jannowitzbrücke (Berlin),de:11000:900100004,,
+de:11000:900100005::1,U Alexanderplatz (Berlin) [Tram],52.522141,13.414628,Tramsteig Alexanderplatz ht. Alexanderstr. Pos. 11,5555 U Alexanderplatz (Berlin) [Tram],,,
+de:11000:900100005::2,U Alexanderplatz (Berlin) [Tram],52.522121,13.414676,Tramsteig Alexanderplatz vor Alexanderstr. Pos. 12,5555 U Alexanderplatz (Berlin) [Tram],,,
+de:11000:900100007:1:50,S Oranienburger Str. (Berlin),52.525287,13.392985,S-Bahnsteig Gleis 1,5555 S Oranienburger Str. (Berlin),de:11000:900100007,,
+de:11000:900100007:1:51,S Oranienburger Str. (Berlin),52.525264,13.393093,S-Bahnsteig Gleis 2,5555 S Oranienburger Str. (Berlin),de:11000:900100007,,
+de:11000:900100007::1,S Oranienburger Str. (Berlin),52.525172,13.392406,Tramhalt Oranienburger Str ht. Tucholskystr,5555 S Oranienburger Str. (Berlin),,,
+de:11000:900100007::2,S Oranienburger Str. (Berlin),52.525046,13.392295,Tramhalt Oranienburger Str vor Tucholskystr,5555 S Oranienburger Str. (Berlin),,,
+de:11000:900100008::1,U Heinrich-Heine-Str. (Berlin),52.510120,13.415704,U Bahnsteig Gleis 1,5555 U Heinrich-Heine-Str. (Berlin),de:11000:900100008,,
+de:11000:900100008::2,U Heinrich-Heine-Str. (Berlin),52.510077,13.415832,U Bahnsteig Gleis 2,5555 U Heinrich-Heine-Str. (Berlin),de:11000:900100008,,
+de:11000:900100009::1,U Naturkundemuseum (Berlin),52.531269,13.382101,U Bahnsteig Gleis 1,5555 U Naturkundemuseum (Berlin),de:11000:900100009,,
+de:11000:900100009::10,U Naturkundemuseum (Berlin),52.530415,13.382777,Tram- u. Bushalt Invaliden vor Chausseestr. Pos. 3,5555 U Naturkundemuseum (Berlin),,,
+de:11000:900100009::11,U Naturkundemuseum (Berlin),52.530386,13.382397,Tramsteig Invalidenstr. ht. Chausseestr. Pos. 2,5555 U Naturkundemuseum (Berlin),de:11000:900100009,,
+de:11000:900100009::2,U Naturkundemuseum (Berlin),52.531322,13.382214,U Bahnsteig Gleis 2,5555 U Naturkundemuseum (Berlin),de:11000:900100009,,
+de:11000:900100010::1,U Mohrenstr. (Berlin),52.511816,13.385110,U Bahnsteig Gleis 1,5555 U Mohrenstr. (Berlin),de:11000:900100010,,
+de:11000:900100010::2,U Mohrenstr. (Berlin),52.511723,13.385135,U Bahnsteig Gleis 2,5555 U Mohrenstr. (Berlin),de:11000:900100010,,
+de:11000:900100011::1,U Stadtmitte (Berlin),52.510236,13.389841,U Bahnsteig Gleis 1,5555 U Stadtmitte (Berlin),de:11000:900100011,,
+de:11000:900100011::2,U Stadtmitte (Berlin),52.510246,13.389981,U Bahnsteig Gleis 2,5555 U Stadtmitte (Berlin),de:11000:900100011,,
+de:11000:900100012::1,U Hausvogteiplatz (Berlin),52.513393,13.395562,Bahnsteig U2 Gleis 1,5555 U Hausvogteiplatz (Berlin),de:11000:900100012,,
+de:11000:900100012::2,U Hausvogteiplatz (Berlin),52.513311,13.395536,Bahnsteig U2 Gleis 2,5555 U Hausvogteiplatz (Berlin),de:11000:900100012,,
+de:11000:900100013::1,U Spittelmarkt (Berlin),52.511348,13.403697,Bahnsteig U2 Gleis 1,5555 U Spittelmarkt (Berlin),de:11000:900100013,,
+de:11000:900100013::2,U Spittelmarkt (Berlin),52.511264,13.403695,Bahnsteig U2 Gleis 2,5555 U Spittelmarkt (Berlin),de:11000:900100013,,
+de:11000:900100014::1,U Märkisches Museum (Berlin),52.512387,13.410151,U Bahnsteig Gleis 1,5555 U Märkisches Museum (Berlin),de:11000:900100014,,
+de:11000:900100014::2,U Märkisches Museum (Berlin),52.512309,13.410213,U Bahnsteig Gleis 2,5555 U Märkisches Museum (Berlin),de:11000:900100014,,
+de:11000:900100015::1,U Klosterstr. (Berlin),52.517186,13.412317,U Bahnsteig Gleis 1,5555 U Klosterstr. (Berlin),de:11000:900100015,,
+de:11000:900100015::2,U Klosterstr. (Berlin),52.517208,13.412525,U Bahnsteig Gleis 2,5555 U Klosterstr. (Berlin),de:11000:900100015,,
+de:11000:900100016::1,U Rosa-Luxemburg-Platz (Berlin),52.527701,13.410374,U Bahnsteig Gleis 1,5555 U Rosa-Luxemburg-Platz (Berlin),de:11000:900100016,,
+de:11000:900100016::2,U Rosa-Luxemburg-Platz (Berlin),52.527725,13.410522,U Bahnsteig Gleis 2,5555 U Rosa-Luxemburg-Platz (Berlin),de:11000:900100016,,
+de:11000:900100016::3,U Rosa-Luxemburg-Platz (Berlin),52.528518,13.410992,Tramsteig Torstraße vor Schönhauser Allee,5555 U Rosa-Luxemburg-Platz (Berlin),de:11000:900100016,,
+de:11000:900100016::4,U Rosa-Luxemburg-Platz (Berlin),52.528495,13.410984,Tramsteig Torstraße ht. Rosa-Luxemburg-Straße,5555 U Rosa-Luxemburg-Platz (Berlin),de:11000:900100016,,
+de:11000:900100017::1,U Schillingstr. (Berlin),52.520931,13.420841,U Bahnsteig Gleis 1,5555 U Schillingstr. (Berlin),de:11000:900100017,,
+de:11000:900100017::2,U Schillingstr. (Berlin),52.520847,13.420768,U Bahnsteig Gleis 2,5555 U Schillingstr. (Berlin),de:11000:900100017,,
+de:11000:900100019::1,U Oranienburger Tor (Berlin),52.525545,13.387314,Bahnsteig U6 Gleis 1,5555 U Oranienburger Tor (Berlin),de:11000:900100019,,
+de:11000:900100019::2,U Oranienburger Tor (Berlin),52.525551,13.387428,U Bahnsteig Gleis 2,5555 U Oranienburger Tor (Berlin),de:11000:900100019,,
+de:11000:900100019::3,U Oranienburger Tor (Berlin),52.525682,13.387391,Tram- und Bussteig Friedr. v. Oranienb. S. Pos. 2,5555 U Oranienburger Tor (Berlin),de:11000:900100019,,
+de:11000:900100019::9,U Oranienburger Tor (Berlin),52.524409,13.387608,Tram- und Bussteig Friedr. v. Reinhardtstr. Pos. 3,5555 U Oranienburger Tor (Berlin),de:11000:900100019,,
+de:11000:900100020:3:54,S+U Potsdamer Platz Bhf (Berlin),52.509605,13.376454,"Bahnsteig A S-Bahn, Gleis 11",5555 S+U Potsdamer Platz Bhf (Berlin),de:11000:900100020,,11
+de:11000:900100020:3:55,S+U Potsdamer Platz Bhf (Berlin),52.509605,13.376579,"Bahnsteig A S-Bahn, Gleis 12",5555 S+U Potsdamer Platz Bhf (Berlin),de:11000:900100020,,12
+de:11000:900100020:4:56,S+U Potsdamer Platz Bhf (Berlin),52.509638,13.376708,"Bahnsteig B S-Bahn, Gleis 13",5555 S+U Potsdamer Platz Bhf (Berlin),de:11000:900100020,,13
+de:11000:900100020:4:57,S+U Potsdamer Platz Bhf (Berlin),52.509635,13.376837,"Bahnsteig B S-Bahn, Gleis 14",5555 S+U Potsdamer Platz Bhf (Berlin),de:11000:900100020,,14
+de:11000:900100023::1,U Rosenthaler Platz (Berlin),52.530380,13.400626,U Bahnsteig Gleis 1,5555 U Rosenthaler Platz (Berlin),de:11000:900100023,,
+de:11000:900100023::2,U Rosenthaler Platz (Berlin),52.530428,13.400769,U Bahnsteig Gleis 2,5555 U Rosenthaler Platz (Berlin),de:11000:900100023,,
+de:11000:900100023::3,U Rosenthaler Platz (Berlin),52.529763,13.402298,Tramsteig Torstraße vor Rosenthaler Platz Pos. 3,5555 U Rosenthaler Platz (Berlin),de:11000:900100023,,
+de:11000:900100023::4,U Rosenthaler Platz (Berlin),52.529734,13.402306,Tramsteig Torstraße ht. Rosenthaler Platz Pos. 4,5555 U Rosenthaler Platz (Berlin),de:11000:900100023,,
+de:11000:900100023::5,U Rosenthaler Platz (Berlin),52.530207,13.401630,Tramsteig Weinbergsweg vor Brunnenstraße Pos. 1,5555 U Rosenthaler Platz (Berlin),,,
+de:11000:900100023::6,U Rosenthaler Platz (Berlin),52.530196,13.401668,Tramsteig Weinbergsweg ht. Torstraße Pos. 2,5555 U Rosenthaler Platz (Berlin),,,
+de:11000:900100024::1,S+U Alexanderplatz Bhf/Dircksenstr. (Berlin),52.521455,13.411991,Tramsteig Dircksenstraße vor Rathausstraße Pos. 13,5555 S+U Alexanderplatz Bhf/Dircksenstr. (Berlin),,,
+de:11000:900100024::2,S+U Alexanderplatz Bhf/Dircksenstr. (Berlin),52.521436,13.411959,Tramsteig Dircksenstraße vor Rathausstraße Pos. 14,5555 S+U Alexanderplatz Bhf/Dircksenstr. (Berlin),,,
+de:11000:900100025:1:50,S+U Brandenburger Tor (Berlin),52.516483,13.381658,S-Bahnsteig Gleis 1,5555 S+U Brandenburger Tor (Berlin),de:11000:900100025,,1
+de:11000:900100025:1:51,S+U Brandenburger Tor (Berlin),52.516351,13.381690,S-Bahnsteig Gleis 2,5555 S+U Brandenburger Tor (Berlin),de:11000:900100025,,2
+de:11000:900100025::1,S+U Brandenburger Tor (Berlin),52.516644,13.380981,U Bahnsteig Gleis 1,5555 S+U Brandenburger Tor (Berlin),de:11000:900100025,,
+de:11000:900100025::5,S+U Brandenburger Tor (Berlin),52.516529,13.381004,U Bahnsteig Gleis 2,5555 S+U Brandenburger Tor (Berlin),de:11000:900100025,,
+de:11000:900100026::1,S+U Alexanderplatz Bhf/Gontardstr. (Berlin),52.521046,13.411326,Tramsteig Gontardstraße ht. Rathausstraße Pos. 15,5555 S+U Alexanderplatz Bhf/Gontardstr. (Berlin),,,
+de:11000:900100026::2,S+U Alexanderplatz Bhf/Gontardstr. (Berlin),52.521025,13.411285,Tramsteig Gontardstraße vor Rathausstraße Pos. 16,5555 S+U Alexanderplatz Bhf/Gontardstr. (Berlin),,,
+de:11000:900100030::5,S+U Alexanderplatz Bhf/Memhardstr. (Berlin),52.523507,13.411335,Tramsteig Karl-Liebknecht-S. ht. Memhardstr Pos. 4,5555 S+U Alexanderplatz Bhf/Memhardstr. (Berlin),de:11000:900100031,,
+de:11000:900100030::6,S+U Alexanderplatz Bhf/Memhardstr. (Berlin),52.523489,13.411363,Tramsteig Karl-Liebknecht-S vor Alexanderstr Pos 5,5555 S+U Alexanderplatz Bhf/Memhardstr. (Berlin),de:11000:900100031,,
+de:11000:900100038::6,Am Kupfergraben (Berlin),52.519167,13.393566,Tramhalt Dorotheenstraße ht. Universitätsstraße,5555 Am Kupfergraben (Berlin),,,
+de:11000:900100040::10,Mollstr./Otto-Braun-Str. (Berlin),52.524891,13.420722,Tramsteig Mollstraße vor Otto-Braun-Straße Pos. 5,5555 Mollstr./Otto-Braun-Str. (Berlin),de:11000:900100040,,
+de:11000:900100040::11,Mollstr./Otto-Braun-Str. (Berlin),52.525706,13.420478,Tramsteig Otto-Braun-Straße vor Mollstraße Pos. 3,5555 Mollstr./Otto-Braun-Str. (Berlin),de:11000:900100040,,
+de:11000:900100040::6,Mollstr./Otto-Braun-Str. (Berlin),52.524846,13.420685,Tramsteig Mollstraße ht. Otto-Braun-Straße Pos. 6,5555 Mollstr./Otto-Braun-Str. (Berlin),de:11000:900100040,,
+de:11000:900100040::7,Mollstr./Otto-Braun-Str. (Berlin),52.524705,13.419348,Tramsteig Otto-Braun-Straße ht. Mollstraße Pos.8,5555 Mollstr./Otto-Braun-Str. (Berlin),de:11000:900100040,,
+de:11000:900100040::8,Mollstr./Otto-Braun-Str. (Berlin),52.524679,13.419414,Tramsteig Otto-Braun-Straße vor Mollstraße Pos.7,5555 Mollstr./Otto-Braun-Str. (Berlin),de:11000:900100040,,
+de:11000:900100040::9,Mollstr./Otto-Braun-Str. (Berlin),52.525509,13.419095,Tramsteig Mollstraße vor Otto-Braun-Straße Pos. 1,5555 Mollstr./Otto-Braun-Str. (Berlin),de:11000:900100040,,
+de:11000:900100041::3,"Berlin, Brunnenstr./Invalidenstr.",52.531970,13.399466,Tram- und Bussteig Brunnenstraße vor Veteranenstraße,"5555 Berlin, Brunnenstr./Invalidenstr.",,,
+de:11000:900100041::4,"Berlin, Brunnenstr./Invalidenstr.",52.532469,13.397430,Tram- und Bussteig Invalidenstraße vor Elisabethkirchstraße,"5555 Berlin, Brunnenstr./Invalidenstr.",,,
+de:11000:900100042::1,Zionskirchplatz (Berlin),52.534568,13.405554,Tramhalt Kastanienallee vor Zionskirchstraße,5555 Zionskirchplatz (Berlin),,,
+de:11000:900100042::4,Zionskirchplatz (Berlin),52.534421,13.405616,Tramhalt Kastanienallee ht. Zionskirchstraße,5555 Zionskirchplatz (Berlin),,,
+de:11000:900100045::6,U Rotes Rathaus (Berlin),52.518802,13.407888,U Bahnsteig Gleis 1,5555 U Rotes Rathaus (Berlin),de:11000:900100045,,
+de:11000:900100045::7,U Rotes Rathaus (Berlin),52.518762,13.407935,U Bahnsteig Gleis 2,5555 U Rotes Rathaus (Berlin),de:11000:900100045,,
+de:11000:900100051::1,U Weinmeisterstr. (Berlin),52.525435,13.404988,U Bahnsteig Gleis 1,5555 U Weinmeisterstr. (Berlin),de:11000:900100051,,
+de:11000:900100051::2,U Weinmeisterstr. (Berlin),52.525501,13.405070,U Bahnsteig Gleis 2,5555 U Weinmeisterstr. (Berlin),de:11000:900100051,,
+de:11000:900100080::1,U Weinmeisterstr./Gipsstr. (Berlin),52.525309,13.403544,Tram- u. Bushalt Rosenthaler Str vor Weinmeisters.,5555 U Weinmeisterstr./Gipsstr. (Berlin),,,
+de:11000:900100501::1,U Schwartzkopffstr. (Berlin),52.535449,13.376863,U Bahnsteig Gleis 1,5555 U Schwartzkopffstr. (Berlin),de:11000:900100501,,
+de:11000:900100501::2,U Schwartzkopffstr. (Berlin),52.535500,13.376986,U Bahnsteig Gleis 2,5555 U Schwartzkopffstr. (Berlin),de:11000:900100501,,
+de:11000:900100503::2,"Berlin, Invalidenpark",52.528659,13.376728,Tram- u. Bussteig Invalidenstr. vor Schwarzer Weg,"5555 Berlin, Invalidenpark",,,
+de:11000:900100503::7,"Berlin, Invalidenpark",52.528722,13.376723,Tramsteig Invalidenstraße vor Scharnhorststraße,"5555 Berlin, Invalidenpark",de:11000:900100503,,
+de:11000:900100504::1,Pappelplatz (Berlin),52.532302,13.394622,Tramhalt und Bushalt Invalidenstraße vor Bergstraße,5555 Pappelplatz (Berlin),,,
+de:11000:900100504::2,Pappelplatz (Berlin),52.532236,13.394629,Tramhalt und Bushalt Invalidenstraße hinter Bergstraße,5555 Pappelplatz (Berlin),,,
+de:11000:900100506::1,Hannoversche Str. (Berlin),52.527565,13.386752,Tramsteig Chausseestraße vor Hannoversche Straße,5555 Hannoversche Str. (Berlin),de:11000:900100506,,
+de:11000:900100512::3,Monbijouplatz (Berlin),52.523867,13.396918,Tramhaltestelle Oranienburger Straße vor Monbijouplatz,5555 Monbijouplatz (Berlin),,,
+de:11000:900100512::4,Monbijouplatz (Berlin),52.523701,13.398831,Tramhaltestelle Oranienburger Straße gegenüber Monbijouplatz,5555 Monbijouplatz (Berlin),,,
+de:11000:900100513::5,U Unter den Linden (Berlin),52.517040,13.389059,U Bahnsteig U5 Gleis 1,5555 U Unter den Linden (Berlin),de:11000:900100513,,
+de:11000:900100513::6,U Unter den Linden (Berlin),52.516920,13.389081,U Bahnsteig U5 Gleis 2,5555 U Unter den Linden (Berlin),de:11000:900100513,,
+de:11000:900100513::7,U Unter den Linden (Berlin),52.516662,13.388825,U Bahnsteig U6 Gleis 1,5555 U Unter den Linden (Berlin),de:11000:900100513,,
+de:11000:900100513::8,U Unter den Linden (Berlin),52.516665,13.388887,U Bahnsteig U6 Gleis 2,5555 U Unter den Linden (Berlin),de:11000:900100513,,
+de:11000:900100515::1,Spandauer Str./Marienkirche (Berlin),52.520429,13.405559,Tramsteig Karl-Liebknecht-Straße vor Spandauer Straße,5555 Spandauer Str./Marienkirche (Berlin),de:11000:900100515,,
+de:11000:900100515::2,Spandauer Str./Marienkirche (Berlin),52.520517,13.404127,Tramsteig Spandauer Straße vor Karl-Liebknecht-Straße,5555 Spandauer Str./Marienkirche (Berlin),de:11000:900100515,,
+de:11000:900100537::3,U Museumsinsel (Berlin),52.517402,13.398250,U Bahnsteig Gleis 1,5555 U Museumsinsel (Berlin),de:11000:900100537,,
+de:11000:900100537::4,U Museumsinsel (Berlin),52.517267,13.398218,U Bahnsteig Gleis 2,5555 U Museumsinsel (Berlin),de:11000:900100537,,
+de:11000:900100540::1,Universitätsstr. (Berlin),52.519069,13.391509,Tram und Ersatzhalt Dorotheens. vor Universitätss.,5555 Universitätsstr. (Berlin),,,
+de:11000:900100541::2,Georgenstr./Am Kupfergraben (Berlin),52.520318,13.393685,Tramhalt Georgenstraße ht. Am Kupfergraben,5555 Georgenstr./Am Kupfergraben (Berlin),,,
+de:11000:900100701::1,U Stadtmitte (Berlin),52.512199,13.390543,U Bahnsteig Gleis 1,5555 U Stadtmitte (Berlin),de:11000:900100011,,
+de:11000:900100701::2,U Stadtmitte (Berlin),52.512114,13.390557,U Bahnsteig Gleis 2,5555 U Stadtmitte (Berlin),de:11000:900100011,,
+de:11000:900100710::1,U Naturkundemuseum (Berlin),52.530125,13.383478,Tram- u. Bushalt Chaussee- ht. Invalidenstr Pos. 4,5555 U Naturkundemuseum (Berlin),,,
+de:11000:900100710::2,U Naturkundemuseum (Berlin),52.530277,13.383543,Tram- u. Bushalt Chaussee- vor Invalidenstr Pos. 5,5555 U Naturkundemuseum (Berlin),,,
+de:11000:900100819::1,U Oranienburger Tor (Berlin),52.526157,13.388072,Tramsteig Oranienburger Str. vor Friedr. Pos. 1,5555 U Oranienburger Tor (Berlin),de:11000:900100019,,
+de:11000:900110001:1:50,S+U Schönhauser Allee (Berlin),52.549274,13.415186,Bahnsteig S-Bahn Gleis 1,5555 S+U Schönhauser Allee (Berlin),de:11000:900110001,,1
+de:11000:900110001:1:51,S+U Schönhauser Allee (Berlin),52.549382,13.415241,Bahnsteig S-Bahn Gleis 2,5555 S+U Schönhauser Allee (Berlin),de:11000:900110001,,2
+de:11000:900110001::1,S+U Schönhauser Allee (Berlin),52.549226,13.413598,Bahnsteig U-Bahn Gleis 1,5555 S+U Schönhauser Allee (Berlin),de:11000:900110001,,
+de:11000:900110001::2,S+U Schönhauser Allee (Berlin),52.549218,13.413741,Bahnsteig U-Bahn Gleis 2,5555 S+U Schönhauser Allee (Berlin),de:11000:900110001,,
+de:11000:900110001::3,S+U Schönhauser Allee (Berlin),52.549545,13.413923,Tram- und Bushalt Schönhauser Allee vor Dänenstr.,5555 S+U Schönhauser Allee (Berlin),,,
+de:11000:900110001::4,S+U Schönhauser Allee (Berlin),52.549258,13.413455,Tram- und Bushalt Schönhauser Allee ht. Dänenstr.,5555 S+U Schönhauser Allee (Berlin),,,
+de:11000:900110002:1:50,S Prenzlauer Allee (Berlin),52.544757,13.425865,S-Bahnsteig Gleis 1,5555 S Prenzlauer Allee (Berlin),de:11000:900110002,,1
+de:11000:900110002:1:51,S Prenzlauer Allee (Berlin),52.544860,13.425975,S-Bahnsteig Gleis 2,5555 S Prenzlauer Allee (Berlin),de:11000:900110002,,2
+de:11000:900110002::1,S Prenzlauer Allee (Berlin),52.545117,13.427566,Tramsteig Prenzlauer Allee vor Grellstraße,5555 S Prenzlauer Allee (Berlin),de:11000:900110002,,
+de:11000:900110002::2,S Prenzlauer Allee (Berlin),52.545113,13.427525,Tramsteig Prenzlauer Allee ht. Wichertstraße,5555 S Prenzlauer Allee (Berlin),de:11000:900110002,,
+de:11000:900110003:1:50,S Greifswalder Str. (Berlin),52.540109,13.439108,S-Bahnsteig Gleis 1,5555 S Greifswalder Str. (Berlin),de:11000:900110003,,1
+de:11000:900110003:1:51,S Greifswalder Str. (Berlin),52.540212,13.439227,S-Bahnsteig Gleis 2,5555 S Greifswalder Str. (Berlin),de:11000:900110003,,2
+de:11000:900110003::1,S Greifswalder Str. (Berlin),52.540795,13.438448,Tramsteig Greifswalder Straße vor Storkower Straße,5555 S Greifswalder Str. (Berlin),de:11000:900110003,,
+de:11000:900110003::2,S Greifswalder Str. (Berlin),52.540815,13.438392,Tramsteig Greifswalder Straße ht. Grellstraße,5555 S Greifswalder Str. (Berlin),de:11000:900110003,,
+de:11000:900110004:1:50,S Landsberger Allee (Berlin),52.529316,13.454840,S-Bahnsteig Gleis 1,5555 S Landsberger Allee (Berlin),de:11000:900110004,,1
+de:11000:900110004:1:51,S Landsberger Allee (Berlin),52.529386,13.454998,S-Bahnsteig Gleis 2,5555 S Landsberger Allee (Berlin),de:11000:900110004,,2
+de:11000:900110004::1,S Landsberger Allee (Berlin),52.528681,13.456560,Tramsteig Landsberger Allee ht. Storkower Straße,5555 S Landsberger Allee (Berlin),de:11000:900110004,,
+de:11000:900110004::2,S Landsberger Allee (Berlin),52.528655,13.456577,Tramsteig Landsberger Allee vor Storkower Straße,5555 S Landsberger Allee (Berlin),de:11000:900110004,,
+de:11000:900110005::1,U Senefelderplatz (Berlin),52.532443,13.412596,U Bahnsteig Gleis 1,5555 U Senefelderplatz (Berlin),de:11000:900110005,,
+de:11000:900110005::2,U Senefelderplatz (Berlin),52.532427,13.412787,U Bahnsteig Gleis 2,5555 U Senefelderplatz (Berlin),de:11000:900110005,,
+de:11000:900110006::1,U Eberswalder Str. (Berlin),52.541988,13.412139,U Bahnsteig Gleis 1,5555 U Eberswalder Str. (Berlin),de:11000:900110006,,
+de:11000:900110006::2,U Eberswalder Str. (Berlin),52.541982,13.412280,U Bahnsteig Gleis 2,5555 U Eberswalder Str. (Berlin),de:11000:900110006,,
+de:11000:900110006::3,U Eberswalder Str. (Berlin),52.540970,13.413000,Tramhalt Danziger Str. v. Schönhauser Allee Pos. 6,5555 U Eberswalder Str. (Berlin),,,
+de:11000:900110006::4,U Eberswalder Str. (Berlin),52.541062,13.411405,Tramsteig Eberswalder Str. v. Schönhauser A Pos. 1,5555 U Eberswalder Str. (Berlin),de:11000:900110006,,
+de:11000:900110006::5,U Eberswalder Str. (Berlin),52.540136,13.411336,Tramhalt Kastanienall. ht. Schönhauser All. Pos. 8,5555 U Eberswalder Str. (Berlin),,,
+de:11000:900110006::6,U Eberswalder Str. (Berlin),52.540421,13.411691,Tramsteig Kastanienallee v. Schönhauser All. Pos. 7,5555 U Eberswalder Str. (Berlin),,,
+de:11000:900110007::1,"Berlin, Schönhauser Allee/Bornholmer Str.",52.553231,13.414658,Tram- u. Bushalt Schönh. Allee vor Wisbyer Straße,"5656 Berlin, Schönhauser Allee/Bornholmer Str.",,,
+de:11000:900110007::2,"Berlin, Schönhauser Allee/Bornholmer Str.",52.554152,13.414372,Tram- u. Bushalt Schönh. Allee vor Bornholmer Str.,"5656 Berlin, Schönhauser Allee/Bornholmer Str.",,,
+de:11000:900110007::6,"Berlin, Schönhauser Allee/Bornholmer Str.",52.553665,13.415459,Tramsteig Wisbyer Straße vor Schönhauser Allee,"5656 Berlin, Schönhauser Allee/Bornholmer Str.",de:11000:900110007,,
+de:11000:900110007::7,"Berlin, Schönhauser Allee/Bornholmer Str.",52.553787,13.413574,Tramsteig Bornholmer Straße vor Schönhauser Allee,"5656 Berlin, Schönhauser Allee/Bornholmer Str.",de:11000:900110007,,
+de:11000:900110008::5,Schönfließer Str. (Berlin),52.554058,13.409381,Tramsteig Bornholmer Straße vor Stavangerstraße,5656 Schönfließer Str. (Berlin),de:11000:900110008,,
+de:11000:900110008::6,Schönfließer Str. (Berlin),52.554109,13.408005,Tramsteig Bornholmer Straße vor Schönfließer Str.,5656 Schönfließer Str. (Berlin),de:11000:900110008,,
+de:11000:900110009::1,U Eberswalder Str./Pappelallee (Berlin),52.541464,13.412783,Tramsteig Pappelallee ht. Danziger Straße Pos. 5,5555 U Eberswalder Str./Pappelallee (Berlin),,,
+de:11000:900110009::2,U Eberswalder Str./Pappelallee (Berlin),52.541599,13.412877,Tramsteig Pappelallee vor Danziger Straße Pos. 4,5555 U Eberswalder Str./Pappelallee (Berlin),,,
+de:11000:900110010::6,Björnsonstr. (Berlin),52.554397,13.403505,Tramsteig Bornholmer Straße vor Björnsonstraße,5656 Björnsonstr. (Berlin),de:11000:900110010,,
+de:11000:900110010::7,Björnsonstr. (Berlin),52.554367,13.403501,Tramsteig Bornholmer Straße ht. Malmöer Straße,5656 Björnsonstr. (Berlin),de:11000:900110010,,
+de:11000:900110011:1:50,S Bornholmer Str. (Berlin),52.554619,13.397673,S-Bahnsteig Gleis 1,5656 S Bornholmer Str. (Berlin),de:11000:900110011,,1
+de:11000:900110011:1:51,S Bornholmer Str. (Berlin),52.554628,13.397809,S-Bahnsteig Gleis 2,5656 S Bornholmer Str. (Berlin),de:11000:900110011,,2
+de:11000:900110011:2:52,S Bornholmer Str. (Berlin),52.554630,13.397940,S-Bahnsteig Gleis 3,5656 S Bornholmer Str. (Berlin),de:11000:900110011,,3
+de:11000:900110011:2:53,S Bornholmer Str. (Berlin),52.554635,13.398080,S-Bahnsteig Gleis 4,5656 S Bornholmer Str. (Berlin),de:11000:900110011,,4
+de:11000:900110011::1,S Bornholmer Str. (Berlin),52.554869,13.395832,Tramsteig Bornholmer Straße vor Bösebrücke,5656 S Bornholmer Str. (Berlin),de:11000:900110011,,
+de:11000:900110011::2,S Bornholmer Str. (Berlin),52.554903,13.395837,Tramsteig Bornholmer Straße ht. Bösebrücke,5656 S Bornholmer Str. (Berlin),de:11000:900110011,,
+de:11000:900110012:1:50,S Storkower Str. (Berlin),52.523660,13.465047,S-Bahnsteig Gleis 1,5555 S Storkower Str. (Berlin),de:11000:900110012,,1
+de:11000:900110012:1:51,S Storkower Str. (Berlin),52.523731,13.465094,S-Bahnsteig Gleis 2,5555 S Storkower Str. (Berlin),de:11000:900110012,,2
+de:11000:900110013::3,Prenzlauer Allee/Ostseestr. (Berlin),52.550546,13.429917,Tramsteig Prenzlauer Allee vor Ostseestraße,5656 Prenzlauer Allee/Ostseestr. (Berlin),de:11000:900110013,,
+de:11000:900110013::4,Prenzlauer Allee/Ostseestr. (Berlin),52.550554,13.429880,Tramsteig Prenzlauer Allee ht. Wisbyer Straße,5656 Prenzlauer Allee/Ostseestr. (Berlin),de:11000:900110013,,
+de:11000:900110015::3,Stahlheimer Str./Wisbyer Str. (Berlin),52.552146,13.424429,Tramhalt Stahlheimer Straße vor Wisbyer Straße,5656 Stahlheimer Str./Wisbyer Str. (Berlin),,,
+de:11000:900110015::5,Stahlheimer Str./Wisbyer Str. (Berlin),52.552523,13.425824,Tramsteig Wisbyer Straße vor ggü. Stahlheimer Str.,5656 Stahlheimer Str./Wisbyer Str. (Berlin),de:11000:900110015,,
+de:11000:900110015::6,Stahlheimer Str./Wisbyer Str. (Berlin),52.552768,13.423367,Tramsteig Wisbyer Straße vor Stahlheimer Str.,5656 Stahlheimer Str./Wisbyer Str. (Berlin),de:11000:900110015,,
+de:11000:900110016::5,"Berlin, Greifswalder Str./Ostseestr.",52.545105,13.443828,Tramsteig Greifswalder Str. vor Michelangelostraße,"5656 Berlin, Greifswalder Str./Ostseestr.",de:11000:900110016,,
+de:11000:900110016::6,"Berlin, Greifswalder Str./Ostseestr.",52.545851,13.445386,Tramsteig Greifswalder Str. vor Ostseestraße,"5656 Berlin, Greifswalder Str./Ostseestr.",de:11000:900110016,,
+de:11000:900110017::10,Prenzlauer Allee/Danziger Str. (Berlin),52.538943,13.425055,Tramsteig Danziger Straße vor Prenzlauer Allee,5555 Prenzlauer Allee/Danziger Str. (Berlin),de:11000:900110017,,
+de:11000:900110017::11,Prenzlauer Allee/Danziger Str. (Berlin),52.538530,13.423860,Tramsteig Prenzlauer Allee vor Danziger Straße,5555 Prenzlauer Allee/Danziger Str. (Berlin),de:11000:900110017,,
+de:11000:900110017::12,Prenzlauer Allee/Danziger Str. (Berlin),52.539817,13.424579,Tramsteig Prenzlauer Allee vor Danziger Straße,5555 Prenzlauer Allee/Danziger Str. (Berlin),de:11000:900110017,,
+de:11000:900110017::9,Prenzlauer Allee/Danziger Str. (Berlin),52.539344,13.423185,Tramsteig Danziger Straße vor Prenzlauer Allee,5555 Prenzlauer Allee/Danziger Str. (Berlin),de:11000:900110017,,
+de:11000:900110018::2,Friedrich-Ludwig-Jahn-Sportpark (Berlin),52.540943,13.405766,Tramhalt Eberswalder Str. ht. Schwedter S. Pos. 2,5555 Friedrich-Ludwig-Jahn-Sportpark (Berlin),,,
+de:11000:900110018::3,Friedrich-Ludwig-Jahn-Sportpark (Berlin),52.540963,13.406566,Tramhalt Eberswalder Str. ht. Schwedter S. Pos. 1,5555 Friedrich-Ludwig-Jahn-Sportpark (Berlin),,,
+de:11000:900110019::10,"Berlin, Am Friedrichshain",52.528699,13.424336,Tramsteig Greifswalder Str. vor Prenzlauer Berg,"5555 Berlin, Am Friedrichshain",de:11000:900110019,,
+de:11000:900110019::9,"Berlin, Am Friedrichshain",52.528669,13.424401,Tramsteig Greifswalder Str. ht. Am Friedrichshain,"5555 Berlin, Am Friedrichshain",de:11000:900110019,,
+de:11000:900110020::10,"Berlin, Greifswalder Str./Danziger Str.",52.535875,13.433757,Tramsteig Danziger Straße vor Greifswalder Straße,"5555 Berlin, Greifswalder Str./Danziger Str.",de:11000:900110020,,
+de:11000:900110020::11,"Berlin, Greifswalder Str./Danziger Str.",52.536427,13.432265,Tramsteig Danziger Straße vor Greifswalder Straße,"5555 Berlin, Greifswalder Str./Danziger Str.",de:11000:900110020,,
+de:11000:900110020::12,"Berlin, Greifswalder Str./Danziger Str.",52.535751,13.432575,Tramsteig Greifswalder Straße vor Danziger Straße,"5555 Berlin, Greifswalder Str./Danziger Str.",de:11000:900110020,,
+de:11000:900110020::13,"Berlin, Greifswalder Str./Danziger Str.",52.536695,13.433631,Tramsteig Greifswalder Straße vor Danziger Straße,"5555 Berlin, Greifswalder Str./Danziger Str.",de:11000:900110020,,
+de:11000:900110021::5,Kniprodestr./Danziger Str. (Berlin),52.531645,13.441999,Tramsteig Danziger Straße ht. Kniprodestraße,5555 Kniprodestr./Danziger Str. (Berlin),de:11000:900110021,,
+de:11000:900110021::6,Kniprodestr./Danziger Str. (Berlin),52.532435,13.440909,Tramsteig Danziger Straße ht. Kniprodestraße,5555 Kniprodestr./Danziger Str. (Berlin),de:11000:900110021,,
+de:11000:900110022::10,Mollstr./Prenzlauer Allee (Berlin),52.526648,13.416557,Tramsteig Mollstraße vor Prenzlauer Allee Pos. 4,5555 Mollstr./Prenzlauer Allee (Berlin),de:11000:900110022,,
+de:11000:900110022::11,Mollstr./Prenzlauer Allee (Berlin),52.526630,13.416542,Tramsteig Mollstr. ht. Karl-Liebknecht-Str. Pos. 5,5555 Mollstr./Prenzlauer Allee (Berlin),de:11000:900110022,,
+de:11000:900110022::12,Mollstr./Prenzlauer Allee (Berlin),52.527650,13.416338,Tramsteig Prenzlauer Allee ht. Mollstraße Pos. 2,5555 Mollstr./Prenzlauer Allee (Berlin),de:11000:900110022,,
+de:11000:900110022::13,Mollstr./Prenzlauer Allee (Berlin),52.527660,13.416302,Tramsteig Prenzlauer Allee vor Torstraße Pos. 1,5555 Mollstr./Prenzlauer Allee (Berlin),de:11000:900110022,,
+de:11000:900110025::3,"Berlin, Arnswalder Platz",52.534292,13.436989,Tramsteig Danziger Str. vor Bötzowstr.,"5555 Berlin, Arnswalder Platz",de:11000:900110025,,
+de:11000:900110025::4,"Berlin, Arnswalder Platz",52.533807,13.438061,Tramsteig Danziger Str. vor Bötzowstr.,"5555 Berlin, Arnswalder Platz",de:11000:900110025,,
+de:11000:900110029::1,Karl-Lade-Str. (Berlin),52.529212,13.462786,Tramsteig Karl-Lade-Straße vor Landsberger Allee,5656 Karl-Lade-Str. (Berlin),,,
+de:11000:900110029::2,Karl-Lade-Str. (Berlin),52.529179,13.462772,Tramsteig Karl-Lade-Straße ht. Landsberger Allee,5656 Karl-Lade-Str. (Berlin),,,
+de:11000:900110030::1,Oderbruchstr. (Berlin),52.530426,13.461534,Tramsteig Oderbruchstraße hinter Landsberger Allee,5656 Oderbruchstr. (Berlin),,,
+de:11000:900110030::2,Oderbruchstr. (Berlin),52.530540,13.461395,Tramsteig Oderbruchstraße vor Landsberger Allee,5656 Oderbruchstr. (Berlin),,,
+de:11000:900110500::4,Humannplatz (Berlin),52.549683,13.421568,Tramhalt Stahlheimer Straße vor Rodenbergstraße,5656 Humannplatz (Berlin),,,
+de:11000:900110500::5,Humannplatz (Berlin),52.549459,13.421490,Tramhalt Stahlheimer Straße ht. Wichertstraße,5656 Humannplatz (Berlin),,,
+de:11000:900110501::1,Stargarder Str. (Berlin),52.546658,13.418334,Tramhaltestelle Pappelallee vor Stargarder Straße,5555 Stargarder Str. (Berlin),,,
+de:11000:900110501::2,Stargarder Str. (Berlin),52.546323,13.418106,Tramhaltestelle Pappelallee vor Stargarder Straße,5555 Stargarder Str. (Berlin),,,
+de:11000:900110502::1,Raumerstr. (Berlin),52.544357,13.415815,Tramhalt Pappelallee vor Gneiststraße,5555 Raumerstr. (Berlin),,,
+de:11000:900110502::2,Raumerstr. (Berlin),52.543619,13.415212,Tramhalt Pappelallee vor Raumerstraße,5555 Raumerstr. (Berlin),,,
+de:11000:900110503::1,Milastr. (Berlin),52.545649,13.413102,Tram- u. Bushalt Schönh. All. ht. Buchholzer Str.,5555 Milastr. (Berlin),,,
+de:11000:900110503::2,Milastr. (Berlin),52.544921,13.412435,Tram- u. Bushalt Schönhauser Allee ht. Milastraße,5555 Milastr. (Berlin),,,
+de:11000:900110505::3,Schwedter Str. (Berlin),52.536603,13.407587,Tramhalt Kastanienallee vor Schwedter Starße,5555 Schwedter Str. (Berlin),,,
+de:11000:900110505::4,Schwedter Str. (Berlin),52.537139,13.408271,Tramhalt Kastanienallee hinter Schwedter Straße,5555 Schwedter Str. (Berlin),,,
+de:11000:900110506::3,Prenzlauer Allee/Metzer Str. (Berlin),52.531012,13.419394,Tramsteig Prenzlauer Allee ht. ggü. Metzer Straße,5555 Prenzlauer Allee/Metzer Str. (Berlin),de:11000:900110506,,
+de:11000:900110506::4,Prenzlauer Allee/Metzer Str. (Berlin),52.531024,13.419354,Tramsteig Prenzlauer Allee vor Metzer Straße,5555 Prenzlauer Allee/Metzer Str. (Berlin),de:11000:900110506,,
+de:11000:900110507::3,Knaackstr. (Berlin),52.533190,13.420703,Tramsteig Prenzlauer Allee vor Immanuelkirchstr.,5555 Knaackstr. (Berlin),de:11000:900110507,,
+de:11000:900110507::4,Knaackstr. (Berlin),52.533201,13.420664,Tramsteig Prenzlauer Allee ht. Knaackstraße,5555 Knaackstr. (Berlin),de:11000:900110507,,
+de:11000:900110508::3,Marienburger Str. (Berlin),52.536036,13.422388,Tramsteig Prenzlauer Allee ht. Marienburger Straße,5555 Marienburger Str. (Berlin),de:11000:900110508,,
+de:11000:900110508::4,Marienburger Str. (Berlin),52.535157,13.421824,Tramsteig Prenzlauer Allee ht. Wörther Straße,5555 Marienburger Str. (Berlin),de:11000:900110508,,
+de:11000:900110509::3,Erich-Weinert-Str. (Berlin),52.547393,13.428481,Tramsteig Prenzlauer Allee vor Erich-Weinert-Straße,5656 Erich-Weinert-Str. (Berlin),de:11000:900110509,,
+de:11000:900110509::4,Erich-Weinert-Str. (Berlin),52.548256,13.428840,Tramsteig Prenzlauer Allee vor Erich-Weinert-Straße,5656 Erich-Weinert-Str. (Berlin),de:11000:900110509,,
+de:11000:900110510::3,Fröbelstr. (Berlin),52.541750,13.425751,Tramsteig Prenzlauer Allee hinter Fröbelstr.,5555 Fröbelstr. (Berlin),de:11000:900110510,,
+de:11000:900110510::4,Fröbelstr. (Berlin),52.542315,13.426050,Tramsteig Prenzlauer Allee hinter Hiddenseer Straße,5555 Fröbelstr. (Berlin),de:11000:900110510,,
+de:11000:900110511::3,Husemannstr. (Berlin),52.539938,13.419319,Tramsteig Danziger Straße ht. Husemannstraße,5555 Husemannstr. (Berlin),de:11000:900110511,,
+de:11000:900110511::4,Husemannstr. (Berlin),52.540131,13.418266,Tramsteig Danziger Straße ht. Dunkerstraße,5555 Husemannstr. (Berlin),de:11000:900110511,,
+de:11000:900110512::3,Winsstr. (Berlin),52.537979,13.427779,Tramsteig Danziger Straße vor Winsstraße,5555 Winsstr. (Berlin),de:11000:900110512,,
+de:11000:900110512::4,Winsstr. (Berlin),52.537448,13.429402,Tramsteig Danziger Straße vor Ella-Kay-Straße,5555 Winsstr. (Berlin),de:11000:900110512,,
+de:11000:900110515::3,Thomas-Mann-Str. (Berlin),52.543056,13.441106,Tramsteig Greifswalder Straße vor Thomas-Mann-Straße,5656 Thomas-Mann-Str. (Berlin),de:11000:900110515,,
+de:11000:900110515::4,Thomas-Mann-Str. (Berlin),52.543713,13.441798,Tramsteig Greifswalder Straße vor Erich-Weinert-Straße,5656 Thomas-Mann-Str. (Berlin),de:11000:900110515,,
+de:11000:900110521::3,Hufelandstr. (Berlin),52.532591,13.428907,Tramsteig Greifswalder Straße vor Hufelandstraße,5555 Hufelandstr. (Berlin),de:11000:900110521,,
+de:11000:900110521::4,Hufelandstr. (Berlin),52.532606,13.428858,Tramsteig Greifswalder Straße hinter Marienburger Straße,5555 Hufelandstr. (Berlin),de:11000:900110521,,
+de:11000:900110523::3,Paul-Heyse-Str. (Berlin),52.529074,13.444755,Tramsteig Danziger Str. ht. Margarete-Sommer-Str.,5555 Paul-Heyse-Str. (Berlin),de:11000:900110523,,
+de:11000:900110523::4,Paul-Heyse-Str. (Berlin),52.529089,13.444806,Tramsteig Danziger Straße vor Paul-Heyse-Straße,5555 Paul-Heyse-Str. (Berlin),de:11000:900110523,,
+de:11000:900110710::1,Björnsonstr. (Berlin),52.555250,13.402676,Tramhalt Björnsonstraße ht. Bornholmer Straße,5656 Björnsonstr. (Berlin),,,
+de:11000:900110710::2,Björnsonstr. (Berlin),52.555302,13.402590,Tramhalt Björnsonstraße vor Bornholmer Straße,5656 Björnsonstr. (Berlin),,,
+de:11000:900110713::1,Prenzlauer Allee/Ostseestr. (Berlin),52.551561,13.429225,Tramsteig Wisbyer Str. ht. Prenzlauer Promenade,5656 Prenzlauer Allee/Ostseestr. (Berlin),de:11000:900110013,,
+de:11000:900110713::2,Prenzlauer Allee/Ostseestr. (Berlin),52.551540,13.429197,Tramsteig Wisbyer Str. vor Prenzlauer Allee,5656 Prenzlauer Allee/Ostseestr. (Berlin),de:11000:900110013,,
+de:11000:900110718::1,Friedrich-Ludwig-Jahn-Sportpark (Berlin),52.541449,13.406747,Tramsteig Friedrich-Ludwig-Jahn-Sportpark Pos. 3,5555 Friedrich-Ludwig-Jahn-Sportpark (Berlin),de:11000:900110018,,
+de:11000:900110718::2,Friedrich-Ludwig-Jahn-Sportpark (Berlin),52.541491,13.406726,Tramsteig Friedrich-Ludwig-Jahn-Sportpark Pos. 4,5555 Friedrich-Ludwig-Jahn-Sportpark (Berlin),de:11000:900110018,,
+de:11000:900120001:1:50,S+U Frankfurter Allee (Berlin),52.515383,13.474280,S Bahnsteig Gleis 1,5555 S+U Frankfurter Allee (Berlin),de:11000:900120001,,1
+de:11000:900120001:1:51,S+U Frankfurter Allee (Berlin),52.515401,13.474370,S Bahnsteig Gleis 2,5555 S+U Frankfurter Allee (Berlin),de:11000:900120001,,2
+de:11000:900120001::1,S+U Frankfurter Allee (Berlin),52.513761,13.475215,U Bahnsteig Gleis 1,5555 S+U Frankfurter Allee (Berlin),de:11000:900120001,,
+de:11000:900120001::2,S+U Frankfurter Allee (Berlin),52.513604,13.475178,U Bahnsteig Gleis 2,5555 S+U Frankfurter Allee (Berlin),de:11000:900120001,,
+de:11000:900120001::3,S+U Frankfurter Allee (Berlin),52.513950,13.477529,Tramsteig Möllendorffstraße ht. Frankfurter Allee,5555 S+U Frankfurter Allee (Berlin),de:11000:900120001,,
+de:11000:900120001::4,S+U Frankfurter Allee (Berlin),52.513958,13.477494,Tramsteig Möllendorffstraße vor Frankfurter Allee,5555 S+U Frankfurter Allee (Berlin),de:11000:900120001,,
+de:11000:900120003:2:52,S Ostkreuz Bhf (Berlin),52.503282,13.468710,S-Bahnsteig Gleis 4,5555 S Ostkreuz Bhf (Berlin),de:11000:900120003,,4
+de:11000:900120003:2:53,S Ostkreuz Bhf (Berlin),52.503125,13.468633,S-Bahnsteig Gleis 3,5555 S Ostkreuz Bhf (Berlin),de:11000:900120003,,3
+de:11000:900120003:3:54,S Ostkreuz Bhf (Berlin),52.503348,13.468748,S-Bahnsteig Gleis 5,5555 S Ostkreuz Bhf (Berlin),de:11000:900120003,,5
+de:11000:900120003:3:55,S Ostkreuz Bhf (Berlin),52.503509,13.468841,S-Bahnsteig Gleis 6,5555 S Ostkreuz Bhf (Berlin),de:11000:900120003,,6
+de:11000:900120003:5:58,S Ostkreuz Bhf (Berlin),52.503422,13.469006,S-Bahnsteig Gleis 11,5555 S Ostkreuz Bhf (Berlin),de:11000:900120003,,11
+de:11000:900120003:5:59,S Ostkreuz Bhf (Berlin),52.503314,13.469607,S-Bahnsteig Gleis 12,5555 S Ostkreuz Bhf (Berlin),de:11000:900120003,,12
+de:11000:900120004:1:50,S+U Warschauer Str. (Berlin),52.506121,13.450664,Bahnsteig Gleis 1,5555 S+U Warschauer Str. (Berlin),de:11000:900120004,,1
+de:11000:900120004:1:51,S+U Warschauer Str. (Berlin),52.506228,13.450720,Bahnsteig Gleis 2,5555 S+U Warschauer Str. (Berlin),de:11000:900120004,,2
+de:11000:900120004:2:52,S+U Warschauer Str. (Berlin),52.506306,13.450761,Bahnsteig Gleis 3,5555 S+U Warschauer Str. (Berlin),de:11000:900120004,,3
+de:11000:900120004:2:53,S+U Warschauer Str. (Berlin),52.506404,13.450818,Bahnsteig Gleis 4,5555 S+U Warschauer Str. (Berlin),de:11000:900120004,,4
+de:11000:900120004::1,S+U Warschauer Str. (Berlin),52.504862,13.448802,Bahnsteig Gleis 1,5555 S+U Warschauer Str. (Berlin),de:11000:900120004,,
+de:11000:900120004::3,S+U Warschauer Str. (Berlin),52.504886,13.449123,Bahnsteig Gleis 3,5555 S+U Warschauer Str. (Berlin),de:11000:900120004,,
+de:11000:900120004::5,S+U Warschauer Str. (Berlin),52.504976,13.448558,Tramsteig Warschauer Straße Pos. 4,5555 S+U Warschauer Str. (Berlin),de:11000:900120004,,
+de:11000:900120004::6,S+U Warschauer Str. (Berlin),52.504966,13.448596,Tramsteig Warschauer Straße Position 5,5555 S+U Warschauer Str. (Berlin),de:11000:900120004,,
+de:11000:900120005:4:55,S Ostbahnhof (Berlin),52.510515,13.435336,S-Bahnsteig Gleis 8,5555 S Ostbahnhof (Berlin),de:11000:900120005,,8
+de:11000:900120005:4:56,S Ostbahnhof (Berlin),52.510594,13.435426,S-Bahnsteig Gleis 9,5555 S Ostbahnhof (Berlin),de:11000:900120005,,9
+de:11000:900120005:5:57,S Ostbahnhof (Berlin),52.510646,13.435474,S-Bahnsteig Gleis 10,5555 S Ostbahnhof (Berlin),de:11000:900120005,,10
+de:11000:900120005:5:58,S Ostbahnhof (Berlin),52.510717,13.435552,S-Bahnsteig Gleis 11,5555 S Ostbahnhof (Berlin),de:11000:900120005,,11
+de:11000:900120006::1,U Strausberger Platz (Berlin),52.518144,13.431554,U Bahnsteig Gleis 1,5555 U Strausberger Platz (Berlin),de:11000:900120006,,
+de:11000:900120006::2,U Strausberger Platz (Berlin),52.518055,13.431530,U Bahnsteig Gleis 2,5555 U Strausberger Platz (Berlin),de:11000:900120006,,
+de:11000:900120008::1,U Frankfurter Tor (Berlin),52.515872,13.453903,U Bahnsteig Gleis 1,5555 U Frankfurter Tor (Berlin),de:11000:900120008,,
+de:11000:900120008::2,U Frankfurter Tor (Berlin),52.515755,13.453871,U Bahnsteig Gleis 2,5555 U Frankfurter Tor (Berlin),de:11000:900120008,,
+de:11000:900120008::3,U Frankfurter Tor (Berlin),52.515436,13.453796,Tramsteig Warschauer Straße ht. Karl-Marx-Allee,5555 U Frankfurter Tor (Berlin),de:11000:900120008,,
+de:11000:900120008::4,U Frankfurter Tor (Berlin),52.515409,13.453999,Tramsteig Warschauer Straße vor Frankfurter Allee,5555 U Frankfurter Tor (Berlin),de:11000:900120008,,
+de:11000:900120009::1,U Samariterstr. (Berlin),52.514787,13.464537,U Bahnsteig Gleis 1,5555 U Samariterstr. (Berlin),de:11000:900120009,,
+de:11000:900120009::2,U Samariterstr. (Berlin),52.514675,13.464507,U Bahnsteig Gleis 2,5555 U Samariterstr. (Berlin),de:11000:900120009,,
+de:11000:900120011::1,S Warschauer Str. (Berlin),52.508113,13.450643,Tramsteig Warschauer Straße vor Revaler Straße,5555 S Warschauer Str. (Berlin),de:11000:900120011,,
+de:11000:900120011::2,S Warschauer Str. (Berlin),52.508120,13.450600,Tramsteig Warschauer Straße hinter Revaler Straße,5555 S Warschauer Str. (Berlin),de:11000:900120011,,
+de:11000:900120013::3,Holteistr. (Berlin),52.508112,13.465865,Tram- und Bushaltestelle Holteistraße vor Boxhagener Straße,5555 Holteistr. (Berlin),,,
+de:11000:900120013::4,Holteistr. (Berlin),52.509109,13.466685,Tramhaltestelle Holteistraße vor Boxhagener Straße,5555 Holteistr. (Berlin),,,
+de:11000:900120014::5,Grünberger Str./Warschauer Str. (Berlin),52.512135,13.452315,Tramsteig Warschauer Straße ht. Grünbgerger Straße,5555 Grünberger Str./Warschauer Str. (Berlin),de:11000:900120014,,
+de:11000:900120014::6,Grünberger Str./Warschauer Str. (Berlin),52.512113,13.452551,Tramsteig Warschauer Straße vor Grünberger Straße,5555 Grünberger Str./Warschauer Str. (Berlin),de:11000:900120014,,
+de:11000:900120016::3,Landsberger Allee/Petersburger Str. (Berlin),52.525976,13.446294,Tramsteig Landsberger A. ht. Danziger Str. Pos. 2,5555 Landsberger Allee/Petersburger Str. (Berlin),de:11000:900120016,,
+de:11000:900120016::4,Landsberger Allee/Petersburger Str. (Berlin),52.525958,13.446310,Tramsteig Landsberger A v. Petersburger Str Pos. 1,5555 Landsberger Allee/Petersburger Str. (Berlin),de:11000:900120016,,
+de:11000:900120017::2,Virchowstr. (Berlin),52.525750,13.442033,Tramhalt Langenbeckstraße ht. Virchowstraße,5555 Virchowstr. (Berlin),de:11000:900120017,,
+de:11000:900120017::3,Virchowstr. (Berlin),52.525815,13.441968,Tramhalt Langenbeckstraße ht. Virchowstraße,5555 Virchowstr. (Berlin),de:11000:900120017,,
+de:11000:900120017::4,Virchowstr. (Berlin),52.525716,13.442062,Tramhalt Langenbeckstraße ht.  Virchowstraße,5555 Virchowstr. (Berlin),de:11000:900120017,,
+de:11000:900120019::5,Platz der Vereinten Nationen (Berlin),52.523268,13.433052,Tramsteig Pl. d. Vereinten Nationen ht. Landsb. A.,5555 Platz der Vereinten Nationen (Berlin),de:11000:900120019,,
+de:11000:900120019::6,Platz der Vereinten Nationen (Berlin),52.523242,13.433055,Tramsteig Pl. d. Vereinten Nationen vor Landsb. A.,5555 Platz der Vereinten Nationen (Berlin),de:11000:900120019,,
+de:11000:900120021::6,"Berlin, Revaler Str.",52.509329,13.451299,Tramsteig Warschauer Straße ht. Revaler Straße,"5555 Berlin, Revaler Str.",de:11000:900120021,,
+de:11000:900120025::1,U Weberwiese (Berlin),52.516804,13.444683,U Bahnsteig Gleis 1,5555 U Weberwiese (Berlin),de:11000:900120025,,
+de:11000:900120025::2,U Weberwiese (Berlin),52.516688,13.444657,U Bahnsteig Gleis 2,5555 U Weberwiese (Berlin),de:11000:900120025,,
+de:11000:900120029::1,Jessnerstr. (Berlin),52.512069,13.473715,Tramhalt Scharnweberstraße vor Jessnerstraße,,,,
+de:11000:900120029::2,Jessnerstr. (Berlin),52.511949,13.474223,Tramhalt Scharnweberstraße ht. Jessnerstraße,,,,
+de:11000:900120511::3,Büschingstr. (Berlin),52.523144,13.427210,Tramsteig Pl der Vereinten Nation vor Büschingstr.,5555 Büschingstr. (Berlin),de:11000:900120511,,
+de:11000:900120511::4,Büschingstr. (Berlin),52.523111,13.427219,Tramsteig Pl d Vereinten Nation v Lichtenb. Str,5555 Büschingstr. (Berlin),de:11000:900120511,,
+de:11000:900120513::3,Klinikum im Friedrichshain (Berlin),52.524163,13.440164,Tramsteig Landsberger Allee vor Matthiasstraße,5555 Klinikum im Friedrichshain (Berlin),de:11000:900120513,,
+de:11000:900120513::4,Klinikum im Friedrichshain (Berlin),52.524143,13.440180,Tramsteig Landsberger Allee hinter Matthiasstraße,5555 Klinikum im Friedrichshain (Berlin),de:11000:900120513,,
+de:11000:900120515::4,Straßmannstr. (Berlin),52.522728,13.450132,Tramsteig Petersburger Str. vor Straßmannstr.,5555 Straßmannstr. (Berlin),de:11000:900120515,,
+de:11000:900120515::5,Straßmannstr. (Berlin),52.522736,13.450175,Tramsteig Petersburger Str. ht. Straßmannstr.,5555 Straßmannstr. (Berlin),de:11000:900120515,,
+de:11000:900120516::5,Bersarinplatz (Berlin),52.519426,13.452384,Tramsteig Petersburger Straße vor Bersarinplatz,5555 Bersarinplatz (Berlin),de:11000:900120516,,
+de:11000:900120516::6,Bersarinplatz (Berlin),52.519436,13.452432,Tramsteig Petersburger Straße ht. Bersarinplatz,5555 Bersarinplatz (Berlin),de:11000:900120516,,
+de:11000:900120526::1,Kopernikusstr./Warschauer Str. (Berlin),52.510609,13.452634,Tramhalt Kopernikusstraße vor Warschauer Straße,5555 Kopernikusstr./Warschauer Str. (Berlin),,,
+de:11000:900120527::1,Libauer Str. (Berlin),52.510177,13.454611,Tram- u. Bushalt Kopernikusstraße vor Libauer Straße,5555 Libauer Str. (Berlin),,,
+de:11000:900120528::1,Simplonstr. (Berlin),52.509914,13.456418,Tramhalt Wühlischstraße vor Simon-Dach-Straße,5555 Simplonstr. (Berlin),,,
+de:11000:900120529::1,Wühlischstr./Gärtnerstr. (Berlin),52.508977,13.460258,Tramhalt Wühlischstraße vor Gärtnerstraße,5555 Wühlischstr./Gärtnerstr. (Berlin),,,
+de:11000:900120529::2,Wühlischstr./Gärtnerstr. (Berlin),52.509002,13.459701,Tramhalt Wühlischstraße vor Gärtnerstraße,5555 Wühlischstr./Gärtnerstr. (Berlin),,,
+de:11000:900120538::2,Proskauer Str. (Berlin),52.519838,13.463176,Tramhalt Eldenaer Straße hinter Proskauer Straße,5555 Proskauer Str. (Berlin),,,
+de:11000:900120538::3,Proskauer Str. (Berlin),52.519918,13.463370,Tramhalt Eldenaer Straße vor August-Lindemann-Straße,5555 Proskauer Str. (Berlin),,,
+de:11000:900120539::1,James-Hobrecht-Str. (Berlin),52.520199,13.467623,Tramsteig Eldenaer Straße ht. James-Hobrecht-Str.,5555 James-Hobrecht-Str. (Berlin),,,
+de:11000:900120539::2,James-Hobrecht-Str. (Berlin),52.520256,13.467608,Tramsteig Eldenaer Straße vor James-Hobrecht-Str.,5555 James-Hobrecht-Str. (Berlin),,,
+de:11000:900120540::1,Scharnweberstr./Weichselstr. (Berlin),52.512299,13.471624,Tramhalt Scharnweberstraße vor Müggelstraße,5555 Scharnweberstr./Weichselstr. (Berlin),,,
+de:11000:900120540::3,Scharnweberstr./Weichselstr. (Berlin),52.512046,13.469806,Tramhalt Weichselstraße vor Scharnweberstraße,5555 Scharnweberstr./Weichselstr. (Berlin),,,
+de:11000:900120540::7,Scharnweberstr./Weichselstr. (Berlin),52.512037,13.469651,Tramhalt Weichselstraße ht. Scharnweberstraße,5555 Scharnweberstr./Weichselstr. (Berlin),,,
+de:11000:900120542::1,Forckenbeckplatz (Berlin),52.520479,13.459385,Tramhaltestelle Eldenaer Straße vor Richard-Ermisch-Straße,5555 Forckenbeckplatz (Berlin),,,
+de:11000:900120542::4,Forckenbeckplatz (Berlin),52.520189,13.458615,Tramhaltestelle Liebigstraße vor Eldenaer Straße,5555 Forckenbeckplatz (Berlin),,,
+de:11000:900120716::1,Landsberger Allee/Petersburger Str. (Berlin),52.526904,13.447166,Tramsteig Danziger Str. ht. Landsberger A. Pos. 4,5555 Landsberger Allee/Petersburger Str. (Berlin),de:11000:900120016,,
+de:11000:900120716::2,Landsberger Allee/Petersburger Str. (Berlin),52.526891,13.447126,Tramsteig Danziger Str. vor Landsberger A. Pos. 3,5555 Landsberger Allee/Petersburger Str. (Berlin),de:11000:900120016,,
+de:11000:900120816::1,Bersarinplatz (Berlin),52.518993,13.454362,Tramsteig Weidenweg vor Bersarinplatz,5555 Bersarinplatz (Berlin),,,
+de:11000:900120816::2,Bersarinplatz (Berlin),52.518958,13.454346,Tramsteig Weidenweg ht. Bersarinplatz,5555 Bersarinplatz (Berlin),,,
+de:11000:900130001:1:50,S Pankow-Heinersdorf (Berlin),52.578081,13.429448,Bahnsteig Gleis 1,5656 S Pankow-Heinersdorf (Berlin),de:11000:900130001,,1
+de:11000:900130001:1:51,S Pankow-Heinersdorf (Berlin),52.578039,13.429576,Bahnsteig Gleis 2,5656 S Pankow-Heinersdorf (Berlin),de:11000:900130001,,2
+de:11000:900130002:1:50,S+U Pankow (Berlin),52.566222,13.410354,S-Bahnsteig Gleis 1,5656 S+U Pankow (Berlin),de:11000:900130002,,
+de:11000:900130002:1:51,S+U Pankow (Berlin),52.566292,13.410260,S-Bahnsteig Gleis 2,5656 S+U Pankow (Berlin),de:11000:900130002,,
+de:11000:900130002::1,S+U Pankow (Berlin),52.566740,13.411657,U-Bahnsteig Gleis 1,5656 S+U Pankow (Berlin),de:11000:900130002,,
+de:11000:900130002::2,S+U Pankow (Berlin),52.566775,13.411811,U-Bahnsteig Gleis 2,5656 S+U Pankow (Berlin),de:11000:900130002,,
+de:11000:900130002::3,S+U Pankow (Berlin),52.566867,13.412332,Tram- und Bussteig Berliner Straße ht. Granitzstr.,5656 S+U Pankow (Berlin),de:11000:900130002,,
+de:11000:900130002::4,S+U Pankow (Berlin),52.567818,13.412104,Tram- und Bussteig Berliner Straße vor Florastraße,5656 S+U Pankow (Berlin),de:11000:900130002,,
+de:11000:900130003:1:50,S Wollankstr. (Berlin),52.565329,13.392139,Bahnsteig Gleis 3,5656 S Wollankstr. (Berlin),de:11000:900130003,,3
+de:11000:900130003:1:51,S Wollankstr. (Berlin),52.565283,13.392058,Bahnsteig Gleis 4,5656 S Wollankstr. (Berlin),de:11000:900130003,,4
+de:11000:900130011::1,U Vinetastr. (Berlin),52.559182,13.413159,U Bahnsteig Gleis 1,5656 U Vinetastr. (Berlin),de:11000:900130011,,
+de:11000:900130011::2,U Vinetastr. (Berlin),52.559185,13.413343,U Bahnsteig Gleis 2,5656 U Vinetastr. (Berlin),de:11000:900130011,,
+de:11000:900130011::3,U Vinetastr. (Berlin),52.559386,13.413202,Tramsteig Berliner Straße vor Mühlenstraße,5656 U Vinetastr. (Berlin),de:11000:900130011,,
+de:11000:900130011::4,U Vinetastr. (Berlin),52.559384,13.413254,Tramsteig Berliner Str. vor Elsa-Brändström-Str.,5656 U Vinetastr. (Berlin),de:11000:900130011,,
+de:11000:900130013::5,Pankow Kirche (Berlin),52.570474,13.410535,Tramhalt Berliner Straße vor Breite Straße,5656 Pankow Kirche (Berlin),,,
+de:11000:900130013::6,Pankow Kirche (Berlin),52.570373,13.408632,Tramhalt Breite Straße vor Berliner Straße,5656 Pankow Kirche (Berlin),,,
+de:11000:900130501::1,"Berlin, Rathaus Pankow",52.569556,13.404146,Tram- und Bussteig Breite Straße vor Mühlenstraße,"5656 Berlin, Rathaus Pankow",de:11000:900130501,,
+de:11000:900130501::2,"Berlin, Rathaus Pankow",52.569491,13.404210,Tram- und Bussteig Breite Straße ht. Mühlenstraße,"5656 Berlin, Rathaus Pankow",de:11000:900130501,,
+de:11000:900130512::3,Masurenstr. (Berlin),52.563430,13.412761,Tramsteig Berliner Straße vor Masurenstraße,5656 Masurenstr. (Berlin),de:11000:900130512,,
+de:11000:900130512::4,Masurenstr. (Berlin),52.563430,13.412810,Tramsteig Berliner Straße hinter Binzstraße,5656 Masurenstr. (Berlin),de:11000:900130512,,
+de:11000:900131001::4,Schillerstr. (Berlin),52.592091,13.410977,Tramhaltestelle Schillerstraße vor Straße 18,5656 Schillerstr. (Berlin),,,
+de:11000:900131001::5,Schillerstr. (Berlin),52.592370,13.410848,Tramsteig Schillerstraße vor Charlottenstraße,5656 Schillerstr. (Berlin),,,
+de:11000:900131004::2,"Berlin, Bürgerpark Pankow",52.571471,13.398371,Tram- und Bussteig Grabbeallee vor H.-Mann-Straße,"5656 Berlin, Bürgerpark Pankow",de:11000:900131004,,
+de:11000:900131004::5,"Berlin, Bürgerpark Pankow",52.571464,13.398410,Tramsteig Grabbeallee ht. Schönholzer Straße,"5656 Berlin, Bürgerpark Pankow",de:11000:900131004,,
+de:11000:900131005::1,"Berlin, Pastor-Niemöller-Platz",52.580284,13.396903,Tram- u. Bushalt F-Engels-Str. ht. P-Niemöller-Pl.,"5656 Berlin, Pastor-Niemöller-Platz",,,
+de:11000:900131005::9,"Berlin, Pastor-Niemöller-Platz",52.580189,13.396939,Tramsteig F-Engels-Str. vor P.-Niemöller-Pl.,"5656 Berlin, Pastor-Niemöller-Platz",de:11000:900131005,,
+de:11000:900131006::7,"Berlin, Nordend",52.590264,13.403178,Tramsteig Scillerstraße hinter Dietzgenstraße,"5656 Berlin, Nordend",,,
+de:11000:900131006::8,"Berlin, Nordend",52.590263,13.402957,Tramsteig Schillerstraße vor Dietzgenstraße,"5656 Berlin, Nordend",,,
+de:11000:900131505::1,Tschaikowskistr. (Berlin),52.575810,13.398893,Tram- und Bushalt Grabbeallee vor Tschaikowskistr.,5656 Tschaikowskistr. (Berlin),,,
+de:11000:900131505::2,Tschaikowskistr. (Berlin),52.576157,13.398452,Tram- und Bushalt Grabbeallee ht. Tschaikowskistr.,5656 Tschaikowskistr. (Berlin),,,
+de:11000:900131508::1,Friedrich-Engels-Str./Eichenstr. (Berlin),52.584999,13.390377,Tram- und Bussteig F.-Engels-Str. vor Eichenstr.,5656 Friedrich-Engels-Str./Eichenstr. (Berlin),,,
+de:11000:900131508::2,Friedrich-Engels-Str./Eichenstr. (Berlin),52.584941,13.390276,Tram- und Bussteig F.-Engels-Str. ht. Eichenstr.,5656 Friedrich-Engels-Str./Eichenstr. (Berlin),,,
+de:11000:900131510::1,Kuckhoffstr. (Berlin),52.583642,13.403209,Tram- und Bushaltestelle Dietzgenstraße vor Kuckhoffstraße,5656 Kuckhoffstr. (Berlin),,,
+de:11000:900131510::2,Kuckhoffstr. (Berlin),52.583992,13.402917,Tram- und Bushaltestelle Dietzgenstraße vor Kuckhoffstraße,5656 Kuckhoffstr. (Berlin),,,
+de:11000:900131519::3,Waldemarstr. (Berlin),52.590800,13.406250,Tramhalt Schillerstraße vor Waldemarstraße,5656 Waldemarstr. (Berlin),,,
+de:11000:900131519::4,Waldemarstr. (Berlin),52.590862,13.406211,Tramhalt Schillerstraße ht. Waldemarstraße,5656 Waldemarstr. (Berlin),,,
+de:11000:900131526::3,Heinrich-Böll-Str. (Berlin),52.587653,13.401721,Tram- u. Bussteig Dietzgenstraße vor Uhlandstraße,5656 Heinrich-Böll-Str. (Berlin),,,
+de:11000:900131526::4,Heinrich-Böll-Str. (Berlin),52.587653,13.401781,Tram- u. Bussteig Dietzgenstr. h. Heinr.-Böll-Str.,5656 Heinrich-Böll-Str. (Berlin),,,
+de:11000:900131527::1,Hermann-Hesse-Str./Waldstr. (Berlin),52.580590,13.402187,Tram- u. Bushalt H-Hesse-Str. ht. ggü. Waldstr.,5656 Hermann-Hesse-Str./Waldstr. (Berlin),,,
+de:11000:900131527::2,Hermann-Hesse-Str./Waldstr. (Berlin),52.580528,13.401190,Tram- u. Bushalt H-Hesse-Str. vor Waldstr.,5656 Hermann-Hesse-Str./Waldstr. (Berlin),,,
+de:11000:900131528::2,Grabbeallee/Pastor-Niemöller-Platz (Berlin),52.578661,13.398184,Tram- u Bushalt Grabbeallee ht. P-Niemöller-Platz,5656 Grabbeallee/Pastor-Niemöller-Platz (Berlin),,,
+de:11000:900131528::4,Grabbeallee/Pastor-Niemöller-Platz (Berlin),52.578958,13.398459,Tramhalt Grabbeallee vor P-Niemöller-Platz,5656 Grabbeallee/Pastor-Niemöller-Platz (Berlin),,,
+de:11000:900131529::5,Am Iderfenngraben (Berlin),52.582488,13.392235,Tramsteig F.-Engels-Str ht Am Iderfenngraben,5656 Am Iderfenngraben (Berlin),de:11000:900131529,,
+de:11000:900131529::6,Am Iderfenngraben (Berlin),52.582494,13.392251,Tramsteig F.-Engels-Straße vor Am Iderfenngraben,5656 Am Iderfenngraben (Berlin),de:11000:900131529,,
+de:11000:900132010::10,"Berlin, Hauptstr./Friedrich-Engels-Str.",52.596952,13.376530,Tramsteig Friedrich-Engels-Straße vor Hauptstraße,"5656 Berlin, Hauptstr./Friedrich-Engels-Str.",de:11000:900132010,,
+de:11000:900132010::9,"Berlin, Hauptstr./Friedrich-Engels-Str.",52.596960,13.376511,Tramsteig Friedrich-Engels-Straße ht. Hauptstraße,"5656 Berlin, Hauptstr./Friedrich-Engels-Str.",de:11000:900132010,,
+de:11000:900132014::4,"Berlin, Rosenthal Nord",52.598626,13.372702,Tramhalt Quickborner Straße ht. Uhlandstraße,"5656 Berlin, Rosenthal Nord",,,
+de:11000:900132014::5,"Berlin, Rosenthal Nord",52.598611,13.372850,Tramhalt Quickborner Straße vor Uhlandstraße,"5656 Berlin, Rosenthal Nord",,,
+de:11000:900132500::3,Wiesenwinkel (Berlin),52.594405,13.380991,Tramsteig Friedrich-Engels-Str. ht Wiesenwinkel,5656 Wiesenwinkel (Berlin),de:11000:900132500,,
+de:11000:900132500::4,Wiesenwinkel (Berlin),52.594422,13.381020,Tramsteig Friedrich-Engels-Straße ht. Rispenweg,5656 Wiesenwinkel (Berlin),de:11000:900132500,,
+de:11000:900132501::7,Angerweg (Berlin),52.591769,13.383923,Tramsteig Friedrich-Engels-Str. vor Kastanienallee,5656 Angerweg (Berlin),de:11000:900132501,,
+de:11000:900132501::8,Angerweg (Berlin),52.591769,13.383923,Tramsteig Friedrich-Engels-Str. ht. Kastanienallee,5656 Angerweg (Berlin),de:11000:900132501,,
+de:11000:900132502::1,Nordendstr. (Berlin),52.588574,13.388228,Tram- und Bussteig F-Engels-Str. ht. Nordendstr.,5656 Nordendstr. (Berlin),,,
+de:11000:900132502::2,Nordendstr. (Berlin),52.588608,13.388366,Tram- und Bussteig F-Engels-Str. vor Nordendstr.,5656 Nordendstr. (Berlin),,,
+de:11000:900135001:1:50,S Buch (Berlin),52.635818,13.491694,S-Bahnsteig Gleis 1,5656 S Buch (Berlin),de:11000:900135001,,1
+de:11000:900135001:1:51,S Buch (Berlin),52.635863,13.491579,S-Bahnsteig Gleis 2,5656 S Buch (Berlin),de:11000:900135001,,2
+de:11000:900140005::5,"Berlin, Albertinenstr.",52.549769,13.457680,Tramsteig Berliner Allee ht. Smetanastraße,"5656 Berlin, Albertinenstr.",de:11000:900140005,,
+de:11000:900140005::6,"Berlin, Albertinenstr.",52.549742,13.457696,Tramsteig Berliner Allee vor Smetanastraße,"5656 Berlin, Albertinenstr.",de:11000:900140005,,
+de:11000:900140006::10,Weißer See (Berlin),52.551522,13.464488,Tramsteig Berliner A vor Indira-Gandhi-Str. Pos 1,5656 Weißer See (Berlin),,,
+de:11000:900140006::11,Weißer See (Berlin),52.552317,13.466248,Tramsteig Berliner A. vor Indira-Gandhi-Str. Pos 6,5656 Weißer See (Berlin),,,
+de:11000:900140006::9,Weißer See (Berlin),52.551380,13.466020,Tramsteig Indira-Gandhi-Str. vor Berliner A. Pos 4,5656 Weißer See (Berlin),,,
+de:11000:900140007::7,Hansastr./Buschallee (Berlin),52.553610,13.480260,Tramsteig Hansastraße ht. Buschallee,5656 Hansastr./Buschallee (Berlin),de:11000:900140007,,
+de:11000:900140007::8,Hansastr./Buschallee (Berlin),52.553173,13.480504,Tramsteig Buschallee ht. Hansastraße,5656 Hansastr./Buschallee (Berlin),de:11000:900140007,,
+de:11000:900140011::7,Antonplatz (Berlin),52.548504,13.451988,Tramsteig Berliner Allee ht. ggü. Langhansstraße,5656 Antonplatz (Berlin),de:11000:900140011,,
+de:11000:900140011::8,Antonplatz (Berlin),52.548527,13.451975,Tramsteig Berliner Allee vor Langhansstraße,5656 Antonplatz (Berlin),de:11000:900140011,,
+de:11000:900140012::4,Falkenberger Str./Berliner Allee (Berlin),52.554582,13.467656,Tramsteig Berliner Allee vor Falkenberger Straße,5656 Falkenberger Str./Berliner Allee (Berlin),de:11000:900140012,,
+de:11000:900140014::3,Giersstr. (Berlin),52.554549,13.482521,Tramsteig Hansastraße hinter Giersstraße,5656 Giersstr. (Berlin),de:11000:900140014,,
+de:11000:900140017::5,Gustav-Adolf-Str./Langhansstr. (Berlin),52.553458,13.435310,Tramhalt Langhansstraße vor Gustav-Adolf-Straße,5656 Gustav-Adolf-Str./Langhansstr. (Berlin),,,
+de:11000:900140017::8,Gustav-Adolf-Str./Langhansstr. (Berlin),52.553716,13.434281,Tramhalt Langhansstraße vor Gustav-Adolf-Straße,5656 Gustav-Adolf-Str./Langhansstr. (Berlin),,,
+de:11000:900140505::1,Friesickestr. (Berlin),52.551977,13.440053,Tramsteig Langhansstraße vor Friesickestraße,5656 Friesickestr. (Berlin),,,
+de:11000:900140505::2,Friesickestr. (Berlin),52.551647,13.440890,Tramsteig Langhansstraße ht. Friesickestraße,5656 Friesickestr. (Berlin),,,
+de:11000:900140506::1,Behaimstr. (Berlin),52.549645,13.447207,Tramsteig Langhansstraße ht. Behaimstraße,5656 Behaimstr. (Berlin),,,
+de:11000:900140506::2,Behaimstr. (Berlin),52.549689,13.447239,Tramsteig Langhansstraße vor Behaimstraße,5656 Behaimstr. (Berlin),,,
+de:11000:900140517::6,Stadion Buschallee/Hansastr. (Berlin),52.556815,13.487321,Tramsteig Buschallee ht ggü. Falkenberger Str.,5656 Stadion Buschallee/Hansastr. (Berlin),de:11000:900140517,,
+de:11000:900140517::7,Stadion Buschallee/Hansastr. (Berlin),52.556830,13.487299,Tramsteig Hansastr. vor Falkenberger Str.,5656 Stadion Buschallee/Hansastr. (Berlin),de:11000:900140517,,
+de:11000:900140518::4,"Berlin, Sulzfelder Str.",52.553346,13.475770,Tramsteig Buschallee ht. Sulzfelder Straße,"5656 Berlin, Sulzfelder Str.",de:11000:900140518,,
+de:11000:900140518::5,"Berlin, Sulzfelder Str.",52.553370,13.475773,Tramsteig Buschallee vor ggü. Sulzfelder Straße,"5656 Berlin, Sulzfelder Str.",de:11000:900140518,,
+de:11000:900140519::4,Buschallee (Berlin),52.553726,13.469550,Tramsteig Buschallee vor Berliner Allee,5656 Buschallee (Berlin),de:11000:900140519,,
+de:11000:900140519::5,Buschallee (Berlin),52.553706,13.469550,Tramsteig Buschallee hinter Berliner Allee,5656 Buschallee (Berlin),de:11000:900140519,,
+de:11000:900140713::3,Betriebshof Weißensee (Berlin),52.557040,13.467693,Tramhalt Bernkasteler Str. vor Berliner Allee,5656 Betriebshof Weißensee (Berlin),,,
+de:11000:900140713::4,Betriebshof Weißensee (Berlin),52.556937,13.468088,Tramhalt Bernkasteler Str. ht. Berliner Allee,5656 Betriebshof Weißensee (Berlin),,,
+de:11000:900141001::6,Heinersdorf (Berlin),52.572576,13.437434,Tramsteig Romain-Rolland-Str. vor ggü. Froststr.,5656 Heinersdorf (Berlin),de:11000:900141001,,
+de:11000:900141001::7,Heinersdorf (Berlin),52.572601,13.436949,Tramsteig Einstieg vor Romain-Rolland-Str.,5656 Heinersdorf (Berlin),de:11000:900141001,,
+de:11000:900141002::1,Heinersdorf Kirche (Berlin),52.568742,13.438934,Tram- und Bushaltestelle Romain-Rolland-Straße hinter Blankenburger Straße,5656 Heinersdorf Kirche (Berlin),,,
+de:11000:900141002::2,Heinersdorf Kirche (Berlin),52.568335,13.439147,Tram- und Bushaltestelle Romain-Rolland-Straße vor Blankenburger Straße,5656 Heinersdorf Kirche (Berlin),,,
+de:11000:900141502::3,Tino-Schwierzina-Str. (Berlin),52.562173,13.434820,Tramsteig Tino-Schwierzina-Str vor Straße 49,5656 Tino-Schwierzina-Str. (Berlin),de:11000:900141502,,
+de:11000:900141502::4,Tino-Schwierzina-Str. (Berlin),52.562181,13.434779,Tramsteig Tino-Schwierzina-Str. vor Treskowstraße,5656 Tino-Schwierzina-Str. (Berlin),de:11000:900141502,,
+de:11000:900141503::1,Rothenbachstr. (Berlin),52.570135,13.437688,Tramhalt Romain-Rolland-Straße vor Rothenbachstr.,5656 Rothenbachstr. (Berlin),,,
+de:11000:900141503::2,Rothenbachstr. (Berlin),52.570095,13.437755,Tramhalt Romain-Rolland-Straße ht. Rothenbachstr.,5656 Rothenbachstr. (Berlin),,,
+de:11000:900141504::4,Am Wasserturm (Berlin),52.565118,13.435990,Tramsteig Tino-Schwierzina-Str ht. Straße 56,5656 Am Wasserturm (Berlin),de:11000:900141504,,
+de:11000:900141504::5,Am Wasserturm (Berlin),52.565125,13.435945,Tramsteig Tino-Schwierzina-Str. ht. Am Wasserturm,5656 Am Wasserturm (Berlin),de:11000:900141504,,
+de:11000:900141506::5,Am Steinberg (Berlin),52.558392,13.433299,Tramsteig Tino-Schwierzina-Str. ht. Am Steinberg,5656 Am Steinberg (Berlin),de:11000:900141506,,
+de:11000:900141506::6,Am Steinberg (Berlin),52.558400,13.433248,Tramsteig Tino-Schwierzina-Str. vor Am Steinberg,5656 Am Steinberg (Berlin),de:11000:900141506,,
+de:11000:900141507::3,Prenzlauer Promenade/Am Steinberg (Berlin),52.556601,13.429745,Tramsteig Am Steinberg ht. Prenzlauer Promenade,5656 Prenzlauer Promenade/Am Steinberg (Berlin),de:11000:900141507,,
+de:11000:900141507::4,Prenzlauer Promenade/Am Steinberg (Berlin),52.556628,13.429731,Tramsteig Am Steinberg vor Prenzlauer Promenade,5656 Prenzlauer Promenade/Am Steinberg (Berlin),de:11000:900141507,,
+de:11000:900142001:1:50,S Blankenburg (Berlin),52.591376,13.443308,S-Bahnsteig Gleis 1,5656 S Blankenburg (Berlin),de:11000:900142001,,1
+de:11000:900142001:1:51,S Blankenburg (Berlin),52.591334,13.443411,S-Bahnsteig Gleis 4,5656 S Blankenburg (Berlin),de:11000:900142001,,4
+de:11000:900143001:1:51,S Karow Bhf (Berlin),52.615235,13.469409,Bahnsteig Gleis 2,5656 S Karow Bhf (Berlin),de:11000:900143001,,2
+de:11000:900150002::5,Hansastr./Malchower Weg (Berlin),52.561305,13.499689,Tramsteig Hansastraße vor Malchower Weg,5656 Hansastr./Malchower Weg (Berlin),de:11000:900150002,,
+de:11000:900150002::6,Hansastr./Malchower Weg (Berlin),52.561334,13.499678,Tramsteig Hansastraße hinter Darßer Straße,5656 Hansastr./Malchower Weg (Berlin),de:11000:900150002,,
+de:11000:900150005::3,Rhinstr./Plauener Str. (Berlin),52.539115,13.514516,Tramsteig Rhinstraße ht. Plauener Straße,5656 Rhinstr./Plauener Str. (Berlin),de:11000:900150005,,
+de:11000:900150005::4,Rhinstr./Plauener Str. (Berlin),52.540074,13.513846,Tramsteig Rhinstraße ht. Plauener Straße,5656 Rhinstr./Plauener Str. (Berlin),de:11000:900150005,,
+de:11000:900150007::5,Oberseestr. (Berlin),52.546840,13.497835,Tramsteig Konrad-Wolf-Straße hinter Bahnhofstraße,5656 Oberseestr. (Berlin),,,
+de:11000:900150007::6,Oberseestr. (Berlin),52.547074,13.498103,Tramsteig Konrad-Wolf-Straße vor Oberseestraße,5656 Oberseestr. (Berlin),,,
+de:11000:900150008::8,Rhinstr./Gärtnerstr. (Berlin),52.545880,13.509728,Tramsteig Rhinstraße hinter Gärtnerstraße,5656 Rhinstr./Gärtnerstr. (Berlin),de:11000:900150008,,
+de:11000:900150008::9,Rhinstr./Gärtnerstr. (Berlin),52.545886,13.509765,Tramsteig Rhinstraße vor Marzahner Straße,5656 Rhinstr./Gärtnerstr. (Berlin),de:11000:900150008,,
+de:11000:900150010::2,Degnerstr./Suermondtstr. (Berlin),52.549840,13.498008,Tramsteig Suermondtstraße ht. Degnerstraße,5656 Degnerstr./Suermondtstr. (Berlin),de:11000:900150010,,
+de:11000:900150011::3,Hohenschönhauser Str. [1-2] (Berlin),52.535836,13.472521,Tramsteig Hohenschönh. Str ht Weißens. W.  Pos. 1,5656 Hohenschönhauser Str. [1-2] (Berlin),de:11000:900150011,,
+de:11000:900150011::4,Hohenschönhauser Str. [1-2] (Berlin),52.535815,13.472540,Tramsteig Hohenschönh. Str vor Weißens. W.  Pos. 2,5656 Hohenschönhauser Str. [1-2] (Berlin),de:11000:900150011,,
+de:11000:900150020::4,Alt-Hohenschönhausen (Berlin),52.548849,13.504847,Tramsteig Hauptstraße ht. Schloss Hohenschönhausen,5656 Alt-Hohenschönhausen (Berlin),de:11000:900150020,,
+de:11000:900150020::5,Alt-Hohenschönhausen (Berlin),52.548823,13.504841,Tramsteig Hauptstraße vor Schloss Hohenschönhausen,5656 Alt-Hohenschönhausen (Berlin),de:11000:900150020,,
+de:11000:900150500::3,Anna-Ebermann-Str. (Berlin),52.555055,13.512214,Tramsteig Wartenberger Str. vor Anna-Ebermann-Str.,5656 Anna-Ebermann-Str. (Berlin),de:11000:900150500,,
+de:11000:900150500::4,Anna-Ebermann-Str. (Berlin),52.555046,13.512240,Tramsteig Wartenberger Str. ht. Anna-Ebermann-Str.,5656 Anna-Ebermann-Str. (Berlin),de:11000:900150500,,
+de:11000:900150501::3,Feldtmannstr. (Berlin),52.559816,13.495399,Tramsteig Hansastr. vor Neuzeller Weg,5656 Feldtmannstr. (Berlin),de:11000:900150501,,
+de:11000:900150501::4,Feldtmannstr. (Berlin),52.559842,13.495371,Tramsteig Hansastr. vor Feldtmannstr.,5656 Feldtmannstr. (Berlin),de:11000:900150501,,
+de:11000:900150504::10,Gehrenseestr. (Berlin),52.551040,13.509401,Tramsteig Wartenberger Str. vor Gehrenseestraße,5656 Gehrenseestr. (Berlin),de:11000:900150504,,
+de:11000:900150504::11,Gehrenseestr. (Berlin),52.551049,13.509436,Tramsteig Wartenberger Str. ht. Gehrenseestraße,5656 Gehrenseestr. (Berlin),de:11000:900150504,,
+de:11000:900150504::12,Gehrenseestr. (Berlin),52.550811,13.509184,Tramsteig Wartenberger Str. vor Ausfahrt,5656 Gehrenseestr. (Berlin),de:11000:900150504,,
+de:11000:900150509::3,Altenhofer Str. (Berlin),52.534773,13.480777,Tramsteig vor Mittelstraße Stadteinwärts,5656 Altenhofer Str. (Berlin),de:11000:900150509,,
+de:11000:900150509::4,Altenhofer Str. (Berlin),52.535113,13.479630,Tramsteig vor Mittelstraße Stadtauswärts,5656 Altenhofer Str. (Berlin),de:11000:900150509,,
+de:11000:900150510::2,Sandinostr. (Berlin),52.538474,13.480536,Tramhalt+Ersatzhalt Konrad-Wolf-Str hi. Steffenstr,5656 Sandinostr. (Berlin),,,
+de:11000:900150510::3,Sandinostr. (Berlin),52.537889,13.479106,Tramhalt Konrad-Wolf-Straße vor Sandinostraße,5656 Sandinostr. (Berlin),,,
+de:11000:900150511::1,Simon-Bolivar-Str. (Berlin),52.539429,13.483366,Tramsteig Konrad-Wolf-Str. vor S.-Bolivar-Str.,5656 Simon-Bolivar-Str. (Berlin),,,
+de:11000:900150511::2,Simon-Bolivar-Str. (Berlin),52.540023,13.484640,Tramsteig Konrad-Wolf-Str. vor ggü. S-Bolivar-Str.,5656 Simon-Bolivar-Str. (Berlin),,,
+de:11000:900150512::1,Werneuchener Str. (Berlin),52.542163,13.488909,Tramsteig Konrad-Wolf-Straße vor Werneuchener Straße,5656 Werneuchener Str. (Berlin),,,
+de:11000:900150512::2,Werneuchener Str. (Berlin),52.542946,13.490168,Tramsteig Konrad-Wolf-Straße vor Werneuchener Straße,5656 Werneuchener Str. (Berlin),,,
+de:11000:900150513::1,"Berlin, Freienwalder Str.",52.544430,13.493233,Tramhaltestelle Konrad-Wolf-Straße hinter Freienwalder Straße,"5656 Berlin, Freienwalder Str.",,,
+de:11000:900150513::2,"Berlin, Freienwalder Str.",52.544449,13.493081,Tramhaltestelle Konrad-Wolf-Straße vor Freienwalder Straße,"5656 Berlin, Freienwalder Str.",,,
+de:11000:900150514::2,Am Faulen See (Berlin),52.550642,13.494590,Tramsteig Suermondtstraße ht. Am Faulen See,5656 Am Faulen See (Berlin),de:11000:900150514,,
+de:11000:900150515::3,Orankestrand (Berlin),52.552323,13.485826,Tramsteig Buschallee ht. Elsastraße,5656 Orankestrand (Berlin),de:11000:900150515,,
+de:11000:900150515::4,Orankestrand (Berlin),52.552305,13.485817,Tramsteig Buschallee vor Elsastraße,5656 Orankestrand (Berlin),de:11000:900150515,,
+de:11000:900150518::8,Betriebshof Indira-Gandhi-Str. (Berlin),52.544324,13.468691,Tramsteig Indira-Gandhi-Straße vor Hansastraße,5656 Betriebshof Indira-Gandhi-Str. (Berlin),de:11000:900150518,,
+de:11000:900150518::9,Betriebshof Indira-Gandhi-Str. (Berlin),52.544317,13.468650,Tramsteig Indira-Gandhi-Straße hinter Chopinstraße,5656 Betriebshof Indira-Gandhi-Str. (Berlin),de:11000:900150518,,
+de:11000:900150519::5,Sportforum (Berlin),52.538527,13.471372,Tramsteig Weißenseer Weg ht Konrad-Wolf-Straße,5656 Sportforum (Berlin),de:11000:900150519,,
+de:11000:900150519::6,Sportforum (Berlin),52.538518,13.471320,Tramsteig Weißenseer Weg vor Hohenschönhauser Str.,5656 Sportforum (Berlin),de:11000:900150519,,
+de:11000:900150522::5,Gounodstr. (Berlin),52.548433,13.467164,Tramsteig Gounodstraße hinter Orankeweg,5656 Gounodstr. (Berlin),de:11000:900150522,,
+de:11000:900150522::6,Gounodstr. (Berlin),52.548436,13.467120,Tramsteig Indira-Gandhi-Straße hinter Gounodstr.,5656 Gounodstr. (Berlin),de:11000:900150522,,
+de:11000:900150711::5,Hohenschönhauser Str. [1-2] (Berlin),52.535472,13.474026,Tramsteig Weißens. W. ht Hohenschönh. Str. Pos. 4,5656 Hohenschönhauser Str. [1-2] (Berlin),de:11000:900150011,,
+de:11000:900150711::6,Hohenschönhauser Str. [1-2] (Berlin),52.535485,13.474068,Tramsteig Weißens. W. vor Konrad-Wolf-Str. Pos. 5,5656 Hohenschönhauser Str. [1-2] (Berlin),de:11000:900150011,,
+de:11000:900151001:1:50,S Wartenberg (Berlin),52.573076,13.503790,S-Bahnsteig Gleis 1,5656 S Wartenberg (Berlin),de:11000:900151001,,
+de:11000:900151001:1:51,S Wartenberg (Berlin),52.573023,13.503676,S-Bahnsteig Gleis 2,5656 S Wartenberg (Berlin),de:11000:900151001,,
+de:11000:900151003::1,Zingster Str. (Berlin),52.572595,13.494687,"Tramsteig Zingster Straße, Einstieg",5656 Zingster Str. (Berlin),,,
+de:11000:900151003::2,Zingster Str. (Berlin),52.572641,13.495277,"Tramsteig Zingster Straße, Ausstieg Gl.3-5",5656 Zingster Str. (Berlin),,,
+de:11000:900151003::3,Zingster Str. (Berlin),52.572651,13.495185,"Tramsteig Zingster Straße, Ausstieg Gl.1+2",5656 Zingster Str. (Berlin),,,
+de:11000:900151004::6,Zingster Str./Ribnitzer Str. (Berlin),52.570519,13.496932,Tramsteig Zingster Str. vor Ribnitzer Str.,5656 Zingster Str./Ribnitzer Str. (Berlin),de:11000:900151004,,
+de:11000:900151004::7,Zingster Str./Ribnitzer Str. (Berlin),52.569913,13.497678,Tramsteig Zingster Str. vor Ribnitzer Str.,5656 Zingster Str./Ribnitzer Str. (Berlin),de:11000:900151004,,
+de:11000:900151006::1,"Berlin, Prerower Platz",52.562661,13.505917,Tramsteig Rüdickenstraße ht. Falkenberger Ch.,"5656 Berlin, Prerower Platz",de:11000:900151006,,
+de:11000:900151006::2,"Berlin, Prerower Platz",52.563877,13.504583,Tramsteig Zingster Straße ht. Falkenberger Ch.,"5656 Berlin, Prerower Platz",de:11000:900151006,,
+de:11000:900151006::3,"Berlin, Prerower Platz",52.563659,13.506333,Tramsteig Falkenberger Chaussee ht. Rüdickenstr.,"5656 Berlin, Prerower Platz",de:11000:900151006,,
+de:11000:900151006::4,"Berlin, Prerower Platz",52.562887,13.504061,Tramsteig Falkenberger Chaussee ht. Zingster Str.,"5656 Berlin, Prerower Platz",de:11000:900151006,,
+de:11000:900151501::3,Ahrenshooper Str. (Berlin),52.566531,13.501487,Tramsteig  Zingster Str. vor Ahrenshooper Str.,5656 Ahrenshooper Str. (Berlin),de:11000:900151501,,
+de:11000:900151501::4,Ahrenshooper Str. (Berlin),52.565924,13.502247,Tramsteig  Zingster Str. vor Ahrenshooper Str.,5656 Ahrenshooper Str. (Berlin),de:11000:900151501,,
+de:11000:900152001:1:50,S Hohenschönhausen Bhf (Berlin),52.566268,13.512604,S-Bahnsteig Gleis 1,5656 S Hohenschönhausen Bhf (Berlin),de:11000:900152001,,1
+de:11000:900152001:1:51,S Hohenschönhausen Bhf (Berlin),52.566220,13.512489,S-Bahnsteig Gleis 2,5656 S Hohenschönhausen Bhf (Berlin),de:11000:900152001,,2
+de:11000:900152001::1,S Hohenschönhausen Bhf (Berlin),52.566400,13.513545,Tramsteig Falkenberger Chaussee vor Pablo-Picasso-Straße,5656 S Hohenschönhausen Bhf (Berlin),de:11000:900152001,,
+de:11000:900152001::2,S Hohenschönhausen Bhf (Berlin),52.566442,13.513503,Tramsteig Falkenberger Chaussee hinter Egon-Erwin-Kisch-Str.,5656 S Hohenschönhausen Bhf (Berlin),de:11000:900152001,,
+de:11000:900152002:1:50,S Gehrenseestr. (Berlin),52.556471,13.524843,S-Bahnsteig Gleis 1,5656 S Gehrenseestr. (Berlin),de:11000:900152002,,
+de:11000:900152002:1:51,S Gehrenseestr. (Berlin),52.556425,13.524692,S-Bahnsteig Gleis 2,5656 S Gehrenseestr. (Berlin),de:11000:900152002,,
+de:11000:900152003::4,"Berlin, Welsestr.",52.569259,13.525491,Tramsteig Falkenberger Chaussee ht. Welsestraße,"5656 Berlin, Welsestr.",de:11000:900152003,,
+de:11000:900152003::5,"Berlin, Welsestr.",52.569235,13.525497,Tramsteig Falkenberger Chaussee vor Welsestraße,"5656 Berlin, Welsestr.",de:11000:900152003,,
+de:11000:900152006::1,Prendener Str. (Berlin),52.568523,13.519926,Tramsteig Falkenberger Ch. vor Vincent-van-Gogh-S.,5656 Prendener Str. (Berlin),de:11000:900152006,,
+de:11000:900152006::2,Prendener Str. (Berlin),52.568553,13.519914,Tramsteig Falkenberger Ch. ht. Prendener Straße,5656 Prendener Str. (Berlin),de:11000:900152006,,
+de:11000:900152007::6,Falkenberg (Berlin),52.570005,13.527326,Tramsteig Falkenberg Wendeschleife nur Ausstieg,5656 Falkenberg (Berlin),,,
+de:11000:900152007::7,Falkenberg (Berlin),52.570041,13.526535,Tramsteig Falkenberg Wendeschleife nur Einstieg,5656 Falkenberg (Berlin),,,
+de:11000:900152508::5,Rüdickenstr. (Berlin),52.560089,13.509397,Tramsteig paralell zur Rüdickenstraße,5656 Rüdickenstr. (Berlin),de:11000:900152508,,
+de:11000:900152508::6,Rüdickenstr. (Berlin),52.559804,13.510561,Tramsteig vor Rüdickenstraße,5656 Rüdickenstr. (Berlin),de:11000:900152508,,
+de:11000:900152509::3,Arnimstr. (Berlin),52.558577,13.514909,Tramsteig Röttkenring vor Wartenberger Str.,5656 Arnimstr. (Berlin),de:11000:900152509,,
+de:11000:900152509::4,Arnimstr. (Berlin),52.558594,13.514939,Tramsteig Röttkenring ht. Wartenberger Str.,5656 Arnimstr. (Berlin),de:11000:900152509,,
+de:11000:900160001:1:50,S Rummelsburg (Berlin),52.501235,13.478701,S-Bahnsteig Gleis 1,5656 S Rummelsburg (Berlin),de:11000:900160001,,1
+de:11000:900160001:1:51,S Rummelsburg (Berlin),52.501169,13.478667,S-Bahnsteig Gleis 2,5656 S Rummelsburg (Berlin),de:11000:900160001,,2
+de:11000:900160002:1:50,S Betriebsbahnhof Rummelsburg (Berlin),52.493969,13.497724,S-Bahnsteig Gleis 1,5656 S Betriebsbahnhof Rummelsburg (Berlin),de:11000:900160002,,1
+de:11000:900160002:1:51,S Betriebsbahnhof Rummelsburg (Berlin),52.493897,13.497601,S-Bahnsteig Gleis 2,5656 S Betriebsbahnhof Rummelsburg (Berlin),de:11000:900160002,,2
+de:11000:900160003:1:50,S Nöldnerplatz (Berlin),52.503801,13.485385,Bahnsteig Gleis 1,5656 S Nöldnerplatz (Berlin),de:11000:900160003,,1
+de:11000:900160003:1:51,S Nöldnerplatz (Berlin),52.503881,13.485281,Bahnsteig Gleis 2,5656 S Nöldnerplatz (Berlin),de:11000:900160003,,2
+de:11000:900160004:1:50,S+U Lichtenberg Bhf (Berlin),52.510220,13.497972,S-Bahnsteig Gleis 1,5656 S+U Lichtenberg Bhf (Berlin),de:11000:900160004,,1
+de:11000:900160004:1:51,S+U Lichtenberg Bhf (Berlin),52.510303,13.497825,S-Bahnsteig Gleis 2,5656 S+U Lichtenberg Bhf (Berlin),de:11000:900160004,,2
+de:11000:900160004::7,S+U Lichtenberg Bhf (Berlin),52.511218,13.498342,U-Bahnsteig Gleis 1,5656 S+U Lichtenberg Bhf (Berlin),de:11000:900160004,,
+de:11000:900160004::8,S+U Lichtenberg Bhf (Berlin),52.511115,13.498291,U-Bahnsteig Gleis 2,5656 S+U Lichtenberg Bhf (Berlin),de:11000:900160004,,
+de:11000:900160005::1,U Magdalenenstr. (Berlin),52.512532,13.486997,U Bahnsteig Gleis 1,5656 U Magdalenenstr. (Berlin),de:11000:900160005,,
+de:11000:900160005::2,U Magdalenenstr. (Berlin),52.512410,13.486975,U Bahnsteig Gleis 2,5656 U Magdalenenstr. (Berlin),de:11000:900160005,,
+de:11000:900160010::5,Roederplatz (Berlin),52.527286,13.479567,Tramsteig Weißenseer Weg ht. Herzbergstraße,5656 Roederplatz (Berlin),de:11000:900160010,,
+de:11000:900160010::6,Roederplatz (Berlin),52.527275,13.479513,Tramsteig Weißenseer Weg vor Herzbergstraße,5656 Roederplatz (Berlin),de:11000:900160010,,
+de:11000:900160012::1,"Berlin, Herzbergstr./Siegfriedstr.",52.525572,13.499790,Tram- u. Bushalt Siegfriedstraße vor Herzbergstr.,"5656 Berlin, Herzbergstr./Siegfriedstr.",,,
+de:11000:900160012::2,"Berlin, Herzbergstr./Siegfriedstr.",52.525445,13.499660,Tram- u. Bushalt Siegfriedstraße ht. Herzbergstr.,"5656 Berlin, Herzbergstr./Siegfriedstr.",,,
+de:11000:900160014::7,Möllendorffstr./Storkower Str. (Berlin),52.523584,13.479586,Tramsteig Möllendorffstraße ht. Josef-Orlopp-Str.,5656 Möllendorffstr./Storkower Str. (Berlin),de:11000:900160014,,
+de:11000:900160014::8,Möllendorffstr./Storkower Str. (Berlin),52.523584,13.479546,Tramsteig Möllendorffstraße vor Storkower Straße,5656 Möllendorffstr./Storkower Str. (Berlin),de:11000:900160014,,
+de:11000:900160016::3,Freiaplatz (Berlin),52.515477,13.498659,Tramhaltestelle und Bushaltestelle Siegfriedstraße vor Rüdigerstraße,5656 Freiaplatz (Berlin),,,
+de:11000:900160017::1,Loeperplatz (Berlin),52.519880,13.479579,Tramhalt Möllendorffstraße hinter Loeperplatz,5656 Loeperplatz (Berlin),,,
+de:11000:900160017::2,Loeperplatz (Berlin),52.520247,13.480255,Tramhalt Möllendorffstraße vor Loeperplatz,5656 Loeperplatz (Berlin),,,
+de:11000:900160017::3,Loeperplatz (Berlin),52.520322,13.479036,Tramhalt Scheffelstraße vor Loeperplatz,5656 Loeperplatz (Berlin),,,
+de:11000:900160017::4,Loeperplatz (Berlin),52.520387,13.478593,Tramhalt Scheffelstraße hinter Loeperplatz,5656 Loeperplatz (Berlin),,,
+de:11000:900160018::7,Landsberger Allee/Weißenseer Weg (Berlin),52.532496,13.476603,Tramsteig Weißenseer Weg vor Landsberger Allee,5656 Landsberger Allee/Weißenseer Weg (Berlin),de:11000:900160018,,
+de:11000:900160018::8,Landsberger Allee/Weißenseer Weg (Berlin),52.532484,13.476559,Tramsteig Weißenseer Weg ht. Landsberger Allee,5656 Landsberger Allee/Weißenseer Weg (Berlin),de:11000:900160018,,
+de:11000:900160020::2,S+U Lichtenberg Bhf/Siegfriedstr. (Berlin),52.512427,13.497838,Tram- u. Bushalt Siegfriedstr. ht Frankf. A Pos. 2,5656 S+U Lichtenberg Bhf/Siegfriedstr. (Berlin),,,
+de:11000:900160021::2,S+U Lichtenberg Bhf/Gudrunstr. (Berlin),52.513029,13.501583,Tramhalt Gudrunstraße vor Guntherstraße Pos. 5,5656 S+U Lichtenberg Bhf/Gudrunstr. (Berlin),,,
+de:11000:900160021::3,S+U Lichtenberg Bhf/Gudrunstr. (Berlin),52.512245,13.499635,Tramhalt Gudrunstraße vor Hagenstraße Pos. 4,5656 S+U Lichtenberg Bhf/Gudrunstr. (Berlin),,,
+de:11000:900160508::1,Judith-Auer-Str. (Berlin),52.534085,13.467872,Tramhalt Hohenschönhauser Straße hinter Judit-Auer-Straße,5656 Judith-Auer-Str. (Berlin),,,
+de:11000:900160508::2,Judith-Auer-Str. (Berlin),52.534147,13.467808,Tramhalt Hohenschönhauser Straße vor Judith-Auer Straße,5656 Judith-Auer-Str. (Berlin),,,
+de:11000:900160509::6,Bernhard-Bästlein-Str. (Berlin),52.526785,13.482448,Tramsteig Herzbergstr. vor Bernhard-Bästlein-Str.,5656 Bernhard-Bästlein-Str. (Berlin),,,
+de:11000:900160509::7,Bernhard-Bästlein-Str. (Berlin),52.526720,13.482206,Tramsteig Herzbergstraße vor Paul-Zobel-Straße,5656 Bernhard-Bästlein-Str. (Berlin),,,
+de:11000:900160510::3,Anton-Saefkow-Platz (Berlin),52.528149,13.469048,Tramhaltestelle Karl-Lade-Straße vor Franz-Jacob-Straße,5656 Anton-Saefkow-Platz (Berlin),,,
+de:11000:900160510::4,Anton-Saefkow-Platz (Berlin),52.528126,13.469023,Tramhaltestelle Karl-Lade-Straße hinter Franz-Jacob-Straße,5656 Anton-Saefkow-Platz (Berlin),,,
+de:11000:900160513::3,Zechliner Str. (Berlin),52.533999,13.487783,Tramsteig Landsberger Allee ht. Zechliner Str.,5656 Zechliner Str. (Berlin),de:11000:900160513,,
+de:11000:900160513::4,Zechliner Str. (Berlin),52.533893,13.486474,Tramsteig Landsberger Allee vor ggü. Zechliner Str,5656 Zechliner Str. (Berlin),de:11000:900160513,,
+de:11000:900160514::3,Genslerstr. (Berlin),52.534401,13.495329,Tramsteig Landsberger Allee ht. Genslerstraße,5656 Genslerstr. (Berlin),de:11000:900160514,,
+de:11000:900160514::4,Genslerstr. (Berlin),52.534404,13.496405,Tramsteig Landsberger Allee vor ggü. Genslerstraße,5656 Genslerstr. (Berlin),de:11000:900160514,,
+de:11000:900160515::3,Arendsweg (Berlin),52.534860,13.504880,Tramsteig Landsberger Allee ht. Arendsweg -> Stadt,5656 Arendsweg (Berlin),de:11000:900160515,,
+de:11000:900160515::4,Arendsweg (Berlin),52.534915,13.506265,Tramsteig Landsberger Allee ht. Arendsweg -> Land,5656 Arendsweg (Berlin),de:11000:900160515,,
+de:11000:900160516::3,Schalkauer Str. (Berlin),52.535215,13.510432,Tramsteig Landsberger A. vor Schalkauer Str.,5656 Schalkauer Str. (Berlin),de:11000:900160516,,
+de:11000:900160516::4,Schalkauer Str. (Berlin),52.535093,13.509014,Tramsteig Landsberger A. vor ggü. Schalkauer Str.,5656 Schalkauer Str. (Berlin),de:11000:900160516,,
+de:11000:900160518::3,Herzbergstr./Industriegebiet (Berlin),52.526630,13.489667,Tramhalt Herzbergstraße Stadteinwärts,5656 Herzbergstr./Industriegebiet (Berlin),,,
+de:11000:900160518::4,Herzbergstr./Industriegebiet (Berlin),52.526524,13.490789,Tramhalt Herzbergstraße Stadtauswärts,5656 Herzbergstr./Industriegebiet (Berlin),,,
+de:11000:900160520::1,Ev. Krankenhaus KEH (Berlin),52.525483,13.509347,Tramsteig Evangel. Krankenhaus KEH Stadteinwärts,5656 Ev. Krankenhaus KEH (Berlin),de:11000:900160520,,
+de:11000:900160520::2,Ev. Krankenhaus KEH (Berlin),52.525472,13.507918,Tramsteig Evangel. Krankenhaus KEH Stadtauswärts,5656 Ev. Krankenhaus KEH (Berlin),de:11000:900160520,,
+de:11000:900160521::4,Siegfriedstr./Josef-Orlopp-Str. (Berlin),52.523161,13.499504,Tramhaltestelle Siegfriedstraße vor Josef-Orlopp-Straße,5656 Siegfriedstr./Josef-Orlopp-Str. (Berlin),,,
+de:11000:900160521::5,Siegfriedstr./Josef-Orlopp-Str. (Berlin),52.523692,13.499682,Tramhaltestelle Siegfriedstraße hinter Josef-Orlopp-Straße,5656 Siegfriedstr./Josef-Orlopp-Str. (Berlin),,,
+de:11000:900160522::6,Betriebshof Lichtenberg (Berlin),52.520770,13.499497,Tramhaltestelle Siegfriedstraße in Höhe Betriebshof Lichtenberg,5656 Betriebshof Lichtenberg (Berlin),,,
+de:11000:900160522::8,Betriebshof Lichtenberg (Berlin),52.519637,13.499309,Tramhaltestelle Siegfriedstraße gegenüber Betriebshof Lichtenberg,5656 Betriebshof Lichtenberg (Berlin),,,
+de:11000:900160523::1,Gotlindestr. (Berlin),52.517826,13.499080,Tram- u. Bushalt Siegfriedstraße ht. Gotlindestraße,5656 Gotlindestr. (Berlin),,,
+de:11000:900160523::2,Gotlindestr. (Berlin),52.517993,13.499308,Tram- u. Bushalt Siegfriedstraße vor Gotlindestraße,5656 Gotlindestr. (Berlin),,,
+de:11000:900160525::1,Guntherstr. (Berlin),52.513542,13.502011,Tramhalt Fanningerstraße ht. Guntherstraße,5656 Guntherstr. (Berlin),,,
+de:11000:900160526::1,"Berlin, Fanningerstr.",52.514177,13.498110,Tram- und Bushaltestelle Siegfriedstraße vor Fanningerstraße,"5656 Berlin, Fanningerstr.",,,
+de:11000:900160538::1,Scheffelstr. (Berlin),52.520487,13.474015,Tramsteig Scheffelstraße ht. Paul-Junius-Straße,5656 Scheffelstr. (Berlin),,,
+de:11000:900160538::2,Scheffelstr. (Berlin),52.520556,13.474056,Tramsteig Scheffelstraße vor Paul-Junius-Straße,5656 Scheffelstr. (Berlin),,,
+de:11000:900160544::4,Rathaus Lichtenberg (Berlin),52.515888,13.479080,Tramsteig Möllendorffstraße vor Normannenstraße,5656 Rathaus Lichtenberg (Berlin),de:11000:900160544,,
+de:11000:900160544::5,Rathaus Lichtenberg (Berlin),52.515900,13.479043,Tramsteig Möllendorffstraße ht. Parkaue,5656 Rathaus Lichtenberg (Berlin),de:11000:900160544,,
+de:11000:900160710::1,Roederplatz (Berlin),52.526624,13.478792,Tramsteig Paul-Junius-Straße ht. Weißenseer Weg,5656 Roederplatz (Berlin),de:11000:900160010,,
+de:11000:900160710::2,Roederplatz (Berlin),52.526599,13.478792,Tramsteig Paul-Junius-Straße vor Weißenseer Weg,5656 Roederplatz (Berlin),de:11000:900160010,,
+de:11000:900160712::1,"Berlin, Herzbergstr./Siegfriedstr.",52.526451,13.497715,Tramhalt Herzbergstraße ht. Siegfriedstraße,"5656 Berlin, Herzbergstr./Siegfriedstr.",,,
+de:11000:900160712::2,"Berlin, Herzbergstr./Siegfriedstr.",52.526352,13.499054,Tramhalt Herzbergstraße vor Siegfriedstraße,"5656 Berlin, Herzbergstr./Siegfriedstr.",,,
+de:11000:900161002::1,U Tierpark (Berlin),52.496503,13.524121,Tramsteig Am Tierpark vor Sewanstraße,5656 U Tierpark (Berlin),de:11000:900161002,,
+de:11000:900161002::2,U Tierpark (Berlin),52.496517,13.524177,Tramsteig Am Tierpark ht. Sewanstraße,5656 U Tierpark (Berlin),de:11000:900161002,,
+de:11000:900161002::3,U Tierpark (Berlin),52.497760,13.523072,U Bahnsteig Gleis 1,5656 U Tierpark (Berlin),de:11000:900161002,,
+de:11000:900161002::4,U Tierpark (Berlin),52.497708,13.522847,U Bahnsteig Gleis 2,5656 U Tierpark (Berlin),de:11000:900161002,,
+de:11000:900161004::7,"Berlin, Alt-Friedrichsfelde/Rhinstr.",52.510337,13.518944,Tramsteig Rhinstraße vor Alt-Friedrichsfelde,"5656 Berlin, Alt-Friedrichsfelde/Rhinstr.",de:11000:900161004,,
+de:11000:900161004::8,"Berlin, Alt-Friedrichsfelde/Rhinstr.",52.510337,13.518995,Tramsteig Rhinstraße ht. Alt-Friedrichsfelde,"5656 Berlin, Alt-Friedrichsfelde/Rhinstr.",de:11000:900161004,,
+de:11000:900161508::3,Criegernweg (Berlin),52.500613,13.521726,Tramsteig Am Tierpark ht.Criegernweg,5656 Criegernweg (Berlin),de:11000:900161508,,
+de:11000:900161508::4,Criegernweg (Berlin),52.501448,13.521475,Tramsteig Am Tierpark ht. Criegernweg,5656 Criegernweg (Berlin),de:11000:900161508,,
+de:11000:900161512::1,U Friedrichsfelde (Berlin),52.506252,13.512845,U Bahnsteig Gleis 1,5656 U Friedrichsfelde (Berlin),de:11000:900161512,,
+de:11000:900161512::2,U Friedrichsfelde (Berlin),52.506188,13.512693,U Bahnsteig Gleis 2,5656 U Friedrichsfelde (Berlin),de:11000:900161512,,
+de:11000:900161517::5,Alfred-Kowalke-Str. (Berlin),52.504717,13.520202,Tramsteig Am Tierpark ht. Alfred-Kowalke-Straße,5656 Alfred-Kowalke-Str. (Berlin),de:11000:900161517,,
+de:11000:900161517::6,Alfred-Kowalke-Str. (Berlin),52.505375,13.519934,Tramsteig Am Tierpark vor Alfred-Kowalke-Straße,5656 Alfred-Kowalke-Str. (Berlin),de:11000:900161517,,
+de:11000:900162001:1:50,S Karlshorst (Berlin),52.480538,13.527019,S-Bahnsteig Gleis 4,5656 S Karlshorst (Berlin),de:11000:900162001,,
+de:11000:900162001:1:51,S Karlshorst (Berlin),52.480602,13.527100,S-Bahnsteig Gleis 3,5656 S Karlshorst (Berlin),de:11000:900162001,,
+de:11000:900162002::3,Hegemeisterweg (Berlin),52.474082,13.520265,Tramsteig Treskowallee Höhe Hegemeisterweg,5656 Hegemeisterweg (Berlin),de:11000:900162002,,
+de:11000:900162002::4,Hegemeisterweg (Berlin),52.474068,13.520295,Tramsteig Treskowallee Höhe ggü. Hegemeisterweg,5656 Hegemeisterweg (Berlin),de:11000:900162002,,
+de:11000:900162003::1,"Berlin, Treskowallee/Ehrlichstr.",52.478917,13.523461,Tramhalt Ehrlichstraße vor Eginhardstraße,"5656 Berlin, Treskowallee/Ehrlichstr.",,,
+de:11000:900162003::2,"Berlin, Treskowallee/Ehrlichstr.",52.479016,13.523480,Tramhalt Ehrlichstraße ht. Eginhardstraße,"5656 Berlin, Treskowallee/Ehrlichstr.",,,
+de:11000:900162004::3,Treskowallee/HTW (Berlin),52.493117,13.526345,Tramsteig Treskowallee vor Römerweg,5656 Treskowallee/HTW (Berlin),de:11000:900162004,,
+de:11000:900162004::4,Treskowallee/HTW (Berlin),52.492499,13.526771,Tramsteig Treskowallee hinter Römerweg,5656 Treskowallee/HTW (Berlin),de:11000:900162004,,
+de:11000:900162007::3,Marksburgstr. (Berlin),52.487071,13.527058,Tramsteig Treskowallee vor Marksburgstr.,5656 Marksburgstr. (Berlin),de:11000:900162007,,
+de:11000:900162007::4,Marksburgstr. (Berlin),52.486164,13.526782,Tramsteig Treskowallee vor Marksburgstr.,5656 Marksburgstr. (Berlin),de:11000:900162007,,
+de:11000:900162008::1,Traberweg (Berlin),52.477199,13.523628,Tramsteig Treskowallee vor Traberweg,5656 Traberweg (Berlin),de:11000:900162008,,
+de:11000:900162008::2,Traberweg (Berlin),52.477186,13.523662,Tramsteig Treskowallee ht. Traberweg,5656 Traberweg (Berlin),de:11000:900162008,,
+de:11000:900162501::1,S Karlshorst (Berlin),52.481176,13.525410,Tramsteig Treskowallee vor Stolzenfelsstraße,5656 S Karlshorst (Berlin),,,
+de:11000:900162501::3,S Karlshorst (Berlin),52.481325,13.525103,Tramsteig Treskowallee ht. Stolzenfelsstraße,5656 S Karlshorst (Berlin),,,
+de:11000:900162502::1,Stühlinger Str. (Berlin),52.480313,13.520320,Tramhaltestelle Ehrlichstraße vor Stühlinger Straße,5656 Stühlinger Str. (Berlin),,,
+de:11000:900162502::2,Stühlinger Str. (Berlin),52.480150,13.520898,Tramhaltestelle Ehrlichstraße vor Stühlinger Straße,5656 Stühlinger Str. (Berlin),,,
+de:11000:900162503::1,Stechlinstr. (Berlin),52.482021,13.516441,Tramhalt Ehrlichstraße ht. Stechlinstraße,5656 Stechlinstr. (Berlin),,,
+de:11000:900162503::2,Stechlinstr. (Berlin),52.482027,13.516617,Tramhalt Ehrlichstraße ht. Liepnitzstraße,5656 Stechlinstr. (Berlin),,,
+de:11000:900162504::1,Blockdammweg (Berlin),52.484258,13.510058,Tramsteig Blockdammweg vor Ehrlichstraße,5656 Blockdammweg (Berlin),de:11000:900162504,,
+de:11000:900162504::3,Blockdammweg (Berlin),52.484284,13.510058,Tramsteig Blockdammweg ht. Ehrlichstraße,5656 Blockdammweg (Berlin),de:11000:900162504,,
+de:11000:900170001:1:50,S Marzahn (Berlin),52.543259,13.541126,S-Bahnsteig Gleis 1,5656 S Marzahn (Berlin),de:11000:900170001,,1
+de:11000:900170001:1:51,S Marzahn (Berlin),52.543322,13.540944,S-Bahnsteig Gleis 2,5656 S Marzahn (Berlin),de:11000:900170001,,2
+de:11000:900170002:1:50,S Raoul-Wallenberg-Str. (Berlin),52.550735,13.547678,S-Bahnsteig Gleis 1,5656 S Raoul-Wallenberg-Str. (Berlin),de:11000:900170002,,1
+de:11000:900170002:1:51,S Raoul-Wallenberg-Str. (Berlin),52.550783,13.547532,S-Bahnsteig Gleis 2,5656 S Raoul-Wallenberg-Str. (Berlin),de:11000:900170002,,2
+de:11000:900170003:1:50,S Mehrower Allee (Berlin),52.557752,13.553721,S-Bahnsteig Gleis 1,5656 S Mehrower Allee (Berlin),de:11000:900170003,,1
+de:11000:900170003:1:51,S Mehrower Allee (Berlin),52.557792,13.553592,S-Bahnsteig Gleis 2,5656 S Mehrower Allee (Berlin),de:11000:900170003,,2
+de:11000:900170004:1:50,S Ahrensfelde Bhf (Berlin),52.571349,13.565592,S-Bahnsteig Gleis 42,5656 S Ahrensfelde Bhf (Berlin),de:11000:900170004,,42
+de:11000:900170004:2:52,S Ahrensfelde Bhf (Berlin),52.571320,13.565711,S-Bahnsteig Gleis 41,5656 S Ahrensfelde Bhf (Berlin),de:11000:900170004,,41
+de:11000:900170005:1:50,S Poelchaustr. (Berlin),52.535640,13.535550,S-Bahnsteig Gleis 1,5656 S Poelchaustr. (Berlin),de:11000:900170005,,1
+de:11000:900170005:1:51,S Poelchaustr. (Berlin),52.535662,13.535393,S-Bahnsteig Gleis 2,5656 S Poelchaustr. (Berlin),de:11000:900170005,,2
+de:11000:900170006::4,Ahrensfelde/Stadtgrenze (Berlin),52.572778,13.574827,"Tramsteig Endstelle Ahrensfelde, Einstieg",5656 Ahrensfelde/Stadtgrenze (Berlin),de:11000:900170006,,
+de:11000:900170006::5,Ahrensfelde/Stadtgrenze (Berlin),52.572515,13.574246,"Tramsteig Endstelle Ahrensfelde, Ausstieg",5656 Ahrensfelde/Stadtgrenze (Berlin),de:11000:900170006,,
+de:11000:900170010::10,"Berlin, Betriebshof Marzahn",52.548681,13.583739,Tramsteig Ringenwalder Str. vor Landsberger Allee,"5656 Berlin, Betriebshof Marzahn",de:11000:900170010,,
+de:11000:900170010::7,"Berlin, Betriebshof Marzahn",52.548850,13.581904,Tramsteig Landsberger Allee ht. Ringenwalder Str.,"5656 Berlin, Betriebshof Marzahn",de:11000:900170010,,
+de:11000:900170010::8,"Berlin, Betriebshof Marzahn",52.548844,13.582006,Tramsteig Landsberger Allee vor Ringenwalder Str.,"5656 Berlin, Betriebshof Marzahn",de:11000:900170010,,
+de:11000:900170010::9,"Berlin, Betriebshof Marzahn",52.548668,13.583693,Tramsteig Ringenwalder Str. ht. Landsberger Allee,"5656 Berlin, Betriebshof Marzahn",de:11000:900170010,,
+de:11000:900170011::1,Barnimplatz (Berlin),52.568146,13.574567,Tramsteig Schorfheidestraße vor Havemannstraße,5656 Barnimplatz (Berlin),de:11000:900170011,,
+de:11000:900170011::2,Barnimplatz (Berlin),52.568092,13.574583,Tramsteig Schorfheidestraße hinter Havemannstraße,5656 Barnimplatz (Berlin),de:11000:900170011,,
+de:11000:900170013::5,Landsberger Allee/Blumberger Damm (Berlin),52.545885,13.570682,Tramsteig Landsberger Allee ht. Blumberger Damm,5656 Landsberger Allee/Blumberger Damm (Berlin),de:11000:900170013,,
+de:11000:900170013::6,Landsberger Allee/Blumberger Damm (Berlin),52.546313,13.572402,Tramsteig Landsberger Allee ht. Blumberger Damm,5656 Landsberger Allee/Blumberger Damm (Berlin),de:11000:900170013,,
+de:11000:900170019::3,Allee der Kosmonauten/Poelchaustr. (Berlin),52.533929,13.552353,Tramsteig Allee der Kosmonauten vor Poelchaustr.,5656 Allee der Kosmonauten/Poelchaustr. (Berlin),de:11000:900170019,,
+de:11000:900170019::4,Allee der Kosmonauten/Poelchaustr. (Berlin),52.533896,13.552361,Tramsteig Allee der Kosmonauten vor Charlottenstr.,5656 Allee der Kosmonauten/Poelchaustr. (Berlin),de:11000:900170019,,
+de:11000:900170020::5,Marzahner Promenade (Berlin),52.542830,13.548987,Tramsteig Marzahner Promenade Stadteinwärts,5656 Marzahner Promenade (Berlin),de:11000:900170020,,
+de:11000:900170020::6,Marzahner Promenade (Berlin),52.542803,13.549012,Tramsteig Marzahner Promenade Stadtauswärts,5656 Marzahner Promenade (Berlin),de:11000:900170020,,
+de:11000:900170506::1,Niemegker Str. (Berlin),52.564843,13.571638,Tramsteig neben Wittenberg. Str. u. Niemegker Str.,5656 Niemegker Str. (Berlin),de:11000:900170506,,
+de:11000:900170506::2,Niemegker Str. (Berlin),52.564830,13.571689,Tramsteig neben Borgheider Straße,5656 Niemegker Str. (Berlin),de:11000:900170506,,
+de:11000:900170515::3,Adersleber Weg (Berlin),52.537893,13.560242,Tramsteig Allee der Kosmonauten vor Pekrunstr.,5656 Adersleber Weg (Berlin),de:11000:900170515,,
+de:11000:900170515::4,Adersleber Weg (Berlin),52.537863,13.560323,Tramsteig Allee der Kosmonauten hinter Kienbergstraße,5656 Adersleber Weg (Berlin),de:11000:900170515,,
+de:11000:900170516::4,Alt-Marzahn (Berlin),52.542010,13.563701,Tramsteig Allee d. Kosmonauten hinter Alt-Marzahn,5656 Alt-Marzahn (Berlin),de:11000:900170516,,
+de:11000:900170516::5,Alt-Marzahn (Berlin),52.541992,13.563752,Tramsteig Allee d. Kosmonauten vor Bärensteinstr.,5656 Alt-Marzahn (Berlin),de:11000:900170516,,
+de:11000:900170517::3,Jan-Petersen-Str. (Berlin),52.547304,13.561400,Tramsteig Raoul-Wallenbg-Str. v. Jan-Petersen-Str.,5656 Jan-Petersen-Str. (Berlin),,,
+de:11000:900170517::4,Jan-Petersen-Str. (Berlin),52.547332,13.561416,Tramsteig Raoul-Wallenbg-Str. ht Jan-Petersen-Str.,5656 Jan-Petersen-Str. (Berlin),,,
+de:11000:900170519::3,Freizeitforum Marzahn (Berlin),52.546205,13.557107,Tramsteig Freiteitforum Marzahn Ri. Stadt,5656 Freizeitforum Marzahn (Berlin),de:11000:900170519,,
+de:11000:900170519::4,Freizeitforum Marzahn (Berlin),52.546192,13.557151,Tramsteig Freiteitforum Marzahn Ri. Ahrensfelde,5656 Freizeitforum Marzahn (Berlin),de:11000:900170519,,
+de:11000:900170520::3,Dingelstädter Str. (Berlin),52.536761,13.524783,Tramsteig Landsberger Allee vor ggü. Pyramidenring,5656 Dingelstädter Str. (Berlin),de:11000:900170520,,
+de:11000:900170520::4,Dingelstädter Str. (Berlin),52.536733,13.524817,Tramsteig Landsberger Allee ht. ggü. Pyramidenring,5656 Dingelstädter Str. (Berlin),de:11000:900170520,,
+de:11000:900170521::3,Gewerbepark Georg Knorr (Berlin),52.539196,13.534472,Tramsteig Landsberger Allee ht. Märkische Allee,5656 Gewerbepark Georg Knorr (Berlin),de:11000:900170521,,
+de:11000:900170521::4,Gewerbepark Georg Knorr (Berlin),52.538877,13.533216,Tramsteig Landsberger Allee vor Märkische Allee,5656 Gewerbepark Georg Knorr (Berlin),de:11000:900170521,,
+de:11000:900170524::3,Brodowiner Ring (Berlin),52.547909,13.578294,Tramsteig Landsberger Allee vor Blumberger Damm,5656 Brodowiner Ring (Berlin),de:11000:900170524,,
+de:11000:900170524::4,Brodowiner Ring (Berlin),52.547881,13.578318,Tramsteig Landsberger Allee hinter Blumberger Damm,5656 Brodowiner Ring (Berlin),de:11000:900170524,,
+de:11000:900170529::1,Bürgerpark Marzahn (Berlin),52.550390,13.561379,Tramsteig Lea-Grundig-Straße Stadteinwärts,5656 Bürgerpark Marzahn (Berlin),de:11000:900170529,,
+de:11000:900170529::2,Bürgerpark Marzahn (Berlin),52.550369,13.561427,Tramsteig Lea-Grundig-Straße Stadtauswärts,5656 Bürgerpark Marzahn (Berlin),de:11000:900170529,,
+de:11000:900170530::1,Max-Herrmann-Str. (Berlin),52.553911,13.565644,Tramsteig Max-Herrmann-Straße Stadteinwärts,5656 Max-Herrmann-Str. (Berlin),de:11000:900170530,,
+de:11000:900170530::2,Max-Herrmann-Str. (Berlin),52.553895,13.565698,Tramsteig Max-Herrmann-Straße Stadtauswärts,5656 Max-Herrmann-Str. (Berlin),de:11000:900170530,,
+de:11000:900170531::4,Wuhletalstr. (Berlin),52.557588,13.568134,Tramsteig Trusetaler Straße Richtung Stadt,5656 Wuhletalstr. (Berlin),de:11000:900170531,,
+de:11000:900170531::5,Wuhletalstr. (Berlin),52.557582,13.568187,Tramsteig Trusetaler Straße  Richtung Ahrendsfelde,5656 Wuhletalstr. (Berlin),de:11000:900170531,,
+de:11000:900170701::1,S Marzahn (Berlin),52.542392,13.542274,Tramsteig Marzahner Prom. vor Märkische Al. Pos. 6,5656 S Marzahn (Berlin),,,
+de:11000:900170701::2,S Marzahn (Berlin),52.542365,13.542256,Tramsteig Marzahner Prom. ht. Märkische Al. Pos. 7,5656 S Marzahn (Berlin),,,
+de:11000:900171001:1:50,S Biesdorf (Berlin),52.513095,13.556379,S-Bahnsteig Gleis 1,5656 S Biesdorf (Berlin),de:11000:900171001,,
+de:11000:900171001:2:51,S Biesdorf (Berlin),52.513066,13.555982,S-Bahnsteig Gleis 2,5656 S Biesdorf (Berlin),de:11000:900171001,,
+de:11000:900171002:1:50,S Friedrichsfelde Ost (Berlin),52.514058,13.519948,S-Bahnsteig Gleis 1,5656 S Friedrichsfelde Ost (Berlin),de:11000:900171002,,1
+de:11000:900171002:1:51,S Friedrichsfelde Ost (Berlin),52.514179,13.519948,S-Bahnsteig Gleis 2,5656 S Friedrichsfelde Ost (Berlin),de:11000:900171002,,2
+de:11000:900171002::1,S Friedrichsfelde Ost (Berlin),52.513971,13.519020,Tramsteig Rhinstraße Pos. 1,5656 S Friedrichsfelde Ost (Berlin),de:11000:900171002,,
+de:11000:900171002::2,S Friedrichsfelde Ost (Berlin),52.513970,13.519068,Tramsteig Rhinstraße Pos. 2,5656 S Friedrichsfelde Ost (Berlin),de:11000:900171002,,
+de:11000:900171003:1:50,S Springpfuhl (Berlin),52.527086,13.536604,Bahnsteig Gleis 1,5656 S Springpfuhl (Berlin),de:11000:900171003,,20
+de:11000:900171003:1:51,S Springpfuhl (Berlin),52.527070,13.536465,Bahnsteig Gleis 2,5656 S Springpfuhl (Berlin),de:11000:900171003,,21
+de:11000:900171003::1,S Springpfuhl (Berlin),52.525716,13.536387,Tramsteig Allee der Kosmonauten vor Marzahner Ch.,5656 S Springpfuhl (Berlin),de:11000:900171003,,
+de:11000:900171003::2,S Springpfuhl (Berlin),52.525691,13.536387,Tramsteig Allee der Kosmonauten ht. Marzahner Ch.,5656 S Springpfuhl (Berlin),de:11000:900171003,,
+de:11000:900171005::1,U Biesdorf-Süd (Berlin),52.499662,13.546365,U Bahnsteig Gleis 1,5656 U Biesdorf-Süd (Berlin),de:11000:900171005,,
+de:11000:900171005::2,U Biesdorf-Süd (Berlin),52.499498,13.546477,U Bahnsteig Gleis 2,5656 U Biesdorf-Süd (Berlin),de:11000:900171005,,
+de:11000:900171005::3,U Biesdorf-Süd (Berlin),52.499625,13.546389,U Bahnsteig Gleis 3,5656 U Biesdorf-Süd (Berlin),de:11000:900171005,,
+de:11000:900171006::1,U Elsterwerdaer Platz (Berlin),52.504979,13.560296,U-Bahnsteig Gleis 1,5656 U Elsterwerdaer Platz (Berlin),de:11000:900171006,,
+de:11000:900171006::2,U Elsterwerdaer Platz (Berlin),52.504900,13.560446,U-Bahnsteig Gleis 2,5656 U Elsterwerdaer Platz (Berlin),de:11000:900171006,,
+de:11000:900171008::12,Allee der Kosmonauten/Rhinstr. (Berlin),52.525211,13.519612,Tramsteig Rhinstr. ht. Allee d. Kosmonauten Pos. 4,5656 Allee der Kosmonauten/Rhinstr. (Berlin),de:11000:900171008,,
+de:11000:900171008::13,Allee der Kosmonauten/Rhinstr. (Berlin),52.525209,13.519663,Tramsteig Rhinstr. vor Allee d. Kosmonauten Pos. 3,5656 Allee der Kosmonauten/Rhinstr. (Berlin),de:11000:900171008,,
+de:11000:900171008::14,Allee der Kosmonauten/Rhinstr. (Berlin),52.525889,13.520700,Tramsteig Allee d. Kosmonauten vor Rhinstr. Pos. 1,5656 Allee der Kosmonauten/Rhinstr. (Berlin),de:11000:900171008,,
+de:11000:900171008::15,Allee der Kosmonauten/Rhinstr. (Berlin),52.525866,13.520698,Tramsteig Allee d. Kosmonauten ht. Rhinstr. Pos. 2,5656 Allee der Kosmonauten/Rhinstr. (Berlin),de:11000:900171008,,
+de:11000:900171011::10,Landsberger Allee/Rhinstr. (Berlin),52.536037,13.516887,Tramsteig Rhinstraße vor Landsberger Allee,5656 Landsberger Allee/Rhinstr. (Berlin),de:11000:900171011,,
+de:11000:900171011::11,Landsberger Allee/Rhinstr. (Berlin),52.536043,13.516930,Tramsteig Rhinstraße hinter Landsberger Allee,5656 Landsberger Allee/Rhinstr. (Berlin),de:11000:900171011,,
+de:11000:900171011::8,Landsberger Allee/Rhinstr. (Berlin),52.535750,13.518454,Tramsteig Landsberger Allee vor Rhinstraße,5656 Landsberger Allee/Rhinstr. (Berlin),de:11000:900171011,,
+de:11000:900171011::9,Landsberger Allee/Rhinstr. (Berlin),52.535717,13.518457,Tramsteig Landsberger Allee hinter Rhinstraße,5656 Landsberger Allee/Rhinstr. (Berlin),de:11000:900171011,,
+de:11000:900171514::3,Meeraner Str. (Berlin),52.529246,13.519237,Tramsteig Rhinstraße vor ggü. Meeraner Straße,5656 Meeraner Str. (Berlin),de:11000:900171514,,
+de:11000:900171514::4,Meeraner Str. (Berlin),52.529249,13.519290,Tramsteig Rhinstraße ht. Meeraner Straße,5656 Meeraner Str. (Berlin),de:11000:900171514,,
+de:11000:900171515::3,Beilsteiner Str. (Berlin),52.525506,13.530001,Tramsteig All. d. Kosmonauten vor Beilsteiner Str.,5656 Beilsteiner Str. (Berlin),de:11000:900171515,,
+de:11000:900171515::4,Beilsteiner Str. (Berlin),52.525474,13.530001,Tramsteig All. d. Kosmonauten ht. Beilsteiner Str.,5656 Beilsteiner Str. (Berlin),de:11000:900171515,,
+de:11000:900171516::3,Helene-Weigel-Platz (Berlin),52.525944,13.543776,Tramsteig Allee d. Kosmonauten vor Märkische Allee,5656 Helene-Weigel-Platz (Berlin),de:11000:900171516,,
+de:11000:900171516::4,Helene-Weigel-Platz (Berlin),52.525892,13.542590,Tramsteig Allee der Kosmonauten vor Eitelstraße,5656 Helene-Weigel-Platz (Berlin),de:11000:900171516,,
+de:11000:900171517::3,Boschpoler Str. (Berlin),52.527644,13.548732,Tramsteig All. d.Kosmon. ht. ggü. Boschpoler Str.,5656 Boschpoler Str. (Berlin),de:11000:900171517,,
+de:11000:900171517::4,Boschpoler Str. (Berlin),52.528614,13.548995,Tramsteig All. d.Kosmonauten ht. Boschpoler Str.,5656 Boschpoler Str. (Berlin),de:11000:900171517,,
+de:11000:900171540::3,Kleingartenanlage Bielefeldt (Berlin),52.518981,13.519312,Tramsteig Rhinstraße ht. Allee der Kosmonauten,5656 Kleingartenanlage Bielefeldt (Berlin),de:11000:900171540,,
+de:11000:900171540::4,Kleingartenanlage Bielefeldt (Berlin),52.518989,13.519362,Tramsteig Rhinstraße vor Allee der Kosmonauten,5656 Kleingartenanlage Bielefeldt (Berlin),de:11000:900171540,,
+de:11000:900171709::1,Allee der Kosmonauten/Rhinstr. (Berlin),52.525997,13.518552,Tramsteig Allee d. Kosmonauten vor Rhinstr. Pos. 5,5656 Allee der Kosmonauten/Rhinstr. (Berlin),de:11000:900171008,,
+de:11000:900171709::2,Allee der Kosmonauten/Rhinstr. (Berlin),52.526029,13.518555,Tramsteig Allee d. Kosmonauten ht. Rhinstr. Pos. 6,5656 Allee der Kosmonauten/Rhinstr. (Berlin),de:11000:900171008,,
+de:11000:900175001:1:50,S+U Wuhletal (Berlin),52.512766,13.575204,S-Bahn Bahnsteig Gleis 11,5656 S+U Wuhletal (Berlin),de:11000:900175001,,
+de:11000:900175001:2:51,S+U Wuhletal (Berlin),52.512452,13.575181,S-Bahn Bahnsteig Gleis 12,5656 S+U Wuhletal (Berlin),de:11000:900175001,,
+de:11000:900175001::1,S+U Wuhletal (Berlin),52.512626,13.575194,U Bahnsteig Gleis 1,5656 S+U Wuhletal (Berlin),de:11000:900175001,,
+de:11000:900175001::2,S+U Wuhletal (Berlin),52.512595,13.575190,U Bahnsteig Gleis 2,5656 S+U Wuhletal (Berlin),de:11000:900175001,,
+de:11000:900175002:1:50,S Kaulsdorf (Berlin),52.512165,13.590481,S-Bahnsteig Gleis 1,5656 S Kaulsdorf (Berlin),de:11000:900175002,,
+de:11000:900175002:1:51,S Kaulsdorf (Berlin),52.512076,13.590479,S-Bahnsteig Gleis 2,5656 S Kaulsdorf (Berlin),de:11000:900175002,,
+de:11000:900175004::1,U Kaulsdorf-Nord (Berlin),52.520904,13.588849,U Bahnsteig Gleis 1,5656 U Kaulsdorf-Nord (Berlin),de:11000:900175004,,
+de:11000:900175004::2,U Kaulsdorf-Nord (Berlin),52.520912,13.589057,U Bahnsteig Gleis 2,5656 U Kaulsdorf-Nord (Berlin),de:11000:900175004,,
+de:11000:900175005::1,U Kienberg (Gärten der Welt) (Berlin),52.528538,13.590471,U Bahnsteig Gleis 1,5656 U Kienberg (Gärten der Welt) (Berlin),de:11000:900175005,,
+de:11000:900175005::2,U Kienberg (Gärten der Welt) (Berlin),52.528495,13.590653,U Bahnsteig Gleis 2,5656 U Kienberg (Gärten der Welt) (Berlin),de:11000:900175005,,
+de:11000:900175006::1,U Cottbusser Platz (Berlin),52.533918,13.596460,U Bahnsteig Gleis 1,5656 U Cottbusser Platz (Berlin),de:11000:900175006,,
+de:11000:900175006::2,U Cottbusser Platz (Berlin),52.533812,13.596530,U Bahnsteig Gleis 2,5656 U Cottbusser Platz (Berlin),de:11000:900175006,,
+de:11000:900175007::1,U Hellersdorf (Berlin),52.536737,13.606564,U Bahnsteig Gleis 1,5656 U Hellersdorf (Berlin),de:11000:900175007,,
+de:11000:900175007::2,U Hellersdorf (Berlin),52.536600,13.606671,U Bahnsteig Gleis 2,5656 U Hellersdorf (Berlin),de:11000:900175007,,
+de:11000:900175007::3,U Hellersdorf (Berlin),52.536241,13.605199,Tramsteig Riesaer Str. vor Alice-Salomon-P. Pos. 4,5656 U Hellersdorf (Berlin),de:11000:900175007,,
+de:11000:900175007::4,U Hellersdorf (Berlin),52.536231,13.605143,Tramsteig Riesaer Str. ht. Hellersdf. Str. Pos. 3,5656 U Hellersdorf (Berlin),de:11000:900175007,,
+de:11000:900175010::1,U Hönow (Berlin),52.538482,13.633161,U Bahnsteig Gleis 1,5656 U Hönow (Berlin),de:11000:900175010,,
+de:11000:900175010::2,U Hönow (Berlin),52.538373,13.633103,U Bahnsteig Gleis 2,5656 U Hönow (Berlin),de:11000:900175010,,
+de:11000:900175010::3,U Hönow (Berlin),52.538309,13.633125,U Bahnsteig Gleis 3,5656 U Hönow (Berlin),de:11000:900175010,,
+de:11000:900175011::3,Stendaler Str./Quedlinburger Str. (Berlin),52.539147,13.604344,Tramsteig Stendaler Str. ht. Janusz-Korczak-Str.,5656 Stendaler Str./Quedlinburger Str. (Berlin),de:11000:900175011,,
+de:11000:900175011::4,Stendaler Str./Quedlinburger Str. (Berlin),52.539142,13.604277,Tramsteig Stendaler Str. vor Janusz-Korczak-Str.,5656 Stendaler Str./Quedlinburger Str. (Berlin),de:11000:900175011,,
+de:11000:900175013::4,Riesaer Str. (Berlin),52.529435,13.624044,"Tramsteig Riesaer Straße, Einstieg",5656 Riesaer Str. (Berlin),de:11000:900175013,,
+de:11000:900175013::5,Riesaer Str. (Berlin),52.529503,13.623718,"Tramsteig Riesaer Straße, Ausstieg",5656 Riesaer Str. (Berlin),de:11000:900175013,,
+de:11000:900175014::3,Riesaer Str./Louis-Lewin-Str. (Berlin),52.530657,13.621574,Tramsteig Riesaer Straße vor Louis-Lewin-Straße,5656 Riesaer Str./Louis-Lewin-Str. (Berlin),de:11000:900175014,,
+de:11000:900175014::4,Riesaer Str./Louis-Lewin-Str. (Berlin),52.530627,13.621552,Tramsteig Riesaer Straße hinter Leisniger Straße,5656 Riesaer Str./Louis-Lewin-Str. (Berlin),de:11000:900175014,,
+de:11000:900175015::1,U Louis-Lewin-Str. (Berlin),52.539037,13.618307,U Bahnsteig Gleis 1,5656 U Louis-Lewin-Str. (Berlin),de:11000:900175015,,
+de:11000:900175015::2,U Louis-Lewin-Str. (Berlin),52.538907,13.618353,U Bahnsteig Gleis 2,5656 U Louis-Lewin-Str. (Berlin),de:11000:900175015,,
+de:11000:900175510::6,Landsberger Chaussee/Zossener Str. (Berlin),52.548834,13.587036,Tramsteig Zossener Straße vor Landsberger Chaussee,5656 Landsberger Chaussee/Zossener Str. (Berlin),de:11000:900175510,,
+de:11000:900175510::7,Landsberger Chaussee/Zossener Str. (Berlin),52.548837,13.586987,Tramsteig Zossener Str. ht. Landsberger Allee,5656 Landsberger Chaussee/Zossener Str. (Berlin),de:11000:900175510,,
+de:11000:900175511::3,Michendorfer Str. (Berlin),52.545535,13.587145,Tramsteig Zossener Straße ht. Michendorfer Straße,5656 Michendorfer Str. (Berlin),de:11000:900175511,,
+de:11000:900175511::4,Michendorfer Str. (Berlin),52.545509,13.587137,Tramsteig Zossener Straße vor Michendorfer Straße,5656 Michendorfer Str. (Berlin),de:11000:900175511,,
+de:11000:900175512::5,Alte Hellersdorfer/Zossener Str. (Berlin),52.544824,13.592401,Tramsteig Zossener Str. vor Alte Hellersdf. Str.,5656 Alte Hellersdorfer/Zossener Str. (Berlin),de:11000:900175512,,
+de:11000:900175512::6,Alte Hellersdorfer/Zossener Str. (Berlin),52.544790,13.592388,Tramsteig Zossener Str. ht. Alte Hellersdf. Str.,5656 Alte Hellersdorfer/Zossener Str. (Berlin),de:11000:900175512,,
+de:11000:900175513::3,Zossener Str./Kastanienallee (Berlin),52.543975,13.598618,Tramsteig Zossener Straße hinter Teupitzer Straße,5656 Zossener Str./Kastanienallee (Berlin),de:11000:900175513,,
+de:11000:900175513::4,Zossener Str./Kastanienallee (Berlin),52.543942,13.598604,Tramsteig Zossener Straße vor Kastanienallee,5656 Zossener Str./Kastanienallee (Berlin),de:11000:900175513,,
+de:11000:900175514::3,Stendaler Str./Zossener Str. (Berlin),52.543551,13.603426,Tramsteig Stendaler Straße vor Tangermünder Straße,5656 Stendaler Str./Zossener Str. (Berlin),de:11000:900175514,,
+de:11000:900175514::4,Stendaler Str./Zossener Str. (Berlin),52.543549,13.603371,Tramsteig Stendaler Straße hinter Zossener Straße,5656 Stendaler Str./Zossener Str. (Berlin),de:11000:900175514,,
+de:11000:900175519::4,Nossener Str. (Berlin),52.533334,13.608796,Tramsteig Riesaer Straße hinter Mark-Twain-Straße,5656 Nossener Str. (Berlin),de:11000:900175519,,
+de:11000:900175519::5,Nossener Str. (Berlin),52.532937,13.610545,Tramsteig Riesaer Straße hinter Nossener Straße,5656 Nossener Str. (Berlin),de:11000:900175519,,
+de:11000:900175520::3,Jenaer Str. (Berlin),52.532111,13.614678,Tramsteig Riesaer Str. ht. Lichtenhainer Str.,5656 Jenaer Str. (Berlin),de:11000:900175520,,
+de:11000:900175520::4,Jenaer Str. (Berlin),52.532078,13.614663,Tramsteig Riesaer Str. vor Jenaer Str.,5656 Jenaer Str. (Berlin),de:11000:900175520,,
+de:11000:900176001:1:50,S Mahlsdorf Bhf (Berlin),52.512253,13.610598,S-Bahnsteig Gleis 1,5656 S Mahlsdorf Bhf (Berlin),de:11000:900176001,,1
+de:11000:900176001:1:51,S Mahlsdorf Bhf (Berlin),52.512137,13.610641,S-Bahnsteig Gleis 2,5656 S Mahlsdorf Bhf (Berlin),de:11000:900176001,,2
+de:11000:900176001:2:52,S Mahlsdorf Bhf (Berlin),52.512091,13.610667,S-Bahnsteig Gleis 3,5656 S Mahlsdorf Bhf (Berlin),de:11000:900176001,,3
+de:11000:900176001:2:53,S Mahlsdorf Bhf (Berlin),52.511972,13.610720,S-Bahnsteig Gleis 4,5656 S Mahlsdorf Bhf (Berlin),de:11000:900176001,,4
+de:11000:900180001:1:50,S Köpenick (Berlin),52.458653,13.581491,S-Bahnsteig Gleis 1,5656 S Köpenick (Berlin),de:11000:900180001,,1
+de:11000:900180001:1:51,S Köpenick (Berlin),52.458514,13.581459,S-Bahnsteig Gleis 2,5656 S Köpenick (Berlin),de:11000:900180001,,2
+de:11000:900180002:1:50,S Wuhlheide (Berlin),52.468668,13.554240,Bahnsteig Gleis 1,5656 S Wuhlheide (Berlin),de:11000:900180002,,1
+de:11000:900180002:1:51,S Wuhlheide (Berlin),52.468594,13.554145,Bahnsteig Gleis 2,5656 S Wuhlheide (Berlin),de:11000:900180002,,2
+de:11000:900180003:1:50,S Spindlersfeld (Berlin),52.447135,13.561301,S-Bahnsteig Gleis 1,5656 S Spindlersfeld (Berlin),de:11000:900180003,,1
+de:11000:900181001::2,Wilhelminenhofstr./Edisonstr. (Berlin),52.463103,13.513861,Tramhalt Edisonstr. vor Wilhelminenhofstr. Pos. 1,5656 Wilhelminenhofstr./Edisonstr. (Berlin),,,
+de:11000:900181002::3,Rummelsburger Str./Edisonstr. (Berlin),52.468026,13.513586,Tramsteig Edisonstraße vor Helmholtzstraße,5656 Rummelsburger Str./Edisonstr. (Berlin),de:11000:900181002,,
+de:11000:900181002::4,Rummelsburger Str./Edisonstr. (Berlin),52.468085,13.513696,Tramsteig Edisonstraße ht. Zeppelinstraße,5656 Rummelsburger Str./Edisonstr. (Berlin),de:11000:900181002,,
+de:11000:900181501::3,Volkspark Wuhlheide (Berlin),52.471080,13.517135,Tramsteig Treskowallee vor Rummelsburger Straße,5656 Volkspark Wuhlheide (Berlin),de:11000:900181501,,
+de:11000:900181501::4,Volkspark Wuhlheide (Berlin),52.471068,13.517169,Tramsteig Treskowallee ht. An der Wuhlheide,5656 Volkspark Wuhlheide (Berlin),de:11000:900181501,,
+de:11000:900181701::1,Wilhelminenhofstr./Edisonstr. (Berlin),52.461819,13.513750,Tramhalt Edisonstr. ht. Wilhelminenhofstr. Pos. 5,5656 Wilhelminenhofstr./Edisonstr. (Berlin),,,
+de:11000:900181701::2,Wilhelminenhofstr./Edisonstr. (Berlin),52.461760,13.513927,Tram- u. Bushalt Edisonstr. vor Wilhelmhof. Pos. 4,5656 Wilhelminenhofstr./Edisonstr. (Berlin),,,
+de:11000:900182001:1:50,S Hirschgarten (Berlin),52.457950,13.603123,S-Bahnsteig Gleis 1,5656 S Hirschgarten (Berlin),de:11000:900182001,,1
+de:11000:900182001:1:51,S Hirschgarten (Berlin),52.457868,13.603123,S-Bahnsteig Gleis 2,5656 S Hirschgarten (Berlin),de:11000:900182001,,2
+de:11000:900182002:1:51,S Friedrichshagen (Berlin),52.457329,13.623213,Bahnsteig Gleis 4,5656 S Friedrichshagen (Berlin),de:11000:900182002,,
+de:11000:900183001:1:50,S Rahnsdorf (Berlin),52.451677,13.689947,Bahnsteig Gleis 1,5656 S Rahnsdorf (Berlin),de:11000:900183001,,1
+de:11000:900183001:1:51,S Rahnsdorf (Berlin),52.451598,13.689921,Bahnsteig Gleis 2,5656 S Rahnsdorf (Berlin),de:11000:900183001,,2
+de:11000:900183002:1:50,S Wilhelmshagen (Berlin),52.438536,13.722166,Bahnsteig Gleis 1,5656 S Wilhelmshagen (Berlin),de:11000:900183002,,1
+de:11000:900183002:1:51,S Wilhelmshagen (Berlin),52.438589,13.722319,Bahnsteig Gleis 2,5656 S Wilhelmshagen (Berlin),de:11000:900183002,,2
+de:11000:900186001:1:50,S Grünau (Berlin),52.412432,13.573957,S-Bahnsteig Gleis 1,5656 S Grünau (Berlin),de:11000:900186001,,1
+de:11000:900186001:1:51,S Grünau (Berlin),52.412481,13.574059,S-Bahnsteig Gleis 2,5656 S Grünau (Berlin),de:11000:900186001,,2
+de:11000:900186001:2:52,S Grünau (Berlin),52.412518,13.574189,S-Bahnsteig Gleis 3,5656 S Grünau (Berlin),de:11000:900186001,,3
+de:11000:900186001:2:53,S Grünau (Berlin),52.412568,13.574282,S-Bahnsteig Gleis 4,5656 S Grünau (Berlin),de:11000:900186001,,4
+de:11000:900190001:1:50,S Treptower Park (Berlin),52.493746,13.461502,S-Bahnsteig Gleis 1,5555 S Treptower Park (Berlin),de:11000:900190001,,1
+de:11000:900190001:1:51,S Treptower Park (Berlin),52.493711,13.461615,S-Bahnsteig Gleis 3,5555 S Treptower Park (Berlin),de:11000:900190001,,3
+de:11000:900190001:2:52,S Treptower Park (Berlin),52.493667,13.461736,S-Bahnsteig Gleis 2,5555 S Treptower Park (Berlin),de:11000:900190001,,2
+de:11000:900190001:2:53,S Treptower Park (Berlin),52.493629,13.461846,S-Bahnsteig Gleis 4,5555 S Treptower Park (Berlin),de:11000:900190001,,4
+de:11000:900191001:1:50,S Baumschulenweg (Berlin),52.467637,13.489731,S-Bahnsteig Gleis 4,5656 S Baumschulenweg (Berlin),de:11000:900191001,,4
+de:11000:900191001:2:51,S Baumschulenweg (Berlin),52.467537,13.489686,S-Bahnsteig Gleis 5,5656 S Baumschulenweg (Berlin),de:11000:900191001,,5
+de:11000:900191001:2:52,S Baumschulenweg (Berlin),52.467495,13.489615,S-Bahnsteig Gleis 3,5656 S Baumschulenweg (Berlin),de:11000:900191001,,3
+de:11000:900191002:1:50,S Plänterwald (Berlin),52.478467,13.473270,S-Bahnsteig Gleis 3,5656 S Plänterwald (Berlin),de:11000:900191002,,3
+de:11000:900191002:1:51,S Plänterwald (Berlin),52.478530,13.473390,S-Bahnsteig Gleis 4,5656 S Plänterwald (Berlin),de:11000:900191002,,4
+de:11000:900192001:2:52,S Schöneweide Bhf (Berlin),52.454742,13.509730,S-Bahnsteig Gleis 3,5656 S Schöneweide Bhf (Berlin),de:11000:900192001,,
+de:11000:900192001:3:55,S Schöneweide Bhf (Berlin),52.454912,13.510019,S-Bahnsteig Gleis 6,5656 S Schöneweide Bhf (Berlin),de:11000:900192001,,
+de:11000:900192002:1:50,S Oberspree (Berlin),52.452447,13.538028,S-Bahnsteig Gleis 1,5656 S Oberspree (Berlin),de:11000:900192002,,1
+de:11000:900192506::1,Brückenstr. (Berlin),52.457618,13.511041,Tram- u. Bushalt Brückenstraße Höhe Hausnummer 26,5656 Brückenstr. (Berlin),,,
+de:11000:900192506::2,Brückenstr. (Berlin),52.458648,13.512175,Tram- u. Bushalt Brückenstraße vor Spreestraße,5656 Brückenstr. (Berlin),,,
+de:11000:900193001:1:50,S Johannisthal (Berlin),52.446620,13.524071,S-Bahnsteig Gleis 3,5656 S Johannisthal (Berlin),de:11000:900193001,,3
+de:11000:900193001:2:51,S Johannisthal (Berlin),52.446662,13.524141,S-Bahnsteig Gleis 4,5656 S Johannisthal (Berlin),de:11000:900193001,,4
+de:11000:900193002:1:50,S Adlershof (Berlin),52.434867,13.541224,S-Bahnsteig Gleis 3,5656 S Adlershof (Berlin),de:11000:900193002,,3
+de:11000:900193002:1:51,S Adlershof (Berlin),52.434946,13.541382,S-Bahnsteig Gleis 4,5656 S Adlershof (Berlin),de:11000:900193002,,4
+de:11000:900193701::1,S Adlershof (Berlin),52.434178,13.541239,Tramhalt vor Rudower Chaussee Endstelle Pos. 5,5656 S Adlershof (Berlin),de:11000:900193002,,
+de:11000:900193701::2,S Adlershof (Berlin),52.434161,13.541199,Tramhalt ht. Rudower Chaussee Endstelle Pos. 6,5656 S Adlershof (Berlin),de:11000:900193002,,
+de:11000:900194006::10,S Schöneweide/Sterndamm (Berlin),52.454053,13.510493,Tramhalt Sterndamm unter der Bahnbrücke,5656 S Schöneweide/Sterndamm (Berlin),,,
+de:11000:900194006::13,S Schöneweide/Sterndamm (Berlin),52.453028,13.509261,Tramsteig Sterndamm ht. Südostallee,5656 S Schöneweide/Sterndamm (Berlin),de:11000:900194006,,
+de:11000:900194010::3,Gerhard-Sedlmayr-Str. (Berlin),52.439875,13.523955,Tramsteig Groß-B. Damm vor Gerhard-Sedlmayr-Str.,5656 Gerhard-Sedlmayr-Str. (Berlin),de:11000:900194010,,
+de:11000:900194010::4,Gerhard-Sedlmayr-Str. (Berlin),52.439896,13.523990,Tramsteig Groß-B. Damm ht. Gerhard-Sedlmayr-Str.,5656 Gerhard-Sedlmayr-Str. (Berlin),de:11000:900194010,,
+de:11000:900194011::3,Nieberstr. (Berlin),52.449164,13.511614,Tramsteig Groß-Berliner Damm ht. Nieberstraße,5656 Nieberstr. (Berlin),de:11000:900194011,,
+de:11000:900194011::4,Nieberstr. (Berlin),52.449146,13.511559,Tramsteig Groß-Berliner Damm vor Nieberstraße,5656 Nieberstr. (Berlin),de:11000:900194011,,
+de:11000:900194016::4,Karl-Ziegler-Str. (Berlin),52.432642,13.526385,Tramsteig Karl-Ziegler-Str. ht. Abram-Joffe-Str.,5656 Karl-Ziegler-Str. (Berlin),,,
+de:11000:900194016::5,Karl-Ziegler-Str. (Berlin),52.432565,13.526251,Tramsteig Karl-Ziegler-Str. vor Johann-Hittorf-Str,5656 Karl-Ziegler-Str. (Berlin),,,
+de:11000:900194501::3,Magnusstr. (Berlin),52.429837,13.530362,Tramsteig Rudower Chausee vor Max-Born-Straße,5656 Magnusstr. (Berlin),de:11000:900194501,,
+de:11000:900194501::4,Magnusstr. (Berlin),52.429810,13.530390,Tramsteig Rudower Chaussee vor Magnusstr.,5656 Magnusstr. (Berlin),de:11000:900194501,,
+de:11000:900194504::3,Walther-Nernst-Str. (Berlin),52.432027,13.534799,Tramsteig Rudower Chaussee hinter Groß-Berliner Damm,5656 Walther-Nernst-Str. (Berlin),de:11000:900194504,,
+de:11000:900194504::4,Walther-Nernst-Str. (Berlin),52.432000,13.534826,Tramsteig Rudower Chaussee vor Groß-Berliner Damm,5656 Walther-Nernst-Str. (Berlin),de:11000:900194504,,
+de:11000:900194514::3,Benno-König-Str. (Berlin),52.442921,13.519470,Tramsteig Groß-B. Damm ht. Gerhard-Sedlmayr-Straße,5656 Benno-König-Str. (Berlin),de:11000:900194514,,
+de:11000:900194514::4,Benno-König-Str. (Berlin),52.442940,13.519505,Tramsteig Groß-B. Damm vor Benno-König-Straße,5656 Benno-König-Str. (Berlin),de:11000:900194514,,
+de:11000:900194517::3,Landfliegerstr. (Berlin),52.446102,13.514923,Tramsteig Groß-Berliner Damm vor Landfliegerstraße,5656 Landfliegerstr. (Berlin),de:11000:900194517,,
+de:11000:900194517::4,Landfliegerstr. (Berlin),52.446087,13.514893,Tramsteig Groß-Berliner Damm ht. Segelfliegerdamm,5656 Landfliegerstr. (Berlin),de:11000:900194517,,
+de:11000:900194537::3,Landschaftspark Johannisthal (Berlin),52.437196,13.526353,Tramsteig Hermann-Dorner-Allee vor Groß-B. Damm,5656 Landschaftspark Johannisthal (Berlin),de:11000:900194537,,
+de:11000:900194537::4,Landschaftspark Johannisthal (Berlin),52.437214,13.526331,Tramsteig Hermann-Dorner-Allee ht. Groß-B. Damm,5656 Landschaftspark Johannisthal (Berlin),de:11000:900194537,,
+de:11000:900195510:1:50,S Altglienicke (Berlin),52.407309,13.558877,S-Bahnsteig Gleis 2,5656 S Altglienicke (Berlin),de:11000:900195510,,2
+de:11000:900195510:1:51,S Altglienicke (Berlin),52.407359,13.558798,S-Bahnsteig Gleis 1,5656 S Altglienicke (Berlin),de:11000:900195510,,1
+de:11000:900196001:1:50,S Grünbergallee (Berlin),52.399343,13.541956,S-Bahnsteig Gleis 1,5656 S Grünbergallee (Berlin),de:11000:900196001,,1
+de:11000:900196001:1:51,S Grünbergallee (Berlin),52.399271,13.541989,S-Bahnsteig Gleis 2,5656 S Grünbergallee (Berlin),de:11000:900196001,,2
+de:12054:900230000:1:50,S Babelsberg,52.391427,13.092776,S-Bahnsteig Gleis 1,5851 S Babelsberg,de:12054:900230000,1,1
+de:12054:900230000:1:51,S Babelsberg,52.391343,13.092809,S-Bahnsteig Gleis 2,5851 S Babelsberg,de:12054:900230000,1,2
+de:12054:900230003:1:50,S Griebnitzsee Bhf,52.394529,13.127597,S-Bahnsteig Gleis 1,5851 S Griebnitzsee Bhf,de:12054:900230003,1,1
+de:12054:900230003:1:54,S Griebnitzsee Bhf,52.394436,13.127622,S-Bahnsteig Gleis 2,5851 S Griebnitzsee Bhf,de:12054:900230003,1,2
+de:12054:900230999:3:54,S Potsdam Hauptbahnhof,52.391764,13.066755,S-Bahnsteig Gleis 6,5750 S Potsdam Hauptbahnhof,de:12054:900230999,1,6
+de:12054:900230999:3:55,S Potsdam Hauptbahnhof,52.391851,13.066763,S-Bahnsteig Gleis 7,5750 S Potsdam Hauptbahnhof,de:12054:900230999,,7
+de:12060:900350160:1:50,S Bernau Bhf,52.675595,13.591672,S-Bahnsteig Gleis 1,5158 S Bernau Bhf,de:12060:900350160,1,
+de:12060:900350160:1:51,S Bernau Bhf,52.675500,13.591803,S-Bahnsteig Gleis 2,5158 S Bernau Bhf,de:12060:900350160,,
+de:12060:900350161:1:50,S Bernau-Friedenstal,52.668470,13.564998,S-Bahnsteig Gleis 1,5158 S Bernau-Friedenstal,de:12060:900350161,1,
+de:12060:900350162:1:50,S Röntgental,52.648633,13.513405,Bahnsteig Gleis 1,5257 S Röntgental,de:12060:900350162,1,
+de:12060:900350163:1:50,S Zepernick,52.659860,13.534081,Bahnsteig Gleis 1,5257 S Zepernick,de:12060:900350163,,1
+de:12060:900350163:1:51,S Zepernick,52.659797,13.534196,Bahnsteig Gleis 2,5257 S Zepernick,de:12060:900350163,1,2
+de:12061:900260001:2:52,S Königs Wusterhausen Bhf,52.296642,13.631479,Bahnsteig Gleis 2,6059 S Königs Wusterhausen Bhf,de:12061:900260001,1,2
+de:12061:900260002:1:50,S Wildau,52.319318,13.633774,Bahnsteig Gleis 3,5959 S Wildau,de:12061:900260002,1,3
+de:12061:900260002:1:51,S Wildau,52.319311,13.633840,Bahnsteig Gleis 4,5959 S Wildau,de:12061:900260002,1,4
+de:12061:900260003:1:50,S Zeuthen,52.348641,13.627388,S-Bahnsteig Gleis 3,5959 S Zeuthen,de:12061:900260003,,3
+de:12061:900260003:1:51,S Zeuthen,52.348686,13.627554,S-Bahnsteig Gleis 4,5959 S Zeuthen,de:12061:900260003,,4
+de:12061:900260004:1:50,S Eichwalde,52.371240,13.615279,Bahnsteig Gleis 3,5859 S Eichwalde,de:12061:900260004,1,3
+de:12061:900260004:1:51,S Eichwalde,52.371288,13.615452,Bahnsteig Gleis 4,5859 S Eichwalde,de:12061:900260004,1,4
+de:12061:900260005:3:54,Flughafen BER - Terminal 5,52.390971,13.513024,S-Bahnsteig Gleis 11,5957 Flughafen BER - Terminal 5,de:12061:900260005,,
+de:12061:900260005:3:55,Flughafen BER - Terminal 5,52.390884,13.513150,S-Bahnsteig Gleis 13,5957 Flughafen BER - Terminal 5,de:12061:900260005,,
+de:12061:900260009:3:55,Flughafen BER - Terminal 1-2,52.364226,13.508213,S-Bahnsteig Gleis 5,5957 Flughafen BER - Terminal 1-2,de:12061:900260009,,
+de:12061:900260009:3:56,Flughafen BER - Terminal 1-2,52.364331,13.508164,S-Bahnsteig Gleis 6,5957 Flughafen BER - Terminal 1-2,de:12061:900260009,,
+de:12061:900260080:1:50,S Waßmannsdorf,52.368474,13.463511,S-Bahnsteig Gleis 1 Richtung BER,5856 S Waßmannsdorf,de:12061:900260080,,1
+de:12061:900260080:1:51,S Waßmannsdorf,52.368706,13.463779,S-Bahnsteig Gleis 2 Richtung Berlin,5856 S Waßmannsdorf,de:12061:900260080,,2
+de:12064:900320001:1:50,S Strausberg Nord,52.590294,13.908476,S-Bahnsteig Gleis 1,5462 S Strausberg Nord,de:12064:900320001,1,1
+de:12064:900320001:1:51,S Strausberg Nord,52.590277,13.908549,S-Bahnsteig Gleis 3,5462 S Strausberg Nord,de:12064:900320001,1,3
+de:12064:900320002:1:50,S Strausberg Stadt,52.576571,13.887810,S-Bahnsteig Gleis 1,5462 S Strausberg Stadt,de:12064:900320002,1,
+de:12064:900320003:1:50,S Hegermühle,52.548574,13.866540,S-Bahnsteig Gleis 1,5462 S Hegermühle,de:12064:900320003,1,1
+de:12064:900320004:2:52,S Strausberg Bhf,52.532305,13.833291,S-Bahnsteig Gleis 9,5462 S Strausberg Bhf,de:12064:900320004,1,
+de:12064:900320005:1:50,S Petershagen Nord,52.528882,13.789370,S-Bahnsteig Gleis 1,5561 S Petershagen Nord,de:12064:900320005,1,1
+de:12064:900320006:1:50,S Fredersdorf,52.526201,13.760479,S-Bahnsteig Gleis 15,5561 S Fredersdorf,de:12064:900320006,1,15
+de:12064:900320006:1:51,S Fredersdorf,52.526281,13.760457,S-Bahnsteig Gleis 16,5561 S Fredersdorf,de:12064:900320006,1,16
+de:12064:900320007:1:50,S Neuenhagen (b Berlin),52.520780,13.700395,Bahnsteig Gleis 1,5460 S Neuenhagen (b Berlin),de:12064:900320007,1,1
+de:12064:900320008:1:50,S Hoppegarten,52.518109,13.673978,S-Bahnsteig Gleis 4,5460 S Hoppegarten,de:12064:900320008,1,4
+de:12064:900320008:1:51,S Hoppegarten,52.518296,13.673932,S-Bahnsteig Gleis 5,5460 S Hoppegarten,de:12064:900320008,1,5
+de:12064:900320026:1:50,S Birkenstein,52.515685,13.647324,S-Bahnsteig Gleis 1,5460 S Birkenstein,de:12064:900320026,1,1
+de:12064:900320026:1:51,S Birkenstein,52.515593,13.647342,S-Bahnsteig Gleis 2,5460 S Birkenstein,de:12064:900320026,1,2
+de:12065:900200000:1:55,S Hennigsdorf Bhf,52.637447,13.205971,S-Bahnsteig Gleis 5,5252 S Hennigsdorf Bhf,de:12065:900200000,,
+de:12065:900200000:4:54,S Hennigsdorf Bhf,52.637484,13.206145,S-Bahnsteig Gleis 1,5252 S Hennigsdorf Bhf,de:12065:900200000,,
+de:12065:900200005:3:1,S Oranienburg Bhf,52.753981,13.248812,S-Bahnsteig Gleis 30,5053 S Oranienburg Bhf,de:12065:900200005,,30
+de:12065:900200005:3:2,S Oranienburg Bhf,52.754027,13.248969,S-Bahnsteig Gleis 32,5053 S Oranienburg Bhf,de:12065:900200005,1,32
+de:12065:900200006:1:50,S Lehnitz,52.741180,13.263457,Bahnsteig Gleis 1,5053 S Lehnitz,de:12065:900200006,1,
+de:12065:900200006:1:51,S Lehnitz,52.741136,13.263325,Bahnsteig Gleis 2,5053 S Lehnitz,de:12065:900200006,,
+de:12065:900200007:1:50,S Borgsdorf,52.715526,13.276319,S-Bahnsteig Gleis 1,5153 S Borgsdorf,de:12065:900200007,1,1
+de:12065:900200007:1:51,S Borgsdorf,52.715549,13.276467,S-Bahnsteig Gleis 2,5153 S Borgsdorf,de:12065:900200007,,
+de:12065:900200008:1:50,S Birkenwerder Bhf,52.688665,13.288775,S-Bahnsteig Gleis 4,5154 S Birkenwerder Bhf,de:12065:900200008,,4
+de:12065:900200008:1:51,S Birkenwerder Bhf,52.688658,13.288626,S-Bahnsteig Gleis 6,5154 S Birkenwerder Bhf,de:12065:900200008,1,6
+de:12065:900200009:1:50,S Hohen Neuendorf,52.668645,13.286992,S-Bahnsteig Gleis 3,5154 S Hohen Neuendorf,de:12065:900200009,,
+de:12065:900200009:1:51,S Hohen Neuendorf,52.668644,13.287110,S-Bahnsteig Gleis 4,5154 S Hohen Neuendorf,de:12065:900200009,1,
+de:12065:900200011:1:50,S Bergfelde,52.670081,13.320426,S-Bahnsteig Gleis 1,5154 S Bergfelde,de:12065:900200011,1,1
+de:12065:900200011:1:51,S Bergfelde,52.670130,13.320479,S-Bahnsteig Gleis 2,5154 S Bergfelde,de:12065:900200011,,2
+de:12065:900200012:1:50,S Schönfließ,52.664629,13.340528,"Bahnsteig Gleis 6, S-Bahn",5255 S Schönfließ,de:12065:900200012,,
+de:12065:900200012:1:51,S Schönfließ,52.664544,13.340492,"Bahnsteig Gleis 8, S-Bahn",5255 S Schönfließ,de:12065:900200012,1,
+de:12065:900200013:1:50,S Mühlenbeck-Mönchmühle,52.654763,13.386172,Bahnsteig Gleis 6,5255 S Mühlenbeck-Mönchmühle,de:12065:900200013,1,6
+de:12067:900310004:3:52,S Erkner Bhf,52.429627,13.750884,S-Bahnsteig Gleis 31,5761 S Erkner Bhf,de:12067:900310004,,31
+de:12067:900310004:3:53,S Erkner Bhf,52.429572,13.750768,S-Bahnsteig Gleis 32,5761 S Erkner Bhf,de:12067:900310004,,32
+de:12069:900220114:1:50,S Teltow Stadt,52.396943,13.276604,Bahnsteig Gleis 1,5953 S Teltow Stadt,de:12069:900220114,,1
+de:12069:900220114:1:51,S Teltow Stadt,52.396877,13.276641,Bahnsteig Gleis 2,5953 S Teltow Stadt,de:12069:900220114,,2
+de:12072:900245027:2:52,S Blankenfelde (TF) Bhf,52.338503,13.415406,S-Bahnsteig Gleis 3,5955 S Blankenfelde (TF) Bhf,de:12072:900245027,1,3
+de:12072:900245028:1:50,S Mahlow,52.360777,13.407878,S-Bahnsteig Gleis 2,5955 S Mahlow,de:12072:900245028,1,2
+de:12072:900245028:1:51,S Mahlow,52.360750,13.407713,S-Bahnsteig Gleis 3,5955 S Mahlow,de:12072:900245028,1,3

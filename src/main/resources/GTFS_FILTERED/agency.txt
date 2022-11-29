@@ -1,0 +1,3 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang
+1,S-Bahn Berlin GmbH,http://www.s-bahn-berlin.de,Europe/Berlin,de
+796,Berliner Verkehrsbetriebe,http://www.bvg.de,Europe/Berlin,de
